@@ -1,6 +1,6 @@
 ---
-layout: post
-title:  "Advenced to Jekyll!"
+layout: single
+title:  "Advenced to Jekyll 02"
 header:
   teaser: "/assets/images/500x300.png"
 categories: 
@@ -9,14 +9,13 @@ tags:
   - update
 ---
 
-# Advenced Jekyll
+# Welcome to Onda2me!!
+## 두번째 테스트 페이지 -Advenced Jekyll
 
-## Post1
-
+### Post1
 one
 
-## Post2
-
+### Post2
 Two
 
 You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

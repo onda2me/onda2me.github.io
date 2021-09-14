@@ -11,6 +11,9 @@ toc: false
 author_profile: false
 ---
 
+이 글은 알고리즘에 대한 내용으로 채워질 예정.
+
+
 <ul class="posts-list">
  
   {% assign category = page.category | default: page.title %}
