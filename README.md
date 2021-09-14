@@ -9,8 +9,10 @@
 
 ## 디렉토리 구조
 
-**Please note:**  Minimal Mistakes 테마를 적용한 뒤 커스트마이징 하였다.
-{: .notice--info}
+**Please note:**  
+```
+Minimal Mistakes 테마를 적용한 뒤 커스트마이징 하였다.
+```
 
 ```bash
 onda2me                        # minimal-mistakes 디렉토리명 변경
