@@ -1,4 +1,4 @@
 source "https://rubygems.org"
-#gemspec
+gemspec
 
 gem "minimal-mistakes-jekyll"
