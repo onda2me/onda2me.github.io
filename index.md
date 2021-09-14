@@ -3,10 +3,16 @@ layout: home
 author_profile: true
 classes: wide
 ---
-[[Go!! local](http://localhost:4000/)]  
-[[Go!! github](https://onda2me.github.io/)]  
+
+**Onda2me:** Minimal Mistakes 테마를 사용하여 만든 GitHub Page
+
+[![Onda2me preview][1]]
+
+[1]: /assets/images/main/onda2me_01.PNG
 
 
----
 
-## 관심분야
+
+
+
+
