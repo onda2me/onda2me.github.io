@@ -1,5 +1,5 @@
 ---
-layout: wide
+layout: splash
 title: "Algorithm -- This is Test page ... 01"
 excerpt: "This is Test page."
 toc: false
