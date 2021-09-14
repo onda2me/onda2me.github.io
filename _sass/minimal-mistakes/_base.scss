@@ -13,7 +13,7 @@ body {
   padding: 0;
   color: $text-color;
   font-family: $global-font-family;
-  line-height: 1.5;
+  line-height: 1.75;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -64,6 +64,7 @@ small,
 }
 
 p {
+  font-size: 0.95em;
   margin-bottom: 1.3em;
 }
 
@@ -204,7 +205,6 @@ li ol {
    ========================================================================== */
 
 /* Figures and images */
-
 figure {
   display: -webkit-box;
   display: flex;
@@ -233,6 +233,7 @@ figure {
   }
 
   &.half {
+    .gallery, 
     > a,
     > img {
       @include breakpoint($small) {
@@ -246,6 +247,7 @@ figure {
   }
 
   &.third {
+    .gallery, 
     > a,
     > img {
       @include breakpoint($small) {
@@ -257,6 +259,20 @@ figure {
       width: 100%;
     }
   }
+
+  &.quarter {
+    .gallery, 
+    > a,
+    > img {
+      @include breakpoint($small) {
+        width: calc(25% - 0.5em);
+      }
+    }
+
+    figcaption {
+      width: 100%;
+    }
+  }  
 }
 
 /* Figure captions */
@@ -354,4 +370,67 @@ input[type="submit"],
 .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
+}
+
+
+
+.gallery_group {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 2em 0;
+
+  &.half {
+    > a,
+    > img {
+      @include breakpoint($small) {
+        width: calc(50% - 0.5em);
+      }
+    }
+  }
+
+  &.third {
+    > a,
+    > img {
+      @include breakpoint($small) {
+        width: calc(33.3333% - 0.5em);
+      }
+    }
+  }
+
+  &.quarter {
+    > a,
+    > img {
+      @include breakpoint($small) {
+        width: calc(25% - 0.5em);
+      }
+    }
+  } 
+}
+
+.gallery {
+    position: relative;
+    float: left;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  .gallery_desc {
+    position: absolute;
+    color: #efefef;
+    bottom: 65px;
+    left: 16px;
+  }   
+
+  .gallery_title {
+    padding: 5px;
+    text-align: center;
+  }   
+}
+
+.gallery:hover {
+  border: 1px solid #ccc;
 }

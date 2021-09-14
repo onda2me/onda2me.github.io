@@ -15,7 +15,7 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    padding: 1em;
+    padding: 0.6em 1em;
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -50,6 +50,7 @@
   -ms-flex-item-align: center;
   align-self: center;
   font-weight: bold;
+  font-size: $type-size-3;
   // z-index: 20;
 }
 

@@ -1,12 +1,36 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Algorithm"
+    url: /algorithm/
+  #- title: "Arduino"
+    #url: /docs/arduino/ 
+  - title: "Archive"
+    url: /categories/    
+  - title: "GitHub" 
+    url: /blog/ 
+  - title: "Test"
+    url: /pets/ 
+  - title: "About"
+    url: /about/
+
+
+# documentation links
+docs:
+  - title: GitHub Pages
+    children:
+      - title: "1.1.GitHub Pages 블로그?"
+        url: /blog/intro/
+      - title: "1.2.Ruby & Jekyll 설치"
+        url: /blog/setting/
+      - title: "1.3.GitHub Pages 만들기"
+        url: /blog/make/
+      - title: "1.4.Jekyll Theme 변경"
+        url: /blog/theme/
+      - title: "1.5.Jekyll Theme 커스트마이징"
+        #url: /blog/upgrade/
+  - title: Markdown
+    children:
+      - title: "2.1.Markdown 소개및사용법"
+        url: /blog/markdown/
+      - title: "2.2.Markdown Editor"
+        url: /blog/editor/

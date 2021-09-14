@@ -1,0 +1,24 @@
+---
+layout: archive
+title: "Posts by Collection"
+permalink: /collection/
+author_profile: true
+---
+
+{% capture written_label %}'None'{% endcapture %}
+<div>
+{% for collection in site.collections %}
+  {% unless collection.output == false or collection.label == "posts" %}
+    {% capture label %}{{ collection.label }}{% endcapture %}
+    {% if label != written_label %}
+      <a href="/{{ label }}/"><h5 id="{{ label | slugify }}" class="archive__subtitle">{{ label }} </h5></a>
+      {% capture written_label %}{{ label }}{% endcapture %}
+    {% endif %}
+  {% endunless %}
+  {% for post in collection.docs %}
+    {% unless collection.output == false or collection.label == "posts" %}
+      {% include archive-single.html %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+</div>
