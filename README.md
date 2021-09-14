@@ -5,7 +5,7 @@
 [![Onda2me live preview][2]][1]
 
 [1]: https://onda2me.github.io/
-[2]: onda2me_01.PNG (live preview)
+[2]: /assets/images/main/onda2me_01.PNG (live preview)
 
 ## 디렉토리 구조
 
