@@ -2,8 +2,8 @@
 permalink: /algorithm/
 title: "Algorithm"
 layout: collection
-collection: algorithm
 classes: wide
+collection: algorithm
 author_profile: true
 entries_layout: list
 ---

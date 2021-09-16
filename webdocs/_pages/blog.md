@@ -1,19 +1,13 @@
 ---
 title: "GitHub Pages 만들기"
-layout: collection
 permalink: /blog/
-collection: blog
 excerpt: "GitHub Pages 만들기"
-last_modified_at: 2021-09-11
-toc: false
-author_profile: true
+layout: collection
 classes: wide
-entries_layout: list # list (default), grid
-show_excerpts: # true (default), false
-sort_by: # date (default), title or any metadata key added to the collection's documents
-sort_order: # forward (default), reverse
-sidebar:
-  nav: "docs"
+collection: blog
+author_profile: true
+toc: false
+entries_layout: list 
 ---
 
 GitHub Pages는 GitHub에서 제공하는 정적 웹사이트 호스팅 서비스이다.
@@ -24,10 +18,5 @@ GitHub Pages는 GitHub의 공개 Repositories를 사용하여 다른 사용자�
 (Jekyll 이외의 정적 사이트 생성기도 사용 가능) Git을 통한 연동으로 블로그, 홈페이지 등 다양한 웹사이트 구축에 대한 과정을 정리했다.
 GitHub Pages 는 제공되는 테마를 통해 다양한 구성의 웹사이트 구축이 가능하지만, 많은 사람들이 블로그로 이용하기에 블로그 서비스로 인식된다.
 
-
-
-
-
-
-
 ---
+
