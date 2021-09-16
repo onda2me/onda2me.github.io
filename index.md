@@ -2,13 +2,12 @@
 layout: home
 author_profile: true
 classes: wide
+header:
+  image: /assets/images/main/panorama-top-01.jpg
+  caption: "&copy; onda2me"
 ---
 
-**Onda2me:** Minimal Mistakes 테마를 사용하여 만든 GitHub Page
 
-![Onda2me preview][1]
-
-[1]: /assets/images/main/onda2me_01.PNG
 
 
 
