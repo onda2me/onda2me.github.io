@@ -323,9 +323,12 @@ defaults:
       path: ""
       type: algorithm
     values:
-      layout: single
-      author_profile: false
+      layout: embedcode
+      collection: algorithm
+      author_profile: true
+      classes: wide
       share: false
+      toc: false
       comments: true
 
   # _blog
@@ -334,9 +337,13 @@ defaults:
       type: blog
     values:
       layout: single
+      classes: wide
+      collection: blog
       author_profile: false
       share: false
       comments: true
+      sidebar:
+        nav: "docs_blog"
 
   # _pets
   - scope:

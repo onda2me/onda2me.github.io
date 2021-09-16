@@ -1,11 +1,6 @@
 ---
-layout: embedcode
 title: "02.데이타 타입"
 excerpt: "Java 자료형 : byte, int, long, float, double "
-toc: false
-author_profile: true
-collection: algorithm
-classes: wide
 ---
 
 이 글은 Java 알고리즘 중 두번째 글로 Java 에서 사용하는 데이타형에 대한 내용을 정리하였다.  
@@ -14,10 +9,15 @@ classes: wide
 
 ---
 
+Java의 기본 데이타 타입은 정수형, 실수형, 논리형이 있다.
+정수 타입에는 byte, short, int, long, char 가 있고, 기본적인 정수연산은 int로 처리한다.
+실수 타입에는 float, double 이 있고, 기본적인 실수연산은 double로 처리한다.
+논리 타입에는 boolean 이 있고, true / false 값을 갖는다.
+
 **참고자료 : Java 데이타 형**  
 
 |  type |  byte |  bit | 최대값 | 범위 |
-| :---- | :---- | :----  :---- | :---- |
+| :---- | :---- | :---- | :---- | :---- |
 | byte | 1 | 8bit | 127 | -128 ~ 127 |
 | short | 2 | 16bit | 32767  | –32,768 ~ 32,767 |
 | int | 4 | 32bit | 2,147,483,647 | –2,147,483,648 ~ 2,147,483,647 |

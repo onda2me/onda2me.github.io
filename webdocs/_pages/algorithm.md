@@ -2,13 +2,10 @@
 permalink: /algorithm/
 title: "Algorithm"
 layout: collection
-excerpt: "Algorithm"
 collection: algorithm
-entries_layout: list
 classes: wide
-last_modified_at: 2021-09-11
-toc: false
 author_profile: true
+entries_layout: list
 ---
 
 ---

@@ -1,11 +1,6 @@
 ---
-layout: embedcode
 title: "01.Java 기초문법"
 excerpt: "Java 기초문법 : print, if, for, switch, while"
-toc: false
-author_profile: true
-collection: algorithm
-classes: wide
 ---
 
 이 글은 Java 알고리즘 중 첫번째 글로 print, if, for, while 등 기초 문법과 자료형에 대한 내용을 정리하였다.  
@@ -68,6 +63,9 @@ switch(조건식) {
 1.switch문의 조건식의 결과는 정수 또는 문자열이다.  
 2.case 문의 값은 중복되지 않는 정수나 문자열만 가능하다.  
 {: .notice--info}
+
+<pre id="show3" class="show-json-from-git">소스로딩 실패</pre>
+<script>showJsonFromGit('{{ site.repository_raw }}/begin/Begin08Switch.java', 'show3');</script>
 
 ##### while 문
 while은 조건식이 참인 동안, 즉 거짓이 될 때까지 블록{} 안의 문장을 수행한다.
