@@ -104,9 +104,9 @@
   @include notice($danger-color);
 }
 
-#show-json-from-git {
+.show-json-from-git {
   background: $lighter-gray;
-  line-height: 1.4em;
+  line-height: 1.3em;
   font-size: 0.8em;
   padding: 1em;
   color: $text-color;

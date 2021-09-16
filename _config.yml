@@ -27,7 +27,8 @@ repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-m
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-repository_raw           : "https://raw.githubusercontent.com/onda2me/arduino_s/master" # raw source url
+repository_org           : "https://github.com/onda2me/algorithm/tree/main/src/com/onda2me/algorithm/"          # org source url
+repository_raw           : "https://raw.githubusercontent.com/onda2me/algorithm/main/src/com/onda2me/algorithm" # raw source url
 
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200

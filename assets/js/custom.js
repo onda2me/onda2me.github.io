@@ -2,11 +2,14 @@
    jQuery plugin settings and other scripts
    ========================================================================== */
 
-function showJsonFromGit(url) {
+function showJsonFromGit(url, emId, height) {
   fetch(url)
   .then(res => res.text())
   .then((out) => {
-  document.getElementById("show-json-from-git").innerText = out
+    if(emId != 'undefined') {
+      document.getElementById(emId).style.height = height;
+    }
+    document.getElementById(emId).innerText = out
   })
   .catch(err => { throw err });
 }

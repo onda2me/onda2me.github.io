@@ -8,10 +8,16 @@ entries_layout: list
 classes: wide
 last_modified_at: 2021-09-11
 toc: false
-author_profile: false
+author_profile: true
 ---
 
-이 글은 알고리즘에 대한 내용으로 채워질 예정.
+---
+이 글은 Java 알고리즘에 대한 내용을 정리하였다.  
+알고리즘 관련 소스 등의 자료는 개인 저장소인
+[[GitHub 알고리즘 바로가기]](https://github.com/onda2me/algorithm){: .btn.btn--primary.btn--narrow target="_blank" }에 지속적으로 업로드 할 예정이다.  
+자바에 대한 자료는 [[TCPSchool]](http://tcpschool.com/java/intro){: .btn.btn--primary.btn--narrow target="_blank" }에 잘 설명되어 참고 사이트로 유용히 활용할 수 있을 것이다.
+
+---
 
 
 <ul class="posts-list">
@@ -29,3 +35,5 @@ author_profile: false
   {% endfor %}
   
 </ul>
+
+

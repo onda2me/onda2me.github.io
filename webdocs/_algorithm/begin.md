@@ -1,0 +1,80 @@
+---
+layout: embedcode
+title: "01.Java 기초문법"
+excerpt: "Java 기초문법 : print, if, for, switch, while"
+toc: false
+author_profile: true
+collection: algorithm
+classes: wide
+---
+
+이 글은 Java 알고리즘 중 첫번째 글로 print, if, for, while 등 기초 문법과 자료형에 대한 내용을 정리하였다.  
+알고리즘 관련 소스 등의 자료는
+[[GitHub 알고리즘 바로가기]](https://github.com/onda2me/algorithm){: .btn.btn--primary.btn--narrow target="_blank" }에 지속적으로 업로드 할 예정이다.
+
+---
+
+##### 출력문
+출력을 원하는 내용을 print, printf 문 뒤에 입력한다. [GiHub 바로가기]({{ site.repository_org }}/begin/Begin01HelloWorld.java){: .btn.btn--primary.btn--narrow target="_blank" }
+
+
+```java
+// 출력문 사용법
+System.out.println("출력을 원하는 내용 입력");
+```
+<pre id="show1" class="show-json-from-git">소스로딩 실패</pre>
+<script>showJsonFromGit('{{ site.repository_raw }}/begin/Begin01HelloWorld.java', 'show1', '300px');</script>
+
+##### if 조건문
+if문은 조건식의 결과값에 해당하는 블록{}의 문장을 수행한다. [GiHub 바로가기]({{ site.repository_org }}/begin/Begin05If02.java){: .btn.btn--primary.btn--narrow target="_blank" }
+
+```java
+/* if 사용법 */
+if(조건식) {
+    // 조건식이 참(true) 일 때 수행
+}
+
+/* if-else 사용법 */
+if(조건식1) {
+    // 조건식1이 참(true) 일 때 수행
+} else if(조건식2) {
+    // 조건식2이 참(true) 일 때 수행
+} else {
+  // 조건식1과 2가 모두 거짓(false) 일 때 수행
+}
+```
+<pre id="show2" class="show-json-from-git">소스로딩 실패</pre>
+<script>showJsonFromGit('{{ site.repository_raw }}/begin/Begin05If02.java', 'show2');</script>
+
+##### switch 조건문
+switch 조건식의 결과값에 해당하는 블록{}의 문장을 수행한다.
+
+```java
+// switch 사용법
+switch(조건식) {
+    case 값1 :
+        // 조건식의 결과가 값1과 같을 때 수행
+        break;
+    
+    case 값2 :
+        // 조건식의 결과가 값2과 같을 때 수행
+        break;
+    default :
+        // 일치하는 조건식의 값이 없을 때 수행
+}
+```
+
+**Tips:**  
+1.switch문의 조건식의 결과는 정수 또는 문자열이다.  
+2.case 문의 값은 중복되지 않는 정수나 문자열만 가능하다.  
+{: .notice--info}
+
+##### while 문
+while은 조건식이 참인 동안, 즉 거짓이 될 때까지 블록{} 안의 문장을 수행한다.
+
+```java
+// while 사용법
+while(조건식) {
+    // 조건식의 결과가 거짓(false)이 될 때까지 반복 수행
+}
+```

@@ -9,9 +9,9 @@ classes: wide
 ---
 알고리즘 관련 컨텐츠를 모을 예정
 
-아두이노 테스트
-<div id="show-json-from-git" ></div>
-<script>showJsonFromGit('{{ site.repository_raw }}/s1/sketch_distance_servo/sketch_distance_servo.ino');</script>
+알고리즘 테스트
+<div id="show1" class="show-json-from-git">1234</div>
+<script>showJsonFromGit('{{ site.repository_raw }}/begin/Begin01HelloWorld.java', 'show1', '300px');</script>
 
 > Hello~ this is algorithm page.
 
