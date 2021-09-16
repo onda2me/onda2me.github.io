@@ -3,7 +3,7 @@ title: "01.Java 기초문법"
 excerpt: "Java 기초문법 : print, if, for, switch, while"
 ---
 
-이 글은 Java 알고리즘 중 첫번째 글로 print, if, for, while 등 기초 문법과 자료형에 대한 내용을 정리하였다.  
+이 글은 Java 알고리즘 중 첫번째 글로 print, if, for, while 등 기초 문법과 자료형에 대한 내용이다.  
 알고리즘 관련 소스 등의 자료는
 [[GitHub 알고리즘 바로가기]](https://github.com/onda2me/algorithm){: .btn.btn--primary.btn--narrow target="_blank" }에 지속적으로 업로드 할 예정이다.
 

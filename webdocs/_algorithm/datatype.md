@@ -3,7 +3,7 @@ title: "02.데이타 타입"
 excerpt: "Java 자료형 : byte, int, long, float, double "
 ---
 
-이 글은 Java 알고리즘 중 두번째 글로 Java 에서 사용하는 데이타형에 대한 내용을 정리하였다.  
+이 글은 Java 알고리즘 중 두번째 글로 Java 에서 사용하는 데이타형에 대한 내용이다.  
 알고리즘 관련 소스 등의 자료는
 [[GitHub 알고리즘 바로가기]](https://github.com/onda2me/algorithm){: .btn.btn--primary.btn--narrow target="_blank" }에 지속적으로 업로드 할 예정이다.
 
