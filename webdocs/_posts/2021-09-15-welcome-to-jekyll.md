@@ -1,7 +1,7 @@
 ---
 title:  "Welcome to Jekyll"
 header:
-  teaser: "/assets/images/main/panorama-top-01.jpg"
+  #teaser: "/assets/images/main/panorama-top-01.jpg"
 categories: 
   - Jekyll
 tags:

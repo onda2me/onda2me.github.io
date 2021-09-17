@@ -8,15 +8,15 @@ header:
   #actions:
   #  - label: "<i class='fas fa-download'></i> Install now"
   #    url: "/docs/quick-start-guide/"
-excerpt: >
-  Java, 알고리즘, 아두이노에 관심있는 개발자<br />
-  <small><a href="https://github.com/onda2me">Onda2Me GitHub</a></small>
+excerpt: 
+    Java, 알고리즘, 아두이노에 관심있는 개발자<br />
+    <small><a href="https://github.com/onda2me">Onda2Me GitHub</a></small>
 
 #header:
 # overlay_color: "#5e616c"
 #  image: /assets/images/main/code-01.jpg
 #  image_description: "programming"
-last_modified_at: 2021-09-11
+#  last_modified_at: 2021-09-11
 toc: false
 tags:
   - gallery

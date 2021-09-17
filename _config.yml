@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "onda2me"
   avatar           : "/assets/images/main/about-01.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Java, 알고리즘, 아두이노에 관심있는 개발자."
+  bio              : "Java, 알고리즘, 아두이노 블로그"
   location         : 
   email            :
   links:
@@ -348,7 +348,7 @@ defaults:
 
   # _pets
   - scope:
-      path: "pets"
+      path: ""
       type: pets
     values:
       layout: single
@@ -358,7 +358,7 @@ defaults:
 
   # _test
   - scope:
-      path: "test"
+      path: ""
       type: test
     values:
       layout: single

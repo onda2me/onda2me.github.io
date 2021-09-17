@@ -23,7 +23,7 @@
 >
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
-      <h1 id="page-title" class="page__title" itemprop="headline">
+      <h1 id="page-title" class="page__title {{ page.title_align }}" itemprop="headline">
         {% if paginator and site.paginate_show_page_num %}
           {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
         {% else %}
@@ -33,7 +33,7 @@
       {% if page.tagline %}
         <p class="page__lead">{{ page.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% elsif page.header.show_overlay_excerpt != false and page.excerpt %}
-        <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+        <h6 class="page__lead {{ page.title_align }}">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</h6>
       {% endif %}
       {% include page__meta.html %}
       {% if page.header.cta_url %}

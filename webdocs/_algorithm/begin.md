@@ -1,6 +1,8 @@
 ---
 title: "01.Java 기초문법"
-excerpt: "Java 기초문법 : print, if, for, switch, while"
+
+toc: true
+toc_label: "Java 기초문법"
 ---
 
 이 글은 Java 알고리즘 중 첫번째 글로 print, if, for, while 등 기초 문법과 자료형에 대한 내용이다.  
@@ -9,7 +11,7 @@ excerpt: "Java 기초문법 : print, if, for, switch, while"
 
 ---
 
-##### 출력문
+##### 1.출력문
 출력을 원하는 내용을 print, printf 문 뒤에 입력한다. [GiHub 바로가기]({{ site.repository_org }}/begin/Begin01HelloWorld.java){: .btn.btn--primary.btn--narrow target="_blank" }
 
 
@@ -20,7 +22,7 @@ System.out.println("출력을 원하는 내용 입력");
 <pre id="show1" class="show-json-from-git">소스로딩 실패</pre>
 <script>showJsonFromGit('{{ site.repository_raw }}/begin/Begin01HelloWorld.java', 'show1', '300px');</script>
 
-##### if 조건문
+##### 2.if 조건문
 if문은 조건식의 결과값에 해당하는 블록{}의 문장을 수행한다. [GiHub 바로가기]({{ site.repository_org }}/begin/Begin05If02.java){: .btn.btn--primary.btn--narrow target="_blank" }
 
 ```java
@@ -41,7 +43,7 @@ if(조건식1) {
 <pre id="show2" class="show-json-from-git">소스로딩 실패</pre>
 <script>showJsonFromGit('{{ site.repository_raw }}/begin/Begin05If02.java', 'show2');</script>
 
-##### switch 조건문
+##### 3.switch 조건문
 switch 조건식의 결과값에 해당하는 블록{}의 문장을 수행한다.
 
 ```java
@@ -67,7 +69,7 @@ switch(조건식) {
 <pre id="show3" class="show-json-from-git">소스로딩 실패</pre>
 <script>showJsonFromGit('{{ site.repository_raw }}/begin/Begin08Switch.java', 'show3');</script>
 
-##### while 문
+##### 4.while 문
 while은 조건식이 참인 동안, 즉 거짓이 될 때까지 블록{} 안의 문장을 수행한다.
 
 ```java

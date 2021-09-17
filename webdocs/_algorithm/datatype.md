@@ -1,6 +1,6 @@
 ---
 title: "02.데이타 타입"
-excerpt: "Java 자료형 : byte, int, long, float, double "
+#excerpt: "Java 자료형 : byte, int, long, float, double "
 ---
 
 이 글은 Java 알고리즘 중 두번째 글로 Java 에서 사용하는 데이타형에 대한 내용이다.  

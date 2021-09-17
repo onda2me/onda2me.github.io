@@ -236,6 +236,7 @@
 
     a {
       position: relative;
+      height: 2rem;
 
       &:before {
         content: "";
@@ -255,8 +256,16 @@
         -webkit-transform: scaleX(1);
         -ms-transform: scaleX(1);
         transform: scaleX(1); // reveal
-      }
+      } 
+
     }
+ } 
+  .nav-link {
+    display: block;
+  }
+  .nav-link.active {
+    font-weight:900;
+    color:$darker-gray;
   }
 
   .hidden-links {

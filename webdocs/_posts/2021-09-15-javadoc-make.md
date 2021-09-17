@@ -1,7 +1,7 @@
 ---
 title:  "이클립스에서 javadoc 만들기"
 header:
-  teaser: "/assets/images/500x300.png"
+  #teaser: "/assets/images/500x300.png"
 categories: 
   - java
   - eclipse

@@ -1,5 +1,4 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
-
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
@@ -11,10 +10,10 @@
           {{ site.masthead_title | default: site.title }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
-        <ul class="visible-links">
+        <ul class="visible-links">{% assign current_url = page.url  | remove: ':' %}
           {%- for link in site.data.navigation.main -%}
             <li class="masthead__menu-item">
-              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %} class="nav-link {% if current_url contains link.url %}active{% endif %}">{{ link.title }}</a>                
             </li>
           {%- endfor -%}
         </ul>

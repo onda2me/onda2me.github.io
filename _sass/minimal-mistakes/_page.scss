@@ -205,17 +205,18 @@ body {
       text-shadow: 1px 1px 4px rgba(#000, 0.5);
     }
 
-    .page__lead {
-      max-width: $medium;
-    }
+    // .page__lead {
+    //   max-width: $medium;
+    // }
 
     .page__title {
-      font-size: $type-size-2;
+      font-size: $type-size-1;
+      margin-bottom: 1.5rem;
 
       @include breakpoint($small) {
         font-size: $type-size-1;
       }
-    }
+    } 
   }
 }
 
