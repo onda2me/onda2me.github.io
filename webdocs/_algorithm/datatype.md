@@ -26,9 +26,13 @@ Java의 기본 데이타 타입은 정수형, 실수형, 논리형이 있다.
 | double | 8 |64bit | 1.7E+308의 근사값(유효자리 15개)| 1.7E-308 ~ 1.7E+308 (15자리) |
 | char | 2 | 16bit | - | –32,768 ~ 32,767 |
 | boolean | 1 | 8bit | - | true, false |
-{: .table}
+{: .table}  
+    
 
+##### 1.데이타 타입 범위 테스트 [[GitHub 소스보기]](https://github.com/onda2me/algorithm/blob/main/src/com/onda2me/algorithm/begin/Begin10Datatype.java){: .btn.btn--primary.btn--narrow target="_blank" }
 
+<pre id="show1" class="show-json-from-git">소스 로딩 실패</pre>
+<script>showJsonFromGit('{{ site.repository_raw }}/begin/Begin10Datatype.java', 'show1');</script>
 
 
 

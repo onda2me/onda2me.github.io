@@ -1,6 +1,6 @@
 ---
 
-permalink: /categories/
+permalink: /post/
 title: "Posts by Category"
 layout: categories
 classes: wide

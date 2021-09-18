@@ -25,6 +25,9 @@ Java의 연산자 종류는
 | 논리연산 | !, &, `|`, &&, `||` | boolean | 논리적 NOT, AND, OR 연산한다 |
 | 조건연산 | (조건식) ? A:B | - | 조건식에 따라 참이면 A, 거짓이면 B를 수행한다 |
 
+##### 1. 연산자 테스트 [[GitHub 소스보기]](https://github.com/onda2me/algorithm/blob/main/src/com/onda2me/algorithm/begin/Begin11Oper.java){: .btn.btn--primary.btn--narrow target="_blank" }
 
+<pre id="show1" class="show-json-from-git">소스 로딩 실패</pre>
+<script>showJsonFromGit('{{ site.repository_raw }}/begin/Begin11Oper.java', 'show1');</script>
 
 

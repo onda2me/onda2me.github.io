@@ -5,7 +5,7 @@ main:
   #- title: "Arduino"
     #url: /docs/arduino/ 
   - title: "Archive"
-    url: /categories/    
+    url: /post/    
   - title: "GitHub" 
     url: /blog/ 
   - title: "Test"

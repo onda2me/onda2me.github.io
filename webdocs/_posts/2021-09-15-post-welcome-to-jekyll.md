@@ -4,6 +4,7 @@ header:
   #teaser: "/assets/images/main/panorama-top-01.jpg"
 categories: 
   - Jekyll
+  - post
 tags:
   - update
 last_modified_at: 2021-09-15T08:06:00-05:00  

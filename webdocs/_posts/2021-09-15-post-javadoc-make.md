@@ -3,7 +3,7 @@ title:  "이클립스에서 javadoc 만들기"
 header:
   #teaser: "/assets/images/500x300.png"
 categories: 
-  - java
+  - post
   - eclipse
 ---
 javadoc은 java 프로그램 소스의 설명서로, 개발된 프로그램 분석 

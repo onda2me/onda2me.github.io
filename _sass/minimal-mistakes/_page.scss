@@ -82,6 +82,12 @@ body {
   }
 }
 
+
+.p-name {
+  margin-top: 0.4rem;
+  margin-bottom: 1.4rem;
+}
+
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
@@ -217,6 +223,7 @@ body {
         font-size: $type-size-1;
       }
     } 
+
   }
 }
 
