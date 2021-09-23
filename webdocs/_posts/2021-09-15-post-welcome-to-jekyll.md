@@ -29,7 +29,7 @@ print_hi('Tom')
 // 아래의 코드를 입력하세요.
 변수로 링크 만드는 법입니다. 따라하세요.  
 첫번째 링크는 [Jekyll docs][jekyll-docs]{: .btn.btn--primary.btn--narrow target="_blank" }  
-두번째 링크는 [Jekyll's GitHub repo][jekyll-gh]{: .btn.btn--primary.btn--narrow target="_blank" }.  
+두번째 링크는 [Jekyll's GitHub repo][jekyll-gh]{: .btn.btn--primary.btn--narrow target="_blank" }
 세번째 링크는 [Jekyll Talk][jekyll-talk]{: .btn.btn--primary.btn--narrow target="_blank" }
 
 [jekyll-docs]: http://jekyllrb.com/docs/home
@@ -40,7 +40,7 @@ print_hi('Tom')
 
 변수로 링크 만드는 법입니다. 따라하세요.  
 첫번째 링크는 [Jekyll docs][jekyll-docs]{: .btn.btn--primary.btn--narrow target="_blank" }  
-두번째 링크는 [Jekyll's GitHub repo][jekyll-gh]{: .btn.btn--primary.btn--narrow target="_blank" }.  
+두번째 링크는 [Jekyll's GitHub repo][jekyll-gh]{: .btn.btn--primary.btn--narrow target="_blank" }  
 세번째 링크는 [Jekyll Talk][jekyll-talk]{: .btn.btn--primary.btn--narrow target="_blank" }
 
 [jekyll-docs]: http://jekyllrb.com/docs/home

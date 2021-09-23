@@ -47,9 +47,11 @@ categories:
 #### 3. /_layouts/default.html 코드 수정
 
 ```html
-`-` <!-- % include_cached masthead.html % -->
-`+` {% include masthead.html %}
+- //include_cached masthead.html
++ include masthead.html    
 ```
+
+
 
 **Tips:가장 중요한 부분** masthead.html 파일에서 현재 페이지 주소를 가져오지 못해서 원인을 찾느라 한참 고생했다.  
 masthead.html 파일을 include 가 아닌 include_cached 하고 있었다.  
