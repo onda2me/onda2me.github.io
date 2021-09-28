@@ -13,6 +13,6 @@
 ```
 Minimal Mistakes 테마를 적용한 뒤 커스트마이징 하였다.
 ```
++ 디렉토리구조 링크
 
-{% include https://github.com/onda2me/onda2me.github.io/blob/main/_includes/directory.html %}
-
+https://github.com/onda2me/onda2me.github.io/blob/main/_includes/directory.html

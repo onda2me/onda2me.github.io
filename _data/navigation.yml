@@ -32,8 +32,8 @@ docs_blog:
     children:
       - title: "1. Markdown 소개및사용법"
         url: /blog/markdown/
-      - title: "2. Markdown Editor"
-        url: /blog/editor/
+      #- title: "2. Markdown Editor"
+      #  url: /blog/editor/
   - title: Liquid
     children:
       - title: "1. Liquid 소개및사용법"
