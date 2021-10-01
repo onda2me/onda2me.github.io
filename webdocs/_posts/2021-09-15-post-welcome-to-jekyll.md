@@ -3,11 +3,9 @@ title:  "Welcome to Jekyll"
 header:
   #teaser: "/assets/images/main/panorama-top-01.jpg"
 categories: 
-  - Jekyll
-  - post
+  - test
 tags:
   - update
-last_modified_at: 2021-09-15T08:06:00-05:00  
 ---
 
 이 글은 테스트 페이지 입니다.

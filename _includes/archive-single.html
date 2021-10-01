@@ -17,14 +17,27 @@
         <img src="{{ teaser | relative_url }}" alt="">
       </div>
     {% endif %}
-    <h4 class="archive__item-title no_toc" itemprop="headline">
+    <h6 class="archive__item-title no_toc" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a> 
       {% endif %}
-    </h4>
-    {% include page__meta.html type=include.type %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+
+      {% if post.show_date and post.date %}
+      {% assign date = post.date %} 
+      <span class="page__meta-date ">
+        <i class="far {% if include.type == 'grid' and document.read_time and document.show_date %}fa-fw {% endif %}fa-calendar-alt" aria-hidden="true"></i>
+        {% assign date_format = site.date_format | default: "%Y-%m-%d" %}
+        <time datetime="{{ date | date_to_xmlschema }}">{{ date | date: date_format }}</time>
+      </span>
+      {% endif %}
+
+      <!--
+      <small><time datetime="2019-05-22T00:00:00+00:00"> 22 May </time></small>
+      -->
+    </h6><!--
+    {% include page__meta.html type=include.type %}-->
+    {% if include.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 70 }}</p>{% endif %}
   </article>
 </div>

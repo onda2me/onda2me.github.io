@@ -2,7 +2,6 @@
 title: "SVN서버 및 클라이언트 프로그램 설치"
 header:
 categories: 
-  - post
   - svn
 ---
 
@@ -22,8 +21,7 @@ VisualSVN Server 다운로드 : [https://www.visualsvn.com/](https://www.visuals
 
 윈도우 > 프로그램 > VisualSVN > VisualSVN Server Manager  
 SVN 접속을 위한 계정 추가  
-  + User > Create User > Name / Password 설정
-
+  + User > Create User > Name / Password 설정    
   ![]({{ site.baseurl }}/assets/images/post/sw/svn_server_run.png)
   ![]({{ site.baseurl }}/assets/images/post/sw/svn_server_run2.png)
 

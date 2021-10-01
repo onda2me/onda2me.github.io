@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "This is Test page"
-excerpt: "This is Test page."
 ---
 
 > Hello~ this is test page.

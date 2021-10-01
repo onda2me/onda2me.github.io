@@ -105,7 +105,7 @@
 }
 
 .show-json-from-git {
-  background: $lighter-gray;
+  background: $lightest-gray;
   line-height: 1.3em;
   font-size: 0.8em;
   padding: 1em;
@@ -114,5 +114,5 @@
   height: 400px;
   overflow-x: auto; /* Hide horizontal scrollbar */
   overflow-y: scroll; /* Add vertical scrollbar */
-  border: 1px solid $light-gray;
+  border: 1px solid $lighter-gray;
 }

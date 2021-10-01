@@ -13,7 +13,7 @@ body {
   padding: 0;
   color: $text-color;
   font-family: $global-font-family;
-  line-height: 1.75;
+  line-height: 1.8em;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -27,15 +27,14 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0.5em 0 0.5em;
-  line-height: 1.2;
+  margin: 0.5rem 0;
+  padding-bottom: 1em;
+  //line-height: 1em;
   font-family: $header-font-family;
   font-weight: bold;
 }
 
 h1 {
-  // top right bottom left
-  // padding-bottom: 1.5rem;
   font-size: $h-size-1;
 }
 
@@ -44,12 +43,10 @@ h2 {
 }
 
 h3 {
-  margin: 1em 0em;
   font-size: $h-size-3;
 }
 
 h4 {
-  margin: 0.8em 0em;
   font-size: $h-size-4;
 }
 
@@ -67,8 +64,8 @@ small,
 }
 
 p {
-  font-size: 0.92em;
-  margin-bottom: 1.3em;
+  font-size: $type-size-6;
+  margin-bottom: 1.2em;
 }
 
 u,
@@ -112,12 +109,12 @@ abbr[data-original-title] {
 
 blockquote {
   margin: 0.25em 0em;
-  padding: 0em 0.5em;
-  font-style: italic;
+  padding: 0em 0.75em;
+  //font-style: italic;
   border-left: 0.25em solid $primary-color;
 
   cite {
-    font-style: italic;
+    //font-style: italic;
 
     &:before {
       content: "\2014";
@@ -168,10 +165,11 @@ a > code,
 li > code,
 figcaption > code,
 td > code {
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
-  font-size: 0.8em;
-  background: $code-background-color;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+  font-size: 0.97em;  
+  color: $bitbucket-color;
+  background: $code-background-color-dark;
   border-radius: $border-radius;
 
   &:before,
@@ -187,19 +185,30 @@ hr {
   display: block;
   margin: 1em 0;
   border: 0;
-  border-top: 1px solid $border-color;
+  //border-top: 1px solid $border-color;
+  border-bottom: 1px dashed $border-color;
 }
 
 /* lists */
+/*
+ul {
+  padding-left: 1em;
+}
+*/
 
-ul li,
-ol li {
-  margin-bottom: 0.5em;
+ol, ul {
+  //background: #ff9999;
+  padding: 0.05em 0.2em;
+  margin-left: 1.1em;
+  margin-top: 0.5em;
+  
 }
 
-li ul,
-li ol {
-  margin-top: 0.5em;
+ol li, ul li {
+  //background: #ffe5e5;  
+  padding: 0.1em 0.2em;
+  font-size: $type-size-6;
+  
 }
 
 /*

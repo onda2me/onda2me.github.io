@@ -78,14 +78,16 @@ body {
   }
 
   & + .page__meta {
-    margin-top: -0.5em;
+    margin-top: -0.8rem;
   }
 }
 
 
 .p-name {
-  margin-top: 0.4rem;
-  margin-bottom: 1.4rem;
+  padding-bottom:1em;
+  margin-top: 0.6rem;
+  margin-bottom: 0.4rem;
+  //border-bottom: 1px solid $border-color;
 }
 
 .page__lead {
@@ -94,9 +96,10 @@ body {
 }
 
 .page__content {
+  padding: 1.5em 0;
   h2 {
     padding-bottom: 0.5em;
-    border-bottom: 1px solid $border-color;
+    //border: 1px solid $border-color;
   }
 
 	h1, h2, h3, h4, h5, h6 {
@@ -104,7 +107,7 @@ body {
 			position: relative;
 			left: 0.5em;
 			opacity: 0;
-			font-size: 0.8em;
+			//font-size: 0.8em;
 			-webkit-transition: opacity 0.2s ease-in-out 0.1s;
 			-moz-transition: opacity 0.2s ease-in-out 0.1s;
 			-o-transition: opacity 0.2s ease-in-out 0.1s;
@@ -222,6 +225,7 @@ body {
     .page__title {
       font-size: $type-size-1;
       margin-bottom: 1.5rem;
+      //border: 1px solid;
 
       @include breakpoint($small) {
         font-size: $type-size-1;
@@ -294,12 +298,32 @@ body {
 /*
    Page meta
    ========================================================================== */
+/*
+중복 제거
+.page__meta {
+  margin: 0 0 4px;
+  font-size: 0.6em;
+}
+
+.page__meta-sep {
+  display: block;
+
+  &::before {
+    display: none;
+  }
+}
+*/
 
 .page__meta {
-  margin-top: 2em;
-  color: $muted-text-color;
-  font-family: $sans-serif;
-  font-size: $type-size-6;
+
+  margin-top: -1.2em;
+  font-size: 0.8rem;
+
+
+  //margin-top: 2em;
+  //color: $muted-text-color;
+  //font-family: $sans-serif;
+  //font-size: $type-size-6;
 
   p {
     margin: 0;
@@ -314,6 +338,13 @@ body {
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
+}
+
+.page__meta-date {
+  font-weight: 400;
+  margin-left: 2em;
+  font-size: $type-size-8;
+  color: $base02;
 }
 
 .page__meta-sep::before {
@@ -352,11 +383,11 @@ body {
 }
 
 .taxonomy__section {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   padding-bottom: 1em;
 
   &:not(:last-child) {
-    border-bottom: solid 1px $border-color;
+    border-bottom: dashed 1px $border-color;
   }
 
   .archive__item-title {
@@ -369,7 +400,7 @@ body {
   }
 
   + .taxonomy__section {
-    margin-top: 2em;
+    margin-top: 1em;
   }
 }
 
@@ -388,7 +419,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   margin: 1.414em 0;
   padding: 0;
-  font-size: 0.75em;
+  font-size: 0.9em;
   list-style: none;
 
   @include breakpoint($large) {
@@ -413,7 +444,8 @@ body {
   display: block;
   clear: both;
   color: $muted-text-color;
-  font-size: 0.75em;
+  font-size: 0.72em;
+  margin-bottom: -1rem;
   text-transform: uppercase;
   text-align: right;
   text-decoration: none;

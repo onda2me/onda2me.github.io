@@ -22,14 +22,15 @@ layout: default
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
-
+   
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.title %}<h1 id="page-title" class="page__title p-name" itemprop="headline">
+          
+          {% if page.title %}<h2 id="page-title" class="page__title" itemprop="headline">
             <a href="{{ page.url | absolute_url }}" class="u-url" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
-          </h1>{% endif %}
-          {% include page__meta.html %}
+          </h2>{% endif %}
+          {% include page__meta.html date_sort=text_right %}
         </header>
       {% endunless %}
 
@@ -48,7 +49,7 @@ layout: default
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
-          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>  
         {% endif %}
         {% include page__taxonomy.html %}
         {% include page__date.html %}

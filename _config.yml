@@ -285,12 +285,9 @@ collections:
   blog:
     output: true
     permalink: /:collection/:path/
-  pets:
-    output: true
-    permalink: /:collection/:path/
-  test:
-    output: true
-    permalink: /:collection/:path/
+  # test:
+  #   output: true
+  #   permalink: /:collection/:path/
     
 # Defaults
 defaults:
@@ -303,6 +300,7 @@ defaults:
       author_profile: true
       classes: wide
       read_time: false
+      show_date : true 
       comments: false # true
       share: false # twitter use false
       related: true
@@ -315,6 +313,7 @@ defaults:
       layout: single
       author_profile: false
       read_time: false
+      show_date : true 
       comments: false
       share: false # twitter use false
       related: false 
@@ -327,6 +326,8 @@ defaults:
       layout: embedcode
       collection: algorithm
       author_profile: true
+      read_time: false
+      show_date : true 
       classes: wide
       share: false
       toc: false
@@ -345,16 +346,6 @@ defaults:
       comments: true
       sidebar:
         nav: "docs_blog"
-
-  # _pets
-  - scope:
-      path: ""
-      type: pets
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true   
 
   # _test
   - scope:

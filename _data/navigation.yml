@@ -1,18 +1,19 @@
 # main links
 main:
+  - title: "Posts"
+    url: /post/    
+  - title: "Documents"
+    url: /collection/   
   - title: "Algorithm"
     url: /algorithm/
   #- title: "Arduino"
-    #url: /docs/arduino/ 
-  - title: "Archive"
-    url: /post/    
-  - title: "GitHub" 
+    #url: /docs/arduino/  
+  - title: "GitHub Blog" 
     url: /blog/ 
-  - title: "Test"
-    url: /pets/ 
+  #- title: "Test"
+  #  url: /test/ 
   - title: "About"
     url: /about/
-
 
 # documentation links
 docs_blog:
@@ -28,13 +29,15 @@ docs_blog:
         url: /blog/theme/
       - title: "5. Jekyll Theme 커스트마이징"
         url: /blog/upgrade/
+      - title: "6. 코드 하이라이터"
+        url: /blog/codeblock/
   - title: Markdown
     children:
-      - title: "1. Markdown 소개및사용법"
+      - title: "1. Markdown 소개"
         url: /blog/markdown/
       #- title: "2. Markdown Editor"
       #  url: /blog/editor/
   - title: Liquid
     children:
-      - title: "1. Liquid 소개및사용법"
+      - title: "1. Liquid 소개"
         url: /blog/liquid/

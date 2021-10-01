@@ -3,7 +3,6 @@ title: "favicon (파비콘 : 즐겨찾기 아이콘) 만들기"
 header:
   #teaser: "/assets/images/main/about-01.png"
 categories: 
-  - post
   - favicon
 ---
 
