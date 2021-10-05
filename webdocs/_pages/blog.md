@@ -24,6 +24,6 @@ GitHub Pages 는 제공되는 테마를 통해 다양한 구성의 웹사이트 
 
 {%- for post in entries limit: 1 -%}
   {%- unless post.hidden -%}
-    {% include nav_list.html nav=post.sidebar.nav %}
+    {% include nav_collection.html nav=post.sidebar.nav %}
   {%- endunless -%}
 {%- endfor -%}

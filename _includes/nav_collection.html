@@ -1,0 +1,23 @@
+{% assign navigation = site.data.navigation[include.nav] %}
+{% for nav in navigation %}
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <h4 class="archive__item-title no_toc" itemprop="headline">
+        <span class="nav__sub-title">{{ nav.title }}</span>
+    </h4>
+   
+    {% if nav.children != null %}      
+      {% for child in nav.children %}
+        <h6 class="archive__item-title no_toc" itemprop="headline">
+        <a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a>
+        </h6>
+      {% endfor %}
+    {% endif %}
+  
+
+  </article>
+</div>
+{% endfor %}
+
+
+
