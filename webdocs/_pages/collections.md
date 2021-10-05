@@ -1,12 +1,11 @@
 ---
-permalink: /collection/
+permalink: /collections/
 layout: collection
 title: "Documents by Collection"
 classes: wide
 author_profile: true
 entries_layout: list
 sort_order: reverse
-#collection: algorithm
 ---
 {% capture written_label %}'None'{% endcapture %}
 

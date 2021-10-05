@@ -62,7 +62,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : true # true, false (default)
-search                   : false # true, false (default)
+search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -307,7 +307,7 @@ defaults:
 
   # _pages
   - scope:
-      path: "post"
+      path: ""
       type: pages
     values:
       layout: single

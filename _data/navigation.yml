@@ -2,8 +2,8 @@
 main:
   - title: "Posts"
     url: /post/    
-  - title: "Documents"
-    url: /collection/   
+  #- title: "Documents"
+  #  url: /collections/   
   - title: "Algorithm"
     url: /algorithm/
   #- title: "Arduino"

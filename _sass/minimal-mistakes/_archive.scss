@@ -102,7 +102,6 @@
 .archive__item-excerpt {
   padding: 0;
   margin: 0;
-  margin-top: -1em;
   font-size: $type-size-6;
 
   & + p {
@@ -155,9 +154,9 @@
 
 .list__item {
   margin-top: 1em;
+
   .page__meta {
-    margin-top: -1.2em;
-    //font-size: $type-size-8;    
+    //margin-top: -0.5em; 
     font-size: 0.8rem;
   }
 }

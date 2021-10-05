@@ -71,6 +71,7 @@ body {
 .page__title {
   margin-top: 0;
   line-height: 1;
+  //border: 1px solid;
 
   a {
     color: $text-color;
@@ -78,7 +79,10 @@ body {
   }
 
   & + .page__meta {
-    margin-top: -0.8rem;
+    margin-top: -0.35rem;
+    //border: 1px solid;
+    text-align: right;
+    border-bottom: 1px solid $border-color;
   }
 }
 
@@ -223,8 +227,8 @@ body {
     // }
 
     .page__title {
-      font-size: $type-size-1;
-      margin-bottom: 1.5rem;
+      //font-size: $type-size-1;
+      //margin-bottom: 1.5rem;
       //border: 1px solid;
 
       @include breakpoint($small) {
@@ -316,9 +320,10 @@ body {
 
 .page__meta {
 
-  margin-top: -1.2em;
+  //border: 1px solid;
+  // margin-top: -0.8rem;
+  //margin-top: 5rem;
   font-size: 0.8rem;
-
 
   //margin-top: 2em;
   //color: $muted-text-color;
@@ -342,8 +347,8 @@ body {
 
 .page__meta-date {
   font-weight: 400;
-  margin-left: 2em;
-  font-size: $type-size-8;
+  margin-left: 0;
+  font-size: 0.75rem;
   color: $base02;
 }
 

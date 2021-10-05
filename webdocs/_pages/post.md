@@ -1,5 +1,4 @@
 ---
-
 permalink: /post/
 layout: categories
 title: "Posts by Category"
