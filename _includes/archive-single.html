@@ -32,12 +32,7 @@
         <time datetime="{{ date | date_to_xmlschema }}">{{ date | date: date_format }}</time>
       </span>
       {% endif %}
-
-      <!--
-      <small><time datetime="2019-05-22T00:00:00+00:00"> 22 May </time></small>
-      -->
-    </h6><!--
-    {% include page__meta.html type=include.type %}-->
+    </h6>
     {% if include.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 70 }}</p>{% endif %}
   </article>
 </div>

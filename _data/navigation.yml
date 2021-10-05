@@ -18,6 +18,7 @@ main:
 # documentation links
 docs_blog:
   - title: GitHub Pages
+    url: /blog/    
     children:
       - title: "1. GitHub Pages 블로그?"
         url: /blog/intro/
