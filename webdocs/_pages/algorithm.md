@@ -6,7 +6,7 @@ classes: wide
 collection: algorithm
 author_profile: true
 entries_layout: list
-sort_by: title
+sort_by: date
 sort_order: reverse
 ---
 
