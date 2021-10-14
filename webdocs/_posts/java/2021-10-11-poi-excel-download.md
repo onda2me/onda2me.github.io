@@ -1,5 +1,5 @@
 ---
-title:  "pache POI를 이용한 엑셀 다운로드 기능"
+title:  "Apache POI를 이용한 엑셀 다운로드 기능"
 categories: 
   - java
 
@@ -8,7 +8,7 @@ categories:
 서비스 운영을 하다보면 한달간, 연간 운영현황을 파악하기 위한 운영리포트 기능이 필요한 경우가 있다.    
 이글은 Apache POI 라이브러리를 이용하여 데이타 및 그래프를 포함한 엑셀파일을 생성하는 방법에 대한 글이다.    
 
-> 엑셀파일 샘플    
+> 엑셀파일 샘플 (판매현황_202110_리포트.xls)    
 
 ![]({{ site.baseurl }}/assets/images/post/sw/poi_00.png){: style="width:500px"}
 
@@ -36,7 +36,7 @@ categories:
 그래프영역은 데이타영역의 데이타를 읽어서 자동으로 보여줄수 있도록 구성한다.    
 ![]({{ site.baseurl }}/assets/images/post/sw/poi_02.png){: style="width:500px"}
 
-아래 그림과 같이 그래프의 색상, 읽어들일 데이타의 값등을 지정할 수 있다.     
+아래 그림과 같이 그래프의 색상 및 읽어들일 데이타의 값을 지정할 수 있다.     
 ![]({{ site.baseurl }}/assets/images/post/sw/poi_02_1.png){: style="width:500px"}
 
 #### 3. 데이타 출력부분 데이타 코딩
@@ -91,7 +91,7 @@ public ExcelView excelReport(Model model) {
 	// 일평균
 	Map<String, Object> mapAvg = new HashMap<String, Object>(); 
 	mapAvg.put("count", new Double (sumCount/30)); 
-	mapAvg.put("member", new Double(sumCount/30)); 
+	mapAvg.put("member", new Double(sumMember/30)); 
 	model.addAttribute("avg", mapAvg); 		
 	
 	// 데이터 저장 
