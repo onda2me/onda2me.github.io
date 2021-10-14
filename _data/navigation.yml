@@ -36,6 +36,8 @@ docs_blog:
         url: /blog/search/
       - title: "8. 네이버 검색엔진 등록"
         url: /blog/search02/
+      - title: "9. 댓글기능 추가하기"
+        url: /blog/comments/
   - title: Markdown
     children:
       - title: "1. Markdown 소개"

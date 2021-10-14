@@ -100,14 +100,11 @@ body {
 }
 
 .page__content {
-  padding: 1.5em 0;
-  h2 {
-    padding-bottom: 0.5em;
-    //border: 1px solid $border-color;
-  }
+  padding: 0.75em 0;
 
-	h1, h2, h3, h4, h5, h6 {
-		.header-link {
+  h1, h2, h3, h4, h5, h6 {   
+
+    .header-link {
 			position: relative;
 			left: 0.5em;
 			opacity: 0;
@@ -141,10 +138,6 @@ body {
       }
     }
   }
-
-  
-
-
 
   a:not(.btn) {
     &:hover {

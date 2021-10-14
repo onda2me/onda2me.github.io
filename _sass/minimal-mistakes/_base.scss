@@ -27,8 +27,8 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 1.25em;
+  margin-bottom: 0.75em;
   font-family: $header-font-family;
   font-weight: bold;
 }
@@ -64,7 +64,7 @@ small,
 
 p {
   font-size: $type-size-6;
-  margin: 1em 0;
+  margin: 0.75em 0;
 }
 
 u,
