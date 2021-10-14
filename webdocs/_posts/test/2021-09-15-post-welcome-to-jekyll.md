@@ -3,13 +3,12 @@ title:  "Welcome to Jekyll"
 header:
   #teaser: "/assets/images/main/panorama-top-01.jpg"
 categories: 
-  - test
+  - jekyll
 tags:
   - update
 ---
 
-이 글은 테스트 페이지 입니다.
-
+이 글은 Jekyll Markdown 테스트 페이지 입니다.
 
 
 ```ruby
