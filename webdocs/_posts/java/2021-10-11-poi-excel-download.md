@@ -36,12 +36,12 @@ categories:
 그래프영역은 데이타영역의 데이타를 읽어서 자동으로 보여줄수 있도록 구성한다.    
 ![]({{ site.baseurl }}/assets/images/post/sw/poi_02.png){: style="width:500px"}
 
-아래 그림과 같이 그래프의 색상 및 읽어들일 데이타의 값을 지정할 수 있다.     
+아래 그림과 같이 그래프의 속성에서 차트 종류, 색상, 읽어들일 데이타의 값을 지정할 수 있다.     
 ![]({{ site.baseurl }}/assets/images/post/sw/poi_02_1.png){: style="width:500px"}
 
 #### 3. 데이타 출력부분 데이타 코딩
 
-+ Controller의 엑셀다운로드 부분
++ Controller의 엑셀 다운로드 부분
 ```java
 // 데이터를 추출하여 ExcelView에 전달한다. 
 @RequestMapping(value = "/test/excelReport.co") 
@@ -150,10 +150,13 @@ public class ExcelView extends AbstractExcelView {
 	}
 }	
 ```
-관련 파일은 [[GitHub에서 파일 다운로드]](https://github.com/onda2me/algorithm/tree/main/src/com/onda2me/algorithm/apache){: .btn.btn--primary.btn--narrow target="_blank" } 할 수 있다.
 
 #### 4. 웹페이지 접속하여 엑셀파일 다운로드
 Controller에서 정의한 주소로 접속하여 엑셀파일을 다운로드 한다.    
 (예시: [http://localhost:8080/test/excelReport.co](http://localhost:8080/test/excelReport.co))
 
 ![]({{ site.baseurl }}/assets/images/post/sw/poi_03.png)
+
+
+**Note:** DB나 json 연동으로 가져온 데이타를 Apache poi를 이용하여 데이타와 차트가 포함된 excel 파일로 다운로드 받을수 있는 프로그램 소스는 [[GitHub]](https://github.com/onda2me/algorithm/tree/main/src/com/onda2me/algorithm/apache/poi){: .btn.btn--primary.btn--narrow target="_blank" } 에서 다운로드 받을 수 있다.
+{: .notice--info}
