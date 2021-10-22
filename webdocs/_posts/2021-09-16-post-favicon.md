@@ -50,12 +50,17 @@ favicon (파비콘)은 즐겨찾기 아이콘을 뜻하는 말로 즐겨찾기 (
   
 
 #### 6. favicon 이 적용되었는지 확인한다.
- > ![]({{ site.baseurl }}/assets/images/post/favicon04.png){: style="width:600px"}
+ > ![favicon]({{ site.baseurl }}/assets/images/post/favicon04.png){: style="width:600px"}
+    
 
-#### 7. favicon URL 변경
+---
 
-**Notice! 네이버 검색엔진 등록시 favicon을 root 디렉토리에서 검색하여 주소를 변경하였다.**
-+ 기존주소 : /assets/images/post/favicon.ico
+**Notice!** 차후에 네이버 검색엔진 등록 후 수집결과를 확인해보니 검색엔진에서 데이타 수집 시 favicon의 주소를 root 디렉토리에서 검색하여
+아래와 같이 오류가 발생하기에 favicon 위치를 root 디렉토리로 변경하였다.  <2021년 10월 변경>
+{: .notice--warning}
+#### favicon URL 변경
+
++ 기존주소 :  https://onda2me.github.io/assets/images/post/favicon.ico
 + 변경주소 : https://onda2me.github.io/favicon.ico    
 
 
