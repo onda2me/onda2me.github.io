@@ -64,11 +64,11 @@ function showJsonFromGit(url, emId) {
 {% capture notice-text %}
    1. javascript 작성
    2. 포스트에 javascript 추가
-   3. 소스내용을 출력한 객체 추가  
+   3. 소스내용을 출력할 객체 추가  
 {% endcapture %}
 
 
-#### GitHub 저장소 소스 include
+#### < GitHub 저장소 소스 include >
 {{ notice-text | markdownify }}{: .notice--info}
 
 
