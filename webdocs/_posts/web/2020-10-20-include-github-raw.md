@@ -57,9 +57,9 @@ function showJsonFromGit(url, emId) {
 <script>showJsonFromGit('https://raw.githubusercontent.com/onda2me/arduino_s/master/s1/sketch_servo_button/sketch_servo_button.ino', 'show1', '300px');</script>
 
 #### 5. 커스트 마이징
-깃허브 페이지에서 소스 설명을 주로 하는 알고리즘 카테고리는 
-글 작성시 자바스크립트를 포스트마다 추가하지 않고 내용만 작성하면 되도록 
-레이아웃 (/_layouts/embeddedcode.html)을 분리한뒤 레이아웃 페이지에 자바스크립트를 추가하였다.
+본 블로그의 알고리즘 카테고리는 깃허브 저장소의 소스 설명을 주로  하게되는데, 
+글 작성할 때 포스트마다 자바스크립트를 추가하지 않고 내용만 작성하면 되도록 
+알고리즘 카테고리의 레이아웃 (/_layouts/embeddedcode.html)을 분리한뒤 레이아웃 페이지에 자바스크립트를 추가하였다.
 
 {% capture notice-text %}
    1. javascript 작성
