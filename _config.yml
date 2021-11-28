@@ -128,6 +128,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "Discussions"
+      icon: "fa fa-comments"
+      url: "https://github.com/onda2me/onda2me.github.io/discussions"
 
 # Site Footer
 footer:
