@@ -4,6 +4,8 @@ header:
   #teaser: "/assets/images/main/about-01.png"
 categories: 
   - favicon
+tags:
+  - favicon
 ---
 
 favicon (파비콘)은 즐겨찾기 아이콘을 뜻하는 말로 즐겨찾기 (favorites) 와 아이콘 (icon) 의 합성어이다.  
