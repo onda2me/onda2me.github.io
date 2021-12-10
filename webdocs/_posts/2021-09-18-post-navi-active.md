@@ -3,6 +3,8 @@ title: "메뉴 네비게이션에 Active 효과주기"
 header:
 categories: 
   - navi
+tags:
+  - 메뉴
 ---
 
 활성화된 메뉴에 Active 효과를 추가해 보았다.  

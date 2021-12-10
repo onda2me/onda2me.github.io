@@ -3,6 +3,8 @@ title: "SVN서버 및 클라이언트 프로그램 설치"
 header:
 categories: 
   - svn
+tags:
+  - svn
 ---
 
 IT관련 회사가 아니라 프로그램을 혼자 담당하고 있지만, 소스의 버전관리가 필요하기에 SVN을 설치하였다.  

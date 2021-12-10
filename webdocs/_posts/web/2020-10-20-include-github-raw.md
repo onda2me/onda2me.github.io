@@ -3,6 +3,9 @@ title: "Github 저장소 프로그램 소스 Pages에서 include 하는 방법"
 header:
 categories: 
   - javascript
+tags:
+  - javascript
+  - github
 ---
 <script src="/assets/js/custom.js"></script>
 

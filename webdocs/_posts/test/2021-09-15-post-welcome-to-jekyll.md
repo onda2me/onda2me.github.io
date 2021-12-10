@@ -5,7 +5,8 @@ header:
 categories: 
   - jekyll
 tags:
-  - update
+  - jekyll
+  - markdown
 ---
 
 이 글은 Jekyll Markdown 테스트 페이지 입니다.
