@@ -448,14 +448,14 @@
 
 .nav__list .nav__items {
   margin: 0;
-  font-size: 1.1rem;
+  font-size: 1.05em;
 
   a {
     color: inherit;
   }
 
   li {
-    margin-bottom: 0.3em;
+    margin: 0.25em 0;
   }
   .active {
     margin-left: -0.5em;
@@ -502,8 +502,8 @@
 
 .nav__sub-title {
   display: block;
-  margin: 0.5rem 0;
-  padding: 0.25rem 0;
+  margin: 0.75em 0;
+  padding: 0.25em 0;
   font-family: $sans-serif-narrow;
   font-size: $type-size-6;
   font-weight: bold;

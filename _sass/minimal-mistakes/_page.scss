@@ -334,14 +334,14 @@ body {
 
 .page__meta-title {
   margin-bottom: 10px;
-  font-size: $type-size-6;
+  font-size: $type-size-7;
   text-transform: uppercase;
 }
 
 .page__meta-date {
   font-weight: 400;
   margin-left: 0;
-  font-size: 0.75rem;
+  font-size: $type-size-8;
   color: $base02;
 }
 
@@ -388,10 +388,11 @@ body {
     border-bottom: dashed 1px $border-color;
   }
 
+  /*
   .archive__item-title {
     margin-top: 0;
   }
-
+  */
   .archive__subtitle {
     clear: both;
     border: 0;
@@ -417,7 +418,6 @@ body {
   grid-template-columns: repeat(2, 1fr);
   margin: 1.414em 0;
   padding: 0;
-  font-size: 0.9em;
   list-style: none;
 
   @include breakpoint($large) {

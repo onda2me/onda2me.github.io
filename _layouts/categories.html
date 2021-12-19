@@ -36,7 +36,7 @@ excerpt: false
         <h3 class="archive__subtitle">{{ category[0] }}</h3>
         <div class="entries-{{ entries_layout }}">
           {% for post in category.last %}
-            {% include archive-single.html type=entries_layout excerpt=excerpt %}
+            {% include category-single.html type=entries_layout excerpt=excerpt %}
           {% endfor %}
         </div>
         <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>

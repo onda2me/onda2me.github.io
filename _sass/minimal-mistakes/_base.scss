@@ -4,16 +4,16 @@
 
 html {
   /* sticky footer fix */
+  font-size: $doc-font-size;
+  font-family: $global-font-family;
   position: relative;
-  min-height: 100%;
 }
 
 body {
   margin: 0;
   padding: 0;
   color: $text-color;
-  font-family: $global-font-family;
-  line-height: 1.8em;
+  line-height: 1.85;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -27,10 +27,9 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 1.25em;
-  margin-bottom: 0.75em;
+  margin-top: 1.25rem;
+  margin-bottom: 0.35rem;
   font-family: $header-font-family;
-  font-weight: bold;
 }
 
 h1 {
@@ -64,7 +63,7 @@ small,
 
 p {
   font-size: $type-size-6;
-  margin: 0.5em 0;  
+  margin: 0.25em 0;  
 }
 
 u,
@@ -108,9 +107,9 @@ abbr[data-original-title] {
 
 blockquote {
   margin: 0;
-  //margin-top: 0.5rem;
-  padding: 0em 0.75em;
+  padding: 0em 0.5em;
   //font-style: italic;
+  //border: 1px solid;
   border-left: 0.25em solid $primary-color;
 
   cite {
@@ -199,15 +198,14 @@ ul {
 ol, ul {
   //background: #ff9999;
   //border: 1px solid;
-  padding: 0em 0.15em;
-  margin-left: 1.1em;
-  
+  padding: 0.35em;  
+  padding-left: 1.75em;
 }
 
 ol li, ul li {
-  //border: 1px solid; 
-  padding: 0em 0.15em;
   font-size: $type-size-6;
+  //margin-left: 1.75em;
+  padding: 0.05em;
 }
 
 /*
