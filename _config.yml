@@ -155,6 +155,12 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "Google Search"
+      icon: "fab fa-google"
+      url: https://search.google.com/search-console
+    - label: "Naver Search"
+      icon: ""
+      url: https://searchadvisor.naver.com/console/board
 
 # Reading Files
 include:

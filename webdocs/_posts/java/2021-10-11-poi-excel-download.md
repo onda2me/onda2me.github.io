@@ -30,8 +30,8 @@ tags:
 		</dependency>
 ```    
 
-+ 라이브러리 직접 다운로드    
-[https://mvnrepository.com/artifact/org.apache.poi/poi](https://mvnrepository.com/artifact/org.apache.poi/poi)
++ 라이브러리 직접 다운로드     
+[https://mvnrepository.com/artifact/org.apache.poi/poi](https://mvnrepository.com/artifact/org.apache.poi/poi)    
 ![]({{ site.baseurl }}/assets/images/post/sw/poi_01.png){: style="width:500px"}
 
 #### 2. 엑셀 Template파일 생성
