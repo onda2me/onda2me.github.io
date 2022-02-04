@@ -155,6 +155,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "Google Ad"
+      icon: ""
+      url:   https://www.google.com/adsense/      
     - label: "Google Search"
       icon: "fab fa-google"
       url: https://search.google.com/search-console
