@@ -8,16 +8,16 @@ tags:
   - security
 
 ---
-Spring Security는  스프링 기반의 어플리케이션의 보안과 인증을 담당하는 프레임워크로,    
-Filter 기반으로 동작하기 때문에 Spring MVC와 분리되어 동작한다.     
+Spring Security는  스프링 기반 어플리케이션의 보안과 인증을 담당하는 프레임워크로,    
+Spriing Security를 Filter에 추가하여 동작하기 때문에 Spring MVC와 분리되어 동작한다.     
 
 몇개의 페이지를 예로 들면    
 + ​로그인페이지 (/login/loginForm.co)는 로그인을 하기위한 주소로 로그인 없이 접속이 가능해야 하고,    
 + 마이페이지 (/mypage/view.co)는 로그인한 사용자만 접속이 가능해야 하며,    
 + 사용자관리 페이지 (/admin/user/list.co)는 로그인한 관리자만 접속이 가능해야 한다.     
 
-​Spring security는 페이지별 접근권한을 개별 코딩없이 속성 설정에 따라 접근관리를 해준다.    
-디렉토리별로 권한을 설정이 용이하며, 개별 페이지별 권한 설정도 가능하다.    
+​Spring security는 페이지별 접근권한을 개별 코딩없이 설정한 속성에 따라 관리 해준다.    
+디렉토리별로 권한 설정이 용이하며, 페이지별 권한 설정도 가능하다.    
 
 + 보기권한은 사용자  접근가능 /report/view.co    
 + 수정권한은 매니저만 접근가능 /report/update.co    
@@ -118,7 +118,7 @@ Filter 기반으로 동작하기 때문에 Spring MVC와 분리되어 동작한�
 </filter>  
 <filter-mapping>
   <filter-name>springSecurityFilterChain</filter-name>
-  <url-pattern>*</url-pattern>
+  <url-pattern>/*</url-pattern>
 </filter-mapping>
 ​
 ```
@@ -158,7 +158,6 @@ public class UserAuthenticationService implements  UserDetailsService {
 사용자가 입력한 로그인 정보와 DB의 로그인 정보를 비교해 주는 인터페이스 
 
 ```java
-
 @Component
 public class UserAuthenticationProvider implements AuthenticationProvider { 
 	
