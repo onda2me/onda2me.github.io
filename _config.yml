@@ -299,9 +299,9 @@ collections:
   blog:
     output: true
     permalink: /:collection/:path/
-  # test:
-  #   output: true
-  #   permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
     
 # Defaults
 defaults:
@@ -361,12 +361,12 @@ defaults:
       sidebar:
         nav: "docs_blog"
 
-  # _test
+  # _portfolio
   - scope:
       path: ""
-      type: test
+      type: portfolio
     values:
       layout: single
-      author_profile: true
-      share: true
-      comments: true          
+      author_profile: false
+      share: false
+      comments: false          

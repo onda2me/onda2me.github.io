@@ -10,8 +10,8 @@ main:
     #url: /docs/arduino/  
   - title: "GitHub Blog" 
     url: /blog/ 
-  #- title: "Test"
-  #  url: /test/ 
+  #- title: "Portfolio"
+  # url: /portfolio/ 
   - title: "About"
     url: /about/
 
@@ -38,6 +38,8 @@ docs_blog:
         url: /blog/search02/
       - title: "9. 댓글기능 추가하기"
         url: /blog/comments/
+      #- title: "10. 구글 에드센스 광고 달기"
+      #  url: /blog/googlead/
   - title: Markdown
     children:
       - title: "1. Markdown 소개"

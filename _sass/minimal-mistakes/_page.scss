@@ -221,7 +221,7 @@ body {
 
     .page__title {
       //font-size: $type-size-1;
-      //margin-bottom: 1.5rem;
+      margin-bottom: 1em;
       //border: 1px solid;
 
       @include breakpoint($small) {
