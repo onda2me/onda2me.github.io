@@ -50,10 +50,8 @@ Spriing Security를 Filter에 추가하여 동작하기 때문에 Spring MVC와 
 
 #### 2. ​Spring-Security 설정파일 생성
 
-​Spring-Security 관련 설정파일 (security-context.xml)을 추가하고,
-​Spring-Security 관련 Filter (SpringSecurityFilter)를 web.xml에  추가한다.
-
-@ security-context.xml
+@ security-context.xml    
+​Spring-security 관련 설정파일 (security-context.xml) 추가
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -104,7 +102,9 @@ Spriing Security를 Filter에 추가하여 동작하기 때문에 Spring MVC와 
 
 ```
 
-@ web.xml
+@ web.xml    
+Spring-security 관련 Filter (SpringSecurityFilter) 추가    
+
 ```xml
 <context-param>
   <param-name>contextConfigLocation</param-name>
@@ -125,7 +125,7 @@ Spriing Security를 Filter에 추가하여 동작하기 때문에 Spring MVC와 
 
 #### 3. 인증관련 클래스 생성
 
-@ UserAuthenticationService 클래스 생성
+@ UserAuthenticationService 클래스 생성    
 DB에서 사용자 정보조회를 담당하는 인터페이스
 
 ```java
@@ -154,7 +154,7 @@ public class UserAuthenticationService implements  UserDetailsService {
 
 
 ```
-@ UserAuthenticationProvider 클래스 생성
+@ UserAuthenticationProvider 클래스 생성    
 사용자가 입력한 로그인 정보와 DB의 로그인 정보를 비교해 주는 인터페이스 
 
 ```java
@@ -198,7 +198,7 @@ public class UserAuthenticationProvider implements AuthenticationProvider {
 }
 
 ```
-@ UserAuthenticationSuccessHandler 클래스 생성
+@ UserAuthenticationSuccessHandler 클래스 생성    
 로그인 성공 후 쿠기 및 세션정보 생성을 담당한다.
 
 ```java
