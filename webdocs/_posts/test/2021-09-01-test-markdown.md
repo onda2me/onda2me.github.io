@@ -1,5 +1,5 @@
 ---
-title:  "Markdown 테스트 페이지"
+title:  "Markdown 사용법 및 테스트"
 categories: 
   - jekyll
 tags:
