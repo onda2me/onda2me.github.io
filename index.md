@@ -11,7 +11,8 @@ excerpt:
 author_profile: true
 classes: wide  
 entries_layout: list
-sort_order: reverse
+sort_by: date
+sort_order: reversed
 ---
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
@@ -30,7 +31,7 @@ sort_order: reverse
 </div>
 
 {% capture written_label %}'None'{% endcapture %}
-<div>
+<div class="entries-{{ entries_layout }}">
 {% for collection in site.collections %}
 
   {% if collection.label == "algorithm" %}
@@ -42,9 +43,10 @@ sort_order: reverse
       {% capture written_label %}{{ label }}{% endcapture %}
     {% endif %}    
   {% endunless %}
-  {% for post in collection.docs %}
+  {% for post in collection.docs reversed %}
     {% unless collection.output == false or collection.label == "posts" %}
-      {% include archive-single.html %}
+      {% include archive-single.html %}    
+
     {% endunless %}
   {% endfor %}
   {% endif %}
