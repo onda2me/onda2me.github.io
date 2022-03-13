@@ -56,4 +56,11 @@ SVN 접속을 위한 계정 추가
 
  + 저장소 추가    
   (윈도우 탐색기 > 오른쪽 마우스 > TotoiseSVN > Repo-browser)
-  ![]({{ site.baseurl }}/assets/images/post/sw/svn_tortoise2.png){: style="width:500px"}  
+  ![]({{ site.baseurl }}/assets/images/post/sw/svn_tortoise2.png){: style="width:500px"} 
+
++ 저장소 주소 입력    
+  ![]({{ site.baseurl }}/assets/images/post/sw/svn_tortoise3.png){: style="width:500px"} 
+
++ 저장소 추가 완료    
+  윈도우 탐색기 > 오른쪽 마우스 > TotoiseSVN  메뉴가 추가되었다.    
+  ![]({{ site.baseurl }}/assets/images/post/sw/svn_tortoise4.png){: style="width:500px"}   
