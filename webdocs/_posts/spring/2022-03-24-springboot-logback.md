@@ -8,7 +8,9 @@ tags:
 
 **logback?** Apache의 log4j 기반의 logging 라이브러리로 SpringBoot 프로젝트에는 logback이 기본적으로 포함되어 있어서 dependecy 추가없이 사용할 수 있으나,
 개발환경에 맞는 설정파일을 추가해 주어야 한다.    
-logback은 ERROR > WARN > INFO > DEBUG > TRACE 5단계의 로그레벨을 가진다.    
+
+logback은 ERROR > WARN > INFO > DEBUG > TRACE 5단계의 로그레벨을 가진다.
+{: .notice--primary}    
 
 
 ## 1. logback 설정파일 위치 지정하기    
@@ -118,7 +120,7 @@ public class User {
 
 ## 4. logback 설정 커스트마이징 
 
-> 개발/운영 환경에 따라 설정정보를 다르게 설정할 경우
+> 개발/운영 환경에 따라 설정정보를 다르게 설정할 수 있다.
 
 ```
 #fileName : application.properties
@@ -131,21 +133,40 @@ spring.profiles.active = dev
 ```
 
 ```xml
+<!-- fileName : logback.xml  -->
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
- 	
-	<!-- 출력설정 -->
-	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
-		<layout class="ch.qos.logback.classic.PatternLayout">
-			<Pattern>
-				%d{yyyy-MM-dd HH:mm:ss} [%-5level] %logger{36} - %msg%n
-			</Pattern>
-		</layout>
-	</appender>
+
+  <!-- 출력설정 : 콘솔 -->
+  <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+    <layout class="ch.qos.logback.classic.PatternLayout">
+      <Pattern>
+        %d{yyyy-MM-dd HH:mm:ss} [%-5level] %logger{36} - %msg%n
+      </Pattern>
+    </layout>
+  </appender>
  
-	<root level="INFO">
-		<appender-ref ref="CONSOLE"/>
-	</root>
+  <!-- 출력설정 : 파일 --> 
+  <appender name="ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>${LOG_DIR}/log.txt</file>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <!-- Daily RollingFile -->
+      <fileNamePattern>log-%d{yyyy-MM-dd}.%i.txt</fileNamePattern>
+      <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+        <!-- or whenever the file size reaches 100MB -->
+        <maxFileSize>100MB</maxFileSize>
+      </timeBasedFileNamingAndTriggeringPolicy>
+    </rollingPolicy>
+    <encoder>
+      <pattern>%d{HH:mm:ss.SSS} [%-5level] %logger{36} - %msg%n</pattern>
+    </encoder>
+  </appender> 
+
+  <!-- 기본출력 Level : INFO -->
+  <root level="INFO">
+    <appender-ref ref="CONSOLE"/>
+    <appender-ref ref="ROLLING"/>
+  </root>
 	
   <!-- dev env : debug 레벨이상 출력 -->
   <springProfile name="dev"> 
@@ -160,5 +181,8 @@ spring.profiles.active = dev
 </configuration>
 ```
 
+> #### 로깅 확인
+{: .notice--primary}    
+![]({{ site.baseurl }}/assets/images/post/spring/logback_03.png)    
 
     
