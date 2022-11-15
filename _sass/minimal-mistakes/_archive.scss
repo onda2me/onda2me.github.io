@@ -60,21 +60,14 @@
   }
 }
 
-/*
-.archive__item-title {
-  border-bottom: $lightest-gray 1px solid;
-}
-*/
-
 .archive__item-title, .category__item-title {
-  font-size: $h-size-5;
   font-weight: 400;
   font-family: $sans-serif-narrow;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
   margin: 0;
-  padding: 0.65em 0;  
+  padding: 0.5em 0;  
   
   a:hover {
     text-decoration: underline;
@@ -98,7 +91,7 @@
 /* remove border*/
 .page__content {
   .archive__item-title {
-    margin-top: 1em;
+    margin-top: 0em;
     border-bottom: none;
   }
 }
@@ -231,8 +224,9 @@
 
 
   .archive__item-title {
-    margin-top: 0.6em;
-    font-size: $type-size-5;
+    margin-top: 0em;
+    line-height: 1.5em;
+    font-size: $type-size-6;
   }
 
   .archive__item-excerpt {
@@ -447,7 +441,7 @@
   .feature__wrapper {
     .archive__item-title {
       margin-top: 0.25em;
-      font-size: 1em;
+      font-size: 1em; 
     }
   }
 

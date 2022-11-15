@@ -9,7 +9,7 @@ tags:
 
 ---
 Spring Security는  스프링 기반 어플리케이션의 보안과 인증을 담당하는 프레임워크로,    
-Spriing Security를 Filter에 추가하여 동작하기 때문에 Spring MVC와 분리되어 동작한다.     
+Spring Security를 Filter에 추가하여 동작하기 때문에 Spring MVC와 분리되어 동작한다.     
 
 몇개의 페이지를 예로 들면    
 + ​로그인페이지 (/login/loginForm.co)는 로그인을 하기위한 주소로 로그인 없이 접속이 가능해야 하고,    
