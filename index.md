@@ -15,7 +15,7 @@ sort_by: date
 sort_order: reversed
 ---
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h2>
 
 {% if paginator %}
   {% assign posts = paginator.posts %}
@@ -39,7 +39,7 @@ sort_order: reversed
    
     {% capture label %}{{ collection.label }}{% endcapture %}
     {% if label != written_label %}
-      <a href="/{{ label }}/" class="nav-link"><h4 id="{{ label | slugify }}" class="archive__subtitle">{{ label }} </h4></a>
+      <a href="/{{ label }}/" class="nav-link"><h3 id="{{ label | slugify }}" class="archive__subtitle">{{ label }} </h3></a>
       {% capture written_label %}{{ label }}{% endcapture %}
     {% endif %}    
   {% endunless %}

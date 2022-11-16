@@ -6,12 +6,13 @@ tags:
   - springboot
 ---
 
-**logback?** Apache의 log4j 기반의 logging 라이브러리로 SpringBoot 프로젝트에는 logback이 기본적으로 포함되어 있어서 dependecy 추가없이 사용할 수 있으나,
+**logback?**    
+Apache의 log4j 기반의 logging 라이브러리로 SpringBoot 프로젝트에는 logback이 기본적으로 포함되어 있어서 
+dependecy 추가없이 사용할 수 있으나,
 개발환경에 맞는 설정파일을 추가해 주어야 한다.    
 
 logback은 ERROR > WARN > INFO > DEBUG > TRACE 5단계의 로그레벨을 가진다.
 {: .notice--primary}    
-
 
 ## 1. logback 설정파일 위치 지정하기    
 ```
