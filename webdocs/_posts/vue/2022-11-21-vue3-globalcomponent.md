@@ -11,10 +11,10 @@ Vue 어플리케이션에서 공통으로 사용되는 Header와 Footer를 전�
 
 ![]({{ site.baseurl }}/assets/images/post/vue/vue3_router_11.png){: style="width:700px"}
 
-+ 변경 할 Vue 어플리케이션 구조    
++ Vue 어플리케이션 구조    
 
 ```
-vuex3                             # 프로젝트 ROOT
+vuex3                             # Vue 프로젝트 ROOT
 |
 ├── src                           
 |   ├── components                
@@ -116,3 +116,7 @@ export default {
 
 ![]({{ site.baseurl }}/assets/images/post/vue/vue3_component.png){: style="width:700px" .image_box}
 
+---   
+   
+   
+본 글에서 설명한 Vue 코드는 [[GitHub 바로가기]](https://github.com/onda2me/vuex3_basic_example){: .btn.btn--info.btn--narrow target="_blank" } 에서 다운받을 수 있습니다.
