@@ -28,10 +28,10 @@ url의 id값에 따라 페이지 내용을 동적으로 구성하는 기능을 �
 
 ![]({{ site.baseurl }}/assets/images/post/vue/vue3_vfor_list2.png){: style="width:600px" .image_box}
 
-+ **변경 할 Vue 어플리케이션 구조**    
++ **Vue 어플리케이션 구조**    
 
 ```
-vuex3                               # 프로젝트 ROOT
+vuex3                               # Vue 프로젝트 ROOT
 |
 ├── src                           
 |   ├── components                
@@ -111,9 +111,9 @@ export default {
 ```vue
 <template>  
   <h1>User Detail</h1>   
-  <p>사용자 id : {{ $route.params.id }}</p>
-  <p>사용자 name : {{users[$route.params.id].name}}</p>
-  <p>사용자 email : {{users[$route.params.id].email}}</p>
+  <p>사용자 id : {% raw %}{{ $route.params.id }}{% endraw %}</p>
+  <p>사용자 name : {% raw %}{{users[$route.params.id].name}}{% endraw %}</p>
+  <p>사용자 email : {% raw %}{{users[$route.params.id].email}}{% endraw %}</p>
 </template>
 
 <script>
@@ -150,3 +150,7 @@ export default {
 
 ![]({{ site.baseurl }}/assets/images/post/vue/vue3_vfor_list2.png){: style="width:600px" .image_box}
 
+---   
+   
+   
+본 글에서 설명한 Vue 코드는 [[GitHub 바로가기]](https://github.com/onda2me/vuex3_basic_example){: .btn.btn--info.btn--narrow target="_blank" } 에서 다운받을 수 있습니다.
