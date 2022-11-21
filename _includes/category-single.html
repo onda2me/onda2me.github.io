@@ -33,6 +33,8 @@
       </span>
       {% endif %}
     </h6>
-    {% if include.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 70 }}</p>{% endif %}
+    
+    {% if include.excerpt %}<!-- <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 10 }}</p> -->{% endif %}      
+
   </article>
 </div>
