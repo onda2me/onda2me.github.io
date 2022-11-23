@@ -1,5 +1,7 @@
 ---
 title: "Header와 Footer 영역을 전역 컴포넌트로 분리하기"
+sidebar:
+  nav: "docs_vue"
 categories: 
   - vue
 tags:

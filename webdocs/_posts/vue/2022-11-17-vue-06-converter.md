@@ -1,5 +1,7 @@
 ---
 title: "Vue2 에서 단위를 변환하는 함수를 구현한 예제"
+sidebar:
+  nav: "docs_vue"
 categories: 
   - vue
 tags:
