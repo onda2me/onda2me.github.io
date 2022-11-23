@@ -65,7 +65,7 @@ docs_vue:
         url: /vue/vue3-router/
       - title: "5.Vue3 data 예제 "
         url: /vue/vue-03-message/        
-      - title: "6. SpringBoot + Vue Step1 "
+      - title: "6.SpringBoot + Vue Step1 "
         url: /vue/springboot-vue/ 
       - title: "7.SpringBoot + Vue Step2 "
         url: /vue/springboot-vue-build/        
