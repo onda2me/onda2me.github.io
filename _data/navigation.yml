@@ -53,19 +53,23 @@ docs_blog:
 
 docs_vue:
   - title: SpringBoot + Vue 프로젝트
-    url: /vue/    
+    url: /post/#vue    
     children:
       - title: "1.Vue 설치하기"
         url: /vue/vuecli/
       - title: "2.Vue 프로젝트 "
         url: /vue/vue-01-start/ 
-      - title: "3.Vue3 프로젝트 "
+      - title: "3.Vue2 data 예제 "
+        url: /vue/vue-03-message/ 
+      - title: "4.Vue2 click 예제 "
+        url: /vue/vue-05-counter/  
+      - title: "5.Vue3 프로젝트 "
         url: /vue/vue3-setup/ 
-      - title: "4.Vue3 router "
+      - title: "6.Vue3 router"
         url: /vue/vue3-router/
-      - title: "5.Vue3 data 예제 "
-        url: /vue/vue-03-message/        
-      - title: "6.SpringBoot + Vue Step1 "
+      - title: "7.Vue3 전역 컴포넌트"
+        url: /vue/vue3-globalcomponent/      
+      - title: "8.SpringBoot + Vue Step1 "
         url: /vue/springboot-vue/ 
-      - title: "7.SpringBoot + Vue Step2 "
+      - title: "9.SpringBoot + Vue Step2 "
         url: /vue/springboot-vue-build/        

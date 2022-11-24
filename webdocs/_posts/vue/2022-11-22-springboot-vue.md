@@ -1,5 +1,10 @@
 ---
 title: "SpringBoot BackEnd + Vue FrontEnd Step1. 서비스 구성"
+classes: single 
+toc_label: "SpringBoot + Vue"
+toc: true
+toc_sticky: true
+toc_icon: "list"
 sidebar:
   nav: "docs_vue"
 categories: 
@@ -44,7 +49,7 @@ public class WelcomeController {
 ![]({{ site.baseurl }}/assets/images/post/vue/boot_setup2.png){: style="width:600px" .image_box}
 
 
-## 4. 웹서비스 동작 확인
+## 4. 스프링부트 웹 확인
 > [http://localhost:8007/welcome](http://localhost:8007/welcome)
 
 ![]({{ site.baseurl }}/assets/images/post/vue/boot_setup3.png){: style="width:600px" .image_box}
@@ -60,11 +65,10 @@ public class WelcomeController {
 ![]({{ site.baseurl }}/assets/images/post/vue/boot_setup50.png){: style="width:600px" .image_box}
 
 
-## 7. Vue 웹서비스 동작 확인
+## 7. Vue 웹 확인
 > [http://localhost:8080/](http://localhost:8007/)
 
 ![]({{ site.baseurl }}/assets/images/post/vue/boot_setup5.png){: style="width:600px" .image_box}
 
 
-스프링부트 서버에서 서비스 되도록 Vue build 설정은 다음글에서 이어서 설명합니다.   
-[[Vue build 설정 바로가기]](/vue/springboot-vue-build/){: .btn.btn--info.btn--narrow target="_blank" }
+스프링부트와 Vue 프로젝트 설정은 다음글 [[스프링부트 + Vue 설정 바로가기]](/vue/springboot-vue-build/){: .btn.btn--info.btn--narrow target="_blank" } 참고

@@ -232,8 +232,10 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
+
+
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -311,12 +313,13 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
       classes: wide
+      #toc: true
+      author_profile: true
       read_time: false
       show_date : true 
       comments: true # true
-      share: false # twitter use false
+      share: false # twitter use false      
       related: true
 
   # _pages
@@ -339,12 +342,12 @@ defaults:
     values:
       layout: embeddedcode
       collection: algorithm
+      #classes: wide
+      #toc: true
       author_profile: true
       read_time: false
       show_date : true 
-      classes: wide
       share: false
-      toc: false
       comments: true
 
   # _blog
@@ -353,8 +356,9 @@ defaults:
       type: blog
     values:
       layout: single
-      classes: wide
       collection: blog
+      classes: wide
+      # toc: true
       author_profile: false
       share: false
       comments: true
