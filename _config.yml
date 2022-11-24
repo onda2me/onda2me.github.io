@@ -314,7 +314,6 @@ defaults:
     values:
       layout: single
       classes: wide
-      #toc: true
       author_profile: true
       read_time: false
       show_date : true 
@@ -342,8 +341,7 @@ defaults:
     values:
       layout: embeddedcode
       collection: algorithm
-      #classes: wide
-      #toc: true
+      classes: wide
       author_profile: true
       read_time: false
       show_date : true 
