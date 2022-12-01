@@ -16,7 +16,7 @@ tags:
 ## 구현 기능
 + **오픈 API를 이용하여 Html, Jsp, Vue 방식으로 박스오피스 기능을 각각 구현해본다.**    
 
-1. REST API 로 영화진흥원 영화 오픈API 데이타 전달 (SpringBoot RestController)**    
+1. REST API 로 영화진흥원 영화 오픈API 데이타 전달 (SpringBoot RestController)    
 2. **Thymeleaf Html 박스오피스 (SpringBoot + Thymeleaf)**    
 3. Jsp 박스오피스 (SpringBoot + jsp)    
 4. Vue 박스오피스 (Vue)       
