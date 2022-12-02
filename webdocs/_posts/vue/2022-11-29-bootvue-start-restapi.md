@@ -1,5 +1,5 @@
 ---
-title: "REST API - 영화진흥원 영화 오픈API를 이용하여 영화정보 사이트 만들기"
+title: "REST API - 영화 오픈 API를 이용하여 영화정보 사이트 만들기"
 categories: 
   - vue
 tags:

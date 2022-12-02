@@ -54,9 +54,9 @@ tags:
 > + **영화진흥위원회 영화정보 변수**    
 > `-` moveCd : 영화코드    
 > `-` movieNm : 영화명    
-> `-`rank : 순위    
-> `-`openDt : 개봉일    
-> `-`audiAcc : 누적관객수    
+> `-` rank : 순위    
+> `-` openDt : 개봉일    
+> `-` audiAcc : 누적관객수   
 {: .notice--primary}
 
 ### @/views/movie/MovieBoxoffice.vue
@@ -78,11 +78,11 @@ tags:
               getPosterDefault : 영화의 이미지가 없는 경우 보여줄 Default 이미지
           -->        
           <img :src="getPoster(item.movieCd)" @error="getPosterDefault" class="poster"> 
-          <div class="title">
-              <span class="h4">[{{ item.rank }}위] {{ item.movieNm }} </span><br/><br/>
-              개봉일: {{ item.openDt }}<br/>
-              누적관객수: {{ item.audiAcc }}
-          </div>
+          <div class="title">{% raw %}{% endraw %}
+            <span class="h4">[{% raw %}{{ item.rank }}{% endraw %}위] {% raw %}{{ item.movieNm }}{% endraw %} </span><br/><br/>
+            개봉일: {% raw %}{{ item.openDt }}{% endraw %}<br/>
+            누적관객수: {% raw %}{{ item.audiAcc }}{% endraw %}
+          </div>          
         </div>
       </div>
 

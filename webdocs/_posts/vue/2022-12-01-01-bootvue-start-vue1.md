@@ -71,9 +71,9 @@ tags:
 > + **영화진흥위원회 영화정보 변수**    
 > `-` moveCd : 영화코드    
 > `-` movieNm : 영화명    
-> `-`rank : 순위    
-> `-`openDt : 개봉일    
-> `-`audiAcc : 누적관객수    
+> `-` rank : 순위    
+> `-` openDt : 개봉일    
+> `-` audiAcc : 누적관객수    
 {: .notice--primary}
 
 ### @/views/movie/MovieBoxofficeFile.vue
@@ -82,7 +82,7 @@ tags:
 <div class="content-container"> 
   <p class="padding-md">
     <span class="h2">박스오피스 JsonFile&nbsp;&nbsp;</span>       
-    (<span> {{ movies.showRange }} </span> 일 기준) <!-- 데이타 text 출력  -->
+    (<span> {% raw %}{{ movies.showRange }}{% endraw %} </span> 일 기준) <!-- 데이타 text 출력  -->
   </p>
     <div class="row">
       <div id="movieList" name="movieList">
@@ -95,12 +95,12 @@ tags:
               getPosterDefault : 영화의 이미지가 없는 경우 보여줄 Default 이미지
             -->
             <img :src="getPoster(item.movieCd)" @error="getPosterDefault" class="poster">
-            <div class="text-block">img:{{ getPoster(item.movieCd) }}</div> <!-- 이미지 경로 확인용 -->
-            <div class="title">
-              <span class="h4">[{{ item.rank }}위] {{ item.movieNm }} </span><br/><br/>
-              개봉일: {{ item.openDt }}<br/>
-              누적관객수: {{ item.audiAcc }}
-          </div>              
+            <div class="text-block">img:{% raw %}{{ getPoster(item.movieCd) }}{% endraw %}</div> <!-- 이미지 경로 확인용 -->
+            <div class="title">{% raw %}{% endraw %}
+              <span class="h4">[{% raw %}{{ item.rank }}{% endraw %}위] {% raw %}{{ item.movieNm }}{% endraw %} </span><br/><br/>
+              개봉일: {% raw %}{{ item.openDt }}{% endraw %}<br/>
+              누적관객수: {% raw %}{{ item.audiAcc }}{% endraw %}
+            </div>              
           </div>
         </div>
 
