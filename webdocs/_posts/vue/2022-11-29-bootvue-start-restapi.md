@@ -57,7 +57,9 @@ public class MovieKobisAPIController {
       } else {
         searchMap.put("targetDt", searchMap.get("targetDt").replaceAll("-", ""));
       }
-      
+            
+      // getMovieHttp는 HTTP 연결하여 응답을 받는 함수이고,
+      // 영화진흥위원회 사이트에 Java/Json 데이타 연동 튜토리얼이 있으니 참고하면 된다.
       responseStr = getMovieHttp("/boxoffice/searchDailyBoxOfficeList.json?")
                 .getGetRequest("text/json", searchMap);
       
