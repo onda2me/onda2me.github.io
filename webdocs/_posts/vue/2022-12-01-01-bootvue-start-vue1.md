@@ -14,7 +14,7 @@ tags:
 + **오픈 API를 이용하여 Html, Jsp, Vue 방식으로 박스오피스 기능을 각각 구현해본다.**    
 
 > Vue에서의 Ajax 통신이 문법과 이미지처리 등 한 단계로 진행하기에 무리가 있어    
-> **Vue+JsonFile**, **Vue+RestAPI** 두 단계로 분리하여 예제 진행
+> **Vue+JsonFile**, **Vue+RestAPI**, **Vue+RestAPI+JQuery** 세 단계로 분리하여 예제 진행
 {: .notice--primary}
 
 1. REST API 로 영화진흥원 영화 오픈API 데이타 전달 (SpringBoot RestController)    
@@ -22,6 +22,7 @@ tags:
 3. Jsp 박스오피스 (SpringBoot + jsp)    
 4. **Vue 박스오피스 (Vue + JsonFile)**       
 5. Vue 박스오피스 (Vue + RestAPI)       
+6. Vue 박스오피스 (Vue + RestAPI + JQuery)       
 {: .notice--info}
 
 ## 박스오피스 기능 구조도
