@@ -116,7 +116,7 @@ window.$ = $;
     methods: {  
       async fetchData() {
         getMovieListAPI(this.bootServer, this.posterPath, this.targetDt, this.posterDefault)        
-      }, /* Jquery에서는 div 직접 출력하여 사용안함
+      }, /* Jquery로 div에 직접 출력하여 사용안함
       getPosterDefault(e) {          
         e.target.src = this.posterPath + this.posterDefault
       }, 
@@ -193,7 +193,7 @@ window.$ = $;
 
 
 ## 참고. Vue 실행오류
-> + 이 Vue 예제는 공부하면서 작성한 것으로 최적화 되지 않았습니다.    
+> + 이 Vue 예제는 공부를 위한 기능구현 위주로 작성하였고, 최적화 작업은 하지 않았습니다.    
 > + Vue 페이지 실행 시 아래와 같은 오류가 발생하는데, 아직 원인을 찾지 못했습니다. 
 {: .notice--primary}
 
