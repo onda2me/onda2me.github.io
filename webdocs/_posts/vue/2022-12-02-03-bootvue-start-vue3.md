@@ -38,17 +38,7 @@ tags:
 {: .notice--primary}
 
 ![]({{ site.baseurl }}/assets/images/post/vue/boot_vue_jquery.png){: style="width:650px" .image_box }  
-
-## 2. main.js 수정
-
-### @main.js
-```javascript
-global.jQuery = require('jquery'); 
-var $ = global.jQuery; 
-window.$ = $;
-```
-
-## 3. router 경로 추가
+## 2. router 경로 추가
 > + JsonFile 연동 Path:  /movie/boxofficeFile
 > + RestAPI 연동 Path:  /movie/boxoffice
 > + RestAPI+JQuery 연동 Path:  /movie/boxofficeJQuery
@@ -72,8 +62,9 @@ window.$ = $;
   },
 ```
 
-## 4. 박스오피스 Vue 작성
+## 3. 박스오피스 Vue 작성
 > + Rest API와 JQuery로 연동할 Vue 컴포넌트
+> + Jquery를 사용할 Vue 파일에 jquery import 하기
 
 ### @/views/movie/MovieBoxofficeJquery.vue
 ```vue
@@ -95,6 +86,7 @@ window.$ = $;
 </template> 
 
 <script>
+  // jquery 사용 등록하기
   import $ from 'jquery'
 
   export default {
@@ -184,7 +176,7 @@ window.$ = $;
 </script>
 ```
 
-## 5. Vue 서버에서 확인
+## 4. Vue 서버에서 확인
 > + Vue 서버 접속 (http://localhost:8080/movie/boxofficeJquery)  
 > + Vue는 8080 에서 이미지는 springboot(8007) 에서 서비스    
 > + 이미지가 없을 경우 대체이미지 처리 방법을 찾지 못함. (onerror='this.src' 작동안됨)     
