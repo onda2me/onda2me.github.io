@@ -10,7 +10,7 @@ tags:
 웹페이지의 Header, Aside, Footer 와 같이 반복적으로 사용되는 코드를 분리하여 관리해주는 프레임워크로 화면의 반복영역을 레이아웃 템플릿으로 관리하므로 중복 코드를 줄일 수 있다.
 {: .notice--info}
 
-![]({{ site.baseurl }}/assets/images/post/spring/tiles-layout.png){: style="width:600px" .image_box}
+![]({{ site.baseurl }}/assets/images/post/spring/tiles_layout.png){: style="width:600px" .image_box}
 
 > **Jsp Include 와 Tiles의 공통점 및 차이점**    
 
@@ -206,4 +206,6 @@ public class HomeController {
 ![]({{ site.baseurl }}/assets/images/post/spring/tiles_list.png){: style="width:600px" .image_box}
 ### @detail.co
 ![]({{ site.baseurl }}/assets/images/post/spring/tiles_detail.png){: style="width:600px" .image_box}
+
+
 
