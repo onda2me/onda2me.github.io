@@ -66,7 +66,7 @@ tags:
 </beans:bean>
 ```
 
-## 3. WEB-INF>config>tiles>tiles.xml 폴더 추가
+## 3. WEB-INF>config>tiles>tiles.xml 파일 작성
 ### @tiles.xml
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -179,7 +179,7 @@ public class HomeController {
 ```
 
 ## 6. WEB-INF>views>list.jsp, detail.jsp 파일 작성
-###@list.jsp
+### @list.jsp
 ```jsp
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <div class="pt-5">
@@ -208,4 +208,51 @@ public class HomeController {
 ![]({{ site.baseurl }}/assets/images/post/spring/tiles_detail.png){: style="width:600px" .image_box}
 
 
+> ## 참고 - Jsp Include 방식    
+
+### @list.jsp
+```jsp
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jsp Include - list</title>
+
+    <style>
+    .home_header {
+      width: auto;
+      height: 50px;
+      background-color: #3d3d3d;
+      color: #ccc;
+      padding: 10px 10px;
+    }    
+    .home_footer {
+      width: auto;
+      height: 100px;
+      background-color: #ccc;
+      color: #222;
+      padding: 20px 10px;
+    }
+    .pxy-20 {
+      padding: 20px;
+    } 
+    </style>  
+
+  </head>
+  <body>
+    <%@ include file="../template/header.jsp" %>
+    
+    <div class="pxy-20">
+      <h2>Content</h2>      
+    </div> 
+         
+    <div class="pxy-20">
+      <p>${url} -> list.jsp</p>   
+    </div>    
+    <%@ include file="../template/footer.jsp" %>       
+  </body>
+</html>
+```
 
