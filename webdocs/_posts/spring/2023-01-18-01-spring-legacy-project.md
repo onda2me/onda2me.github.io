@@ -6,7 +6,7 @@ tags:
   - spring
 ---
 
-이클립스에서 Spring MVC 프로젝트 생성하고 웹에서 실행하는 방법에 대해 소개합니다.
+이클립스에서 Spring MVC 프로젝트 생성하고 웹에서 실행해 보자
 
 case1) Spring Plugin의 Spring Legacy Project 템플릿으로 만들기    
 case2) DynamicWeb Project 템플릿으로 생성 후 Spring 구조 직접 구성해서 만들기    
