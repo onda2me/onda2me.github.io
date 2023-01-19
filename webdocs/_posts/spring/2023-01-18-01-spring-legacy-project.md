@@ -9,7 +9,7 @@ tags:
 이클립스에서 Spring MVC 프로젝트 생성하고 웹에서 실행해 보자
 
 > **Spring MVC 프로젝트 생성 방법**        
-+ case1) Spring Plugin의 Spring Legacy Project 템플릿으로 만들기    
++ case1) Spring Legacy Project 템플릿으로 만들기    
 + case2) DynamicWeb Project 템플릿으로 생성 후 Spring 구조 직접 구성해서 만들기    
 {: .notice--info}
 
@@ -37,19 +37,20 @@ tags:
 ![]({{ site.baseurl }}/assets/images/post/spring/springmvc_04.png){: style="width:600px" .image_box}
 
 ## 5. 인코딩 설정
-> 한글 깨짐 해결을 위한 인코딩 설정 추가
+> 한글 깨짐 해결을 위한 UTF-8 인코딩 설정 추가
 {: .notice}
 
-+ **@ home.jsp 코드 추가**
++ **@home.jsp 코드 추가**
 ``` jsp
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 ```
-+ **@home.jsp properties 설정**    
++ **@home.jsp 파일의 properties 설정**    
 ![]({{ site.baseurl }}/assets/images/post/spring/springmvc_05.png){: style="width:600px" .image_box}
 
 ## 6. 웹에서 확인    
 ![]({{ site.baseurl }}/assets/images/post/spring/springmvc_06.png){: style="width:600px" .image_box}
 
+---
 
 # case2) Dynamic Web Project 템플릿으로 프로젝트 생성하기
 

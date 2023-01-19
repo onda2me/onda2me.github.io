@@ -6,10 +6,12 @@ tags:
   - spring
 ---
 
-Spring MVC 프로젝트에서 DB 설정하고 사용자 테이블 (test_user) 의 데이타를 조회하는 간단한 기능을 만들어 보자.
+Spring MVC 프로젝트에서 Spring + Mybatis + MySQL DBMS 조합으로
+DB정보를 설정하고 사용자 테이블 (test_user) 의 데이타를 조회하는 간단한 기능을 만들어 보자.
 
-+ table : test_user    
 
++ DB 테이블 : test_user    
+  
 | userId | email | name | statusCode | loginDate |    
 | :-- | :-- | :-- | :-- | :-- |        
 | 1 | user1@test.com | 1번 사용자 | 01 | 20210101 |    
@@ -18,7 +20,7 @@ Spring MVC 프로젝트에서 DB 설정하고 사용자 테이블 (test_user) �
 
 
 ## 1. @pom.xml 
-> mysql, mybatis 관련 dependency 추가
+> mysql, mybatis, jdbc 관련 dependency 추가
 {: .notice}
 
 ``` xml
@@ -51,7 +53,7 @@ Spring MVC 프로젝트에서 DB 설정하고 사용자 테이블 (test_user) �
 ```    
 
 ## 2. @root-context.xml
-> db 서버 및 bean 설정 추가
+> DB 서버 및 bean 설정 추가
 {: .notice}
 
 ``` xml	
@@ -126,7 +128,7 @@ Spring MVC 프로젝트에서 DB 설정하고 사용자 테이블 (test_user) �
   }
 ```
 
-## 6. @/user/list.jsp
+## 6. @user/list.jsp
 ``` jsp
   <h1>Users List</h1>	
   <c:forEach var="user" items="${list}" varStatus="idx">
@@ -135,13 +137,14 @@ Spring MVC 프로젝트에서 DB 설정하고 사용자 테이블 (test_user) �
 ```
 
 ## 7. 프로젝트 구조
-> config 설정 및 파일 추가한 디렉토리 구조
+> config 설정 및 파일 생성한 디렉토리 구조
 {: .notice}
 
 ![]({{ site.baseurl }}/assets/images/post/spring/springmvc_21.png){: style="width:300px" .image_box}
 
 ## 8. 웹에서 확인
-[http://localhost:8080/app/user/list.co](http://localhost:8080/app/user/list.co){: .btn.btn--primary.btn--narrow target="_blank" }
+> Controller -> DB 사용자 목록 조회 -> Jsp에 결과 출력
+{: .notice}
 
 ![]({{ site.baseurl }}/assets/images/post/spring/springmvc_22.png){: style="width:600px" .image_box}
 
