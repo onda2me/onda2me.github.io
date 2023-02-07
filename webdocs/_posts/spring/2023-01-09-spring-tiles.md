@@ -207,6 +207,8 @@ public class HomeController {
 ### @detail.co
 ![]({{ site.baseurl }}/assets/images/post/spring/tiles_detail.png){: style="width:600px" .image_box}
 
+### @디자인 적용한 페이지
+![]({{ site.baseurl }}/assets/images/post/spring/tiles_detail02.png){: style="width:600px" .image_box}
 
 > ## 참고 - Jsp Include 방식    
 
@@ -255,4 +257,5 @@ public class HomeController {
   </body>
 </html>
 ```
+
 
