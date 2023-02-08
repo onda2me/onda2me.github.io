@@ -1,5 +1,5 @@
 ---
-title:  "Spring Security를 이용한 접근권한 관리"
+title:  "Spring Security 3.1.1를 이용한 접근권한 관리"
 categories: 
   - java
 tags:
