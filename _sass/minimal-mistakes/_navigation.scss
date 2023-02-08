@@ -448,14 +448,15 @@
 
 .nav__list .nav__items {
   margin: 0;
-  font-size: 1.05em;
+  font-size: $type-size-6;
 
   a {
     color: inherit;
   }
 
   li {
-    margin: 0.25em 0;
+    margin: 0.35em 0;
+    font-size: $type-size-7;
   }
   .active {
     margin-left: -0.5em;

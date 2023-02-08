@@ -2,6 +2,7 @@
 title: "Vue+RestAPI - 영화 오픈 API를 이용하여 영화정보 사이트 만들기"
 categories: 
   - vue
+  - springboot
 tags:
   - vue
   - springboot
