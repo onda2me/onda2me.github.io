@@ -385,9 +385,11 @@ public class UserAuthenticationFailHandler implements AuthenticationFailureHandl
 #### 5. 웹에서 확인
 
 @ 로그인 초기 페이지  
-
 ![]({{ site.baseurl }}/assets/images/post/spring/login_01.png){: style="width:500px" .image_box}
 
 @ 로그인 실패 페이지    
+![]({{ site.baseurl }}/assets/images/post/spring/login_02.png){: style="width:500px" .image_box}  
 
-![]({{ site.baseurl }}/assets/images/post/spring/login_02.png){: style="width:500px" .image_box}
+
+@ 접근권한 없는 페이지   
+![]({{ site.baseurl }}/assets/images/post/spring/login_03.png){: style="width:500px" .image_box}
