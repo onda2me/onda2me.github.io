@@ -1,5 +1,5 @@
 ---
-title:  "Spring Security를 이용한 접근권한 관리"
+title:  "Spring Security 5.0.7를 이용한 접근권한 관리"
 -- published: false
 categories: 
   - java
@@ -7,7 +7,6 @@ tags:
   - spring
   - java
   - security
-
 ---
 Spring Security는 스프링 기반 어플리케이션의 보안과 인증을 담당하는 프레임워크로,    
 Spring Security를 Filter에 추가하여 동작하기 때문에 Spring MVC와 분리되어 동작한다.     
