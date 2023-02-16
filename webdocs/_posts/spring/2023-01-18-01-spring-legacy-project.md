@@ -37,14 +37,14 @@ tags:
 ![]({{ site.baseurl }}/assets/images/post/spring/springmvc_04.png){: style="width:600px" .image_box}
 
 ## 5. 인코딩 설정
-> 한글 깨짐 해결을 위한 UTF-8 인코딩 설정 추가
+> 한글 깨짐 해결을 위한 home.jsp 파일 내에 UTF-8 인코딩 추가 및 파일 속성 변경
 {: .notice}
 
-+ **@home.jsp 코드 추가**
+### + @home.jsp 코드 추가    
 ``` jsp
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 ```
-+ **@home.jsp 파일의 properties 설정**    
+### + @home.jsp 파일의 properties 설정    
 ![]({{ site.baseurl }}/assets/images/post/spring/springmvc_05.png){: style="width:600px" .image_box}
 
 ## 6. 웹에서 확인    
