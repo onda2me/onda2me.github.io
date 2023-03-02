@@ -1,4 +1,4 @@
-# Onda2me GitHub.io 소스
+# Onda2me Github.io 소스
 
 [![Onda2me live preview][1]][2]
 
