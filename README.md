@@ -1,18 +1,15 @@
-# [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
-
-**Onda2me:** Minimal Mistakes 테마를 사용하여 만든 GitHub Page
+# Onda2me GitHub Page 소스
 
 [![Onda2me live preview][1]][2]
 
 [1]: /assets/images/main/onda2me_01.PNG (live preview)
 [2]: https://onda2me.github.io/
 
-## 디렉토리 구조
++  디자인 테마
+   - Minimal Mistakes 테마를 적용 및 커스트마이징
 
-**Please note:**  
-```
-Minimal Mistakes 테마를 적용한 뒤 커스트마이징 하였다.
-```
-+ 디렉토리구조 링크
++ 디렉토리구조
+   - https://github.com/onda2me/onda2me.github.io/blob/main/_includes/directory.html
 
-https://github.com/onda2me/onda2me.github.io/blob/main/_includes/directory.html
++ Powered by 
+   - [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
