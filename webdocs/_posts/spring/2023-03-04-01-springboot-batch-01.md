@@ -27,14 +27,14 @@ tags:
 ## Batch Job 실행
 + @Scheduled  / Web Call / Quartz 등을 이용하여 특정시간에 주기적으로 실행하거나, 호출로 특정 Job을 즉시 실행 시킬 수 있다.
 
-![]({{ site.baseurl }}/assets/images/post/spring/boot_batch_00.png){: style="width:700px" .image_box}
+![Batch 와 Batch 실행 구조]({{ site.baseurl }}/assets/images/post/spring/boot_batch_00.png){: style="width:700px" .image_box}
 
 ## 개발환경
 + Spring Boot v2.7.8
 + Java 11.0.16.1
 + Apache Tomcat 9.0.71
 
-![]({{ site.baseurl }}/assets/images/post/spring/boot_batch_01.png){: style="width:700px" .image_box}
+![Batch 개발환경]({{ site.baseurl }}/assets/images/post/spring/boot_batch_01.png){: style="width:700px" .image_box}
 
 # 프로젝트 시작하기
 > 매분 10초에 로그를 출력하는 간단한 배치작업(Job)을 만들고 @Scheduled 를 이용하여 배치작업 실행하기    
@@ -43,7 +43,7 @@ tags:
 
 > Spring Project 생성할 때 Spring Batch dependency를 선택하거나 pom.xml 에 dependency를 직접 추가한다.
 
-![]({{ site.baseurl }}/assets/images/post/spring/boot_batch_02.png){: style="width:350px" .image_box}
+![프로젝트 생성]({{ site.baseurl }}/assets/images/post/spring/boot_batch_02.png){: style="width:350px" .image_box}
 
 ```xml
 <!-- @pom.xml -->
@@ -74,12 +74,14 @@ public static void main(String[] args) {
 ```
 
 ## 3. application.properties 에 property 설정
+> @application.properties 에 spring.batch.job.enabled=true 로 설정하면, SpringBootApplication 기동 시 자동실행 된다.    
+> 이 예제에서는 특정 시간에 Job을 실행시키려고 하므로 false로 설정한다.
 
 ```text
 # @application.properties
-# batch 
-spring.batch.job.enabled=true  		// SpringBootApplication 기동시 Batch 자동실행 여부 (true/false)
-spring.batch.job.names=simpleJob  	// 자동실행 할 Job 이름
+# batch 관련 설정
+spring.batch.job.enabled=false      // SpringBootApplication 기동시 Batch 자동실행 여부 (true/false)
+spring.batch.job.names=simpleJob    // 자동실행 할 Job 이름
 ```
 ## 4. Job Configuration Class 작성
 
