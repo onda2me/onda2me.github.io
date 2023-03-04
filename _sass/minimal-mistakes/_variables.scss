@@ -14,7 +14,8 @@ $indent-var: 1.2em !default;
 
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Nanum Gothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default; // "Malgun Gothic",  Nanum Gothic,  Noto Serif KR 
+/* $sans-serif: -apple-system, BlinkMacSystemFont, "Nanum Gothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default; */// "Malgun Gothic",  Nanum Gothic,  Noto Serif KR 
+$sans-serif: -apple-system, BlinkMacSystemFont, sans-serif, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial !default; 
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
 /* sans serif typefaces */
@@ -65,7 +66,7 @@ $lightest-gray: mix(#fff, $gray, 90%) !default;
 $background-color: #fff !default;
 $code-background-color: #fafafa !default;
 $code-background-color-dark: $lighter-gray !default;
-$text-color: $dark-gray !default;
+$text-color: $darker-gray!default;
 $muted-text-color: mix(#fff, $text-color, 15%) !default;
 $border-color: #e0e0e0 !default;
 $form-background-color: $lighter-gray !default;
