@@ -4,6 +4,8 @@ categories:
   - springboot
 tags:
   - springboot
+header:
+  teaser: /assets/images/post/spring/boot_batch_00.png
 ---
 
 # 배치 (Batch) ?

@@ -4,6 +4,8 @@ categories:
   - springboot
 tags:
   - springboot
+header:
+  teaser: /assets/images/post/spring/boot_jsp.png
 ---
 
 > 스프링부트에서는 Jsp를 Default로 제공하지 않아 Jsp 서비스를 구성하려면 별도의 설정이 필요하다.  

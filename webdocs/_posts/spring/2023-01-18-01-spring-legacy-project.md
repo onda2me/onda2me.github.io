@@ -4,6 +4,8 @@ categories:
   - spring
 tags:
   - spring
+header:
+  teaser: /assets/images/post/spring/springmvc_03.png  
 ---
 
 이클립스에서 Spring MVC 프로젝트 생성하고 웹에서 실행해 보자

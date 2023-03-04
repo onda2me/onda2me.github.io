@@ -12,11 +12,12 @@
   {% assign title = post.title %}
 {% endif %}
 
+
 <div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
-        <img src="{{ teaser | relative_url }}" alt="">
+        <img src="{{ teaser | relative_url }}" alt="" >
       </div>
     {% endif %}
     <div class="archive__item-title no_toc" itemprop="headline">
@@ -28,7 +29,8 @@
 
       {% if post.show_date and post.date %}
       {% assign date = post.date %} 
-      <span class="page__meta-date ">
+        {% if include.type == "grid" %}</div><div class="page__meta-date">{% endif %}
+      <span class="">
         <i class="far {% if include.type == 'grid' and document.read_time and document.show_date %}fa-fw {% endif %}fa-calendar-alt" aria-hidden="true"></i>
         {% assign date_format = site.date_format | default: "%Y-%m-%d" %}
         <time datetime="{{ date | date_to_xmlschema }}">{{ date | date: date_format }}</time>

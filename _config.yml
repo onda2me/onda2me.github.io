@@ -232,7 +232,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 10 # amount of posts to show
+paginate: 9 # amount of posts to show
 paginate_path: /page:num/
 
 

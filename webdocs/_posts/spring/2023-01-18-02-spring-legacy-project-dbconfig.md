@@ -4,6 +4,8 @@ categories:
   - spring
 tags:
   - spring
+header:
+  teaser: /assets/images/post/spring/springmvc_22.png  
 ---
 
 Spring MVC 프로젝트에서 Spring + Mybatis + MySQL DBMS 조합으로

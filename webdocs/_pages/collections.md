@@ -21,7 +21,7 @@ sort_order: reverse
       {% capture written_label %}{{ label }}{% endcapture %}
     {% endif %}
   {% endunless %}
-
+<p>start . list</p>
   {% for post in collection.docs %}
     {% unless collection.output == false or collection.label == "posts" %}
       {% include archive-single.html  %}

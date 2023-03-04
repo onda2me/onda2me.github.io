@@ -4,6 +4,8 @@ categories:
   - spring
 tags:
   - spring
+header:
+  teaser: /assets/images/post/spring/tiles_detail02.png 
 ---
 
 > **Apache Tiles?**    

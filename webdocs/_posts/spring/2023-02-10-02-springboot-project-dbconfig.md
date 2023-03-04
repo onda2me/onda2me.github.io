@@ -4,6 +4,8 @@ categories:
   - springboot
 tags:
   - springboot
+header:
+  teaser: /assets/images/post/spring/bootdb_00.png
 ---
 
 Spring Boot 프로젝트에서 Mybatis + MySQL 조합으로 DB정보를 설정하고, 사용자 테이블(t_demo_user)의 데이타를 조회하는 간단한 기능을 만들어 보자.    

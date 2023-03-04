@@ -4,6 +4,8 @@ categories:
   - springboot
 tags:
   - springboot
+header:
+  teaser: /assets/images/post/spring/boot_01.png  
 ---
 
 이클립스에서 Spring Starter Project를 이용하여 Spring Boot 프로젝트 생성하고 웹에서 실행해 보자.
