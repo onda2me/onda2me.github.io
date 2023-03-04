@@ -38,7 +38,7 @@ header:
 
 ![Batch 개발환경]({{ site.baseurl }}/assets/images/post/spring/boot_batch_01.png){: style="width:700px" .image_box}
 
-# 프로젝트 시작하기
+# Scheduled 배치 프로젝트
 > 매분 10초에 로그를 출력하는 간단한 배치작업(Job)을 만들고 @Scheduled 를 이용하여 배치작업 실행하기    
 
 ## 1. 프로젝트 생성하기
@@ -191,7 +191,7 @@ public class SimpleJobScheduler {
 ![]({{ site.baseurl }}/assets/images/post/spring/boot_batch_06.png){: style="width:700px" .image_box}
 
 
-# Web Call Batch 
+# Web Call 배치 프로젝트
 > Batch 호출용 Controller를 작성하여 위에서 작성한 Job (SimpleJobConfiguration.java)을  Web Call 방식으로 실행
 
 ## 1. Job을 실행시킬 Batch Controller Class 작성
