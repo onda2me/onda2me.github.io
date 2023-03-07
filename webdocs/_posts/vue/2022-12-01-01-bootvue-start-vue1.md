@@ -180,4 +180,15 @@ Possible sources include component template, render function, updated hook or wa
 > + [스프링부트 + Vue Build](http://localhost:4000/vue/springboot-vue-build/){: .btn.btn--info.btn--narrow target="_blank" }
 
 ---   
+
+> 영화진흥위원회의 오픈 API를 이용하여 영화정보 사이트 구현한  본 예제에 사용된 영화 이미지에 대한 저작권은 
+> 아래 각 영화에 있으며, 출처는 네이버영화 입니다.
+
++ 영화명 : <리멤버> 포스터 , 출처 : 네이버영화 
++ 영화명 : <자백> 포스터 , 출처 : 네이버영화
++ 영화명 : <인생은아름다워> 포스터 , 출처 : 네이버영화  
++ 영화명 : <블랙아담> 포스터 , 출처 : 네이버영화   
++ 영화명 : <공조> 포스터 , 출처 : 네이버영화  
++ 영화명 : <짱구는못말려> 포스터 , 출처 : 네이버영화  
+{: .notice}
    
