@@ -9,7 +9,7 @@ header:
 ---
 
 # 3개의 Step을 가진 Job을 Scheduled로 실행하는 배치 프로젝트
-> 매분 10초에 로그를 출력하는 간단한 배치작업(Job)을 만들고 @Scheduled 를 이용하여 배치작업 실행하기 
+> + 매분 10초에 로그를 출력하는 간단한 배치작업(Job)을 만들고 @Scheduled 를 이용하여 배치작업 실행하기 
 
 ![Batch 와 Batch 실행 구조]({{ site.baseurl }}/assets/images/post/spring/boot_batch2_00.png){: style="width:700px" .image_box}
 
@@ -198,7 +198,7 @@ public class DemoMultiStepJobScheduler {
 ```
 
 ## 6. SpringBootApplication 실행
-> 매분 10초에 로그 출력하는 Job 실행    
+> + 매분 10초에 로그 출력하는 Job 실행    
 
 ![]({{ site.baseurl }}/assets/images/post/spring/boot_batch2_06.png){: style="width:700px" .image_box}
 
