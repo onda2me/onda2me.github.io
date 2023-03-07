@@ -229,8 +229,14 @@ public class BatchController {
                 .addString("channel", "WEB")
                 .toJobParameters();
     
+        logger.debug("================================");
+        logger.debug("start");
+                
         JobExecution jobExecution = 
                 jobLauncher.run(simpleJobConfig.executeJob(), jobParams);
+                
+        logger.debug("end");        
+        logger.debug("================================");
         
         return jobExecution.getExitStatus();
     }
