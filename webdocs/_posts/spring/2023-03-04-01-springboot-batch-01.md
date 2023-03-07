@@ -32,9 +32,9 @@ header:
 ![Batch 와 Batch 실행 구조]({{ site.baseurl }}/assets/images/post/spring/boot_batch_00.png){: style="width:700px" .image_box}
 
 ## 개발환경
-+ Spring Boot v2.7.8
-+ Java 11.0.16.1
-+ Apache Tomcat 9.0.71
+> + Spring Boot v2.7.8
+> + Java 11.0.16.1
+> + Apache Tomcat 9.0.71
 
 ![Batch 개발환경]({{ site.baseurl }}/assets/images/post/spring/boot_batch_01.png){: style="width:700px" .image_box}
 
