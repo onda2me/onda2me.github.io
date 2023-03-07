@@ -155,28 +155,29 @@ public class SimpleJobScheduler {
         
         logger.debug("================================");
         logger.debug("start");
-        logger.debug("================================");        
+        
         try {
-            
+        	
             String launchDate = DateUtil.getDate("yyyyMMdd");
             String launchTime = DateUtil.getDate("HHmmss");
             
             JobParameters jobParams = new JobParametersBuilder()
                     .addString("launchDate", launchDate)
                     .addString("launchTime", launchTime)
-                    .addString("channel", "SCHEDULER")
+                    .addString("channel", IConstants.BATCH_CHANNEL_SCHEDULER)
                     .toJobParameters();
         
-            JobExecution jobExecution =  jobLauncher.run(jobConfig.executeJob(), jobParams);
-        
+            JobExecution jobExecution = 
+                    jobLauncher.run(jobConfig.executeJob(), jobParams);
+
         } catch (JobInstanceAlreadyCompleteException e) {
             e.printStackTrace();
         } catch (JobParametersInvalidException e) {
             e.printStackTrace();
         } catch (Exception e) {
             e.printStackTrace();
-        }        
-        logger.debug("================================");
+        }
+        
         logger.debug("end");
         logger.debug("================================\n\n");
         
@@ -231,7 +232,7 @@ public class BatchController {
     
         logger.debug("================================");
         logger.debug("start");
-                
+
         JobExecution jobExecution = 
                 jobLauncher.run(simpleJobConfig.executeJob(), jobParams);
                 
