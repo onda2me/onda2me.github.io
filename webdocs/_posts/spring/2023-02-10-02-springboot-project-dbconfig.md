@@ -93,6 +93,7 @@ public class UserModel {
 			", email=" + email +
 			", statusCode="+statusCode+
 			", loginYmd="+loginYmd+"]";
+	}
 }
 ```
 
