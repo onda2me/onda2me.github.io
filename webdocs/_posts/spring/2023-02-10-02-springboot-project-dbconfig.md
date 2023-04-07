@@ -4,6 +4,7 @@ categories:
   - springboot
 tags:
   - springboot
+  - mybatis
 header:
   teaser: /assets/images/post/spring/bootdb_00.png
 ---

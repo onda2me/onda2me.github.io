@@ -4,6 +4,7 @@ categories:
   - springboot
 tags:
   - springboot
+  - batch  
 header:
   teaser: /assets/images/post/spring/boot_batch2_00.png
 ---

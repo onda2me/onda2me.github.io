@@ -4,6 +4,7 @@ categories:
   - spring
 tags:
   - spring
+  - springmvc
 header:
   teaser: /assets/images/post/spring/springmvc_03.png  
 ---
