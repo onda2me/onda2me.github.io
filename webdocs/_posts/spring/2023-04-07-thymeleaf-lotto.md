@@ -9,7 +9,7 @@ tags:
   - ajax
   - jquery
 header:
-  teaser: /assets/images/post/thymeleaf/lotto-service.png
+  teaser: /assets/images/post/thymeleaf/lotto-service-10.png
 ---
 
 # 6개의 랜덤 번호를 만들어 주는 로또번호 생성기 
