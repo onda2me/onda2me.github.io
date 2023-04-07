@@ -4,6 +4,7 @@ categories:
   - springboot
 tags:
   - springboot
+  - thymeleaf
 ---
 
 **Thymeleaf 란?**    
