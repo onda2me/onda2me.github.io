@@ -4,9 +4,7 @@ categories:
   - springboot
 tags:
   - springboot
-  - thymeleaf
   - 로또번호
-  - ajax
   - jquery
 header:
   teaser: /assets/images/post/thymeleaf/lotto-service-10.png
