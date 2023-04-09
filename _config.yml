@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "onda2me"
   avatar           : "/assets/images/main/about-01.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Java, 알고리즘, 아두이노 블로그"
+  bio              : "Java, Spring, Vue, 알고리즘, 블록코딩"
   location         : 
   email            :
   links:
