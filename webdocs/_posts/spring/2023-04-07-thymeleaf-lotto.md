@@ -1,5 +1,5 @@
 ---
-title: "Spring Boot + Thymeleaf 로또번호 생성기"
+title: "Spring Boot + Thymeleaf + Jquery 로또번호 생성기"
 categories: 
   - springboot
 tags:
