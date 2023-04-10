@@ -22,7 +22,8 @@ Thymeleaf로 작성된 HTML 템플릿은 HTML 자체로도 작동하고, 컨트�
 ![]({{ site.baseurl }}/assets/images/post/thymeleaf/springboot-tiles-01.png){: style="width:600px" .image_box}    
   
 
-> SpringBoot 환경에서 Thymeleaf로 템플릿 설정하여 화면 구성해보자.  
+> SpringBoot 환경에서 Thymeleaf로 템플릿을 설정하고 화면을 구성해보자.  
+{: .notice}
 
 ## 1. pom.xml 의존성 추가
 ### @pom.xml
