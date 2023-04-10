@@ -70,7 +70,6 @@ Thymeleaf로 작성된 HTML 템플릿은 HTML 자체로도 작동하고, 컨트�
       
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/w3.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" > 
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>    
