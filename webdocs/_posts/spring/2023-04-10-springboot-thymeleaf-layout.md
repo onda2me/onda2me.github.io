@@ -10,19 +10,31 @@ header:
   teaser: /assets/images/post/thymeleaf/springboot-tiles-01.png  
 ---
 
-> **Thymeleaf ?**  
-Thymeleaf는 Java 기반의 View Template Engine 으로 html 태그를 기반으로 동적인 View를 제공한다.    
-Thymeleaf로 작성된 HTML 템플릿은 HTML 자체로도 작동하고, 컨트롤러가 전달하는 데이타를 이용하여 동적으로도 화면을 구성한다. 
-또한 웹페이지의 Header, Aside, Footer와 같이 반복적으로 사용되는 코드를 분리하여 레이아웃 템플릿으로 구성하여 중복 코드를 줄일 수 있다.
-{: .notice--info}
-
-
+# Thymeleaf ?
++ Thymeleaf는 Java 기반의 View Template Engine 으로 html 태그를 기반으로 동적인 View를 제공한다.      
++ html 템플릿은 html 자체로도 동작하고, 컨트롤러가 전달하는 데이타를 이용하여 동적으로도 화면을 구성한다.   
++ Header, Footer와 같이 반복적으로 사용되는 화면의 공통영역을 레이아웃 설정파일로 관리하여 중복 코드를 줄일 수 있다.  
 + **Thymeleaf** 홈페이지  : [https://www.thymeleaf.org/](https://www.thymeleaf.org/index.html){: .btn.btn--primary.btn--narrow target="_blank" }
-+ **Thymeleaf**로 구성한 템플릿 예  
+
+> **Apache Tiles과 Thymeleaf의 공통점 및 차이점**    
+{: .notice}
+
++ 공통점      
+Header, Footer와 같이 반복적으로 사용되는 화면의 공통영역을 분리하고 레이아웃 설정파일로 관리하여 중복 코드를 줄일 수 있다.
+
++ 차이점    
+**Apache Tiles** : 레이아웃 템플릿 엔진으로 설정정보에 따라 화면을 구성해 준다.    
+**Thymeleaf** : 텍스트 템플릿 엔진으로 템플릿 양식에 데이타를 넣어 문서를 출력해주며, 레이아웃 템플릿의 구성도 가능하다.
+
+  
+
+
+> **타임리프**로 구성한 템플릿 예    
+{: .notice}
 ![]({{ site.baseurl }}/assets/images/post/thymeleaf/springboot-tiles-01.png){: style="width:600px" .image_box}    
   
 
-> SpringBoot 환경에서 Thymeleaf로 템플릿을 설정하고 화면을 구성해보자.  
+> 스프링부트 환경에서 타임리프를 이용하여 템플릿을 설정하고 화면을 구성해보자.  
 {: .notice}
 
 ## 1. pom.xml 의존성 추가
@@ -60,8 +72,8 @@ Thymeleaf로 작성된 HTML 템플릿은 HTML 자체로도 작동하고, 컨트�
     view-names: /html/*
 ```
 
-## 3. /static/templates/layouts/layout-sample.html 파일 작성
-### @layout-sample.html
+## 3. layout-sample.html 파일 작성
+### @/static/templates/layouts/layout-sample.html
 ```html
 <!DOCTYPE html>
 <html lang="ko"
@@ -163,9 +175,9 @@ Thymeleaf로 작성된 HTML 템플릿은 HTML 자체로도 작동하고, 컨트�
 </html> 
 ```
 
-## 4. /static/templates/layouts/sample-aside.html 파일 작성
+## 4. sample-aside.html 파일 작성
 
-### @sample-aside.html
+### @/static/templates/layouts/sample-aside.html
 ```html
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
@@ -185,9 +197,9 @@ Thymeleaf로 작성된 HTML 템플릿은 HTML 자체로도 작동하고, 컨트�
   </th:block>
 </html>
 ```
-## 5. /static/templates/layouts/sample-footer.html 파일 작성
+## 5. sample-footer.html 파일 작성
 
-### @sample-footer.html
+### @/static/templates/layouts/sample-footer.html
 ```html
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
@@ -206,8 +218,8 @@ Thymeleaf로 작성된 HTML 템플릿은 HTML 자체로도 작동하고, 컨트�
 </html>
 ```
 
-## 6. /static/templates/html/movie/list.html 파일 작성
-### @sample-footer.html
+## 6. list.html 파일 작성
+### @/static/templates/html/movie/sample-footer.html
 ```html
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org"
