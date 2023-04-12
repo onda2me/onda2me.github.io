@@ -1,8 +1,8 @@
 # Onda2me Github.io 소스
 
-[![Onda2me live preview][1]][2]
+[![Onda2me preview][1]][2]
 
-[1]: /assets/images/main/onda2me_01.PNG (live preview)
+[1]: /assets/images/main/onda2me_02.png (preview)
 [2]: https://onda2me.github.io/
 
 + ⚡ 블로그 주소
