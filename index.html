@@ -1,13 +1,12 @@
 ---
 title: "Onda2Me"
 title_align: "text-center"
-layout: archive 
+layout: home
 header:
   overlay_color: 
   overlay_image: /assets/images/main/top-header-03.jpg
   caption: "onda2me"
-excerpt: 
-    Java, 알고리즘, 아두이노 블로그  
+excerpt: Java, Spring, Vue, 알고리즘, 블록코딩  
 author_profile: true
 classes: wide  
 entries_layout: grid
@@ -17,46 +16,6 @@ sort_order: reversed
 
 
 ---
-
-<h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h2>
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
-
-{% assign entries_layout = page.entries_layout | default: 'grid' %}
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
-</div>
-
-{% capture written_label %}'None'{% endcapture %}
-<!--
-<div class="entries-{{ entries_layout }}">
-{% for collection in site.collections %}
-
-  {% if collection.label == "algorithm" %}
-  {% unless collection.output == false or collection.label == "posts" %}
-   
-    {% capture label %}{{ collection.label }}{% endcapture %}
-    {% if label != written_label %}
-      <a href="/{{ label }}/" class="nav-link"><h3 id="{{ label | slugify }}" class="archive__subtitle">{{ label }} </h3></a>
-      {% capture written_label %}{{ label }}{% endcapture %}
-    {% endif %}    
-  {% endunless %}
-  {% for post in collection.docs reversed %}
-    {% unless collection.output == false or collection.label == "posts" %}
-      {% include archive-single.html %}    
-
-    {% endunless %}
-  {% endfor %}
-  {% endif %}
-{% endfor %}
-</div>
--->
-
 
 
 

@@ -4,6 +4,9 @@ categories:
   - springboot
 tags:
   - springboot
+  - thymeleaf
+header:
+  teaser: /assets/images/post/spring/boot_html01.png  
 ---
 
 **Thymeleaf 란?**    

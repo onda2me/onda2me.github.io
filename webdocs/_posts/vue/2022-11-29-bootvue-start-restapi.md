@@ -6,6 +6,8 @@ categories:
 tags:
   - vue
   - springboot
+header:
+  teaser: /assets/images/post/vue/boot_start_00.png  
 ---
 
 영화진흥위원회의 오픈 API (주말 박스오피스) 를 이용하여 영화정보 사이트를 만들어보자.        

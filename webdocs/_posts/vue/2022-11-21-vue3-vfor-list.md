@@ -7,6 +7,8 @@ categories:
 tags:
   - vue
   - router
+header:
+  teaser: /assets/images/post/vue/vue3_vfor_list2.png  
 ---
 
 게시글 목록 -> 게시글 상세, 사용자 목록 -> 사용자 상세 등 웹페이지 이동 시

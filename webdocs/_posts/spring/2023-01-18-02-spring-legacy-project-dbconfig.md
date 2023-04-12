@@ -4,6 +4,7 @@ categories:
   - spring
 tags:
   - spring
+  - mybatis
 header:
   teaser: /assets/images/post/spring/springmvc_22.png  
 ---

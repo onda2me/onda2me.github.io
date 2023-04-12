@@ -4,6 +4,7 @@ categories:
   - spring
 tags:
   - spring
+  - tiles
 header:
   teaser: /assets/images/post/spring/tiles_detail02.png 
 ---
