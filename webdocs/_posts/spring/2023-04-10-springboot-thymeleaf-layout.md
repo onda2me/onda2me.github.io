@@ -11,7 +11,7 @@ header:
 ---
 
 # Thymeleaf ?
-+ Thymeleaf는 Java 기반의 View Template Engine 으로 html 태그를 기반으로 동적인 View를 제공한다.      
++ Thymeleaf는 자바 기반의 View Template Engine으로 html에 전달하는 데이타로 동적인 View를 제공한다.      
 + html 템플릿은 html 자체로도 동작하고, 컨트롤러가 전달하는 데이타를 이용하여 동적으로도 화면을 구성한다.   
 + Header, Footer와 같이 반복적으로 사용되는 화면의 공통영역을 레이아웃 설정파일로 관리하여 중복 코드를 줄일 수 있다.  
 + **Thymeleaf** 홈페이지  : [https://www.thymeleaf.org/](https://www.thymeleaf.org/index.html){: .btn.btn--primary.btn--narrow target="_blank" }
@@ -181,17 +181,13 @@ Header, Footer와 같이 반복적으로 사용되는 화면의 공통영역을 
 ```html
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-    <th:block th:fragment="aside">
-
+  <th:block th:fragment="aside">
     <aside class="side-container">  
-      <div class="vertical-menu ">
-           
-        
+      <div class="vertical-menu ">                   
         <button type="button" class="btn btn-success w-100 text-start"><span class="fa fa-home"></span> Home</button>
         <hr>
         <a href="/movie/list"><i class="fas fa-arrow-alt-circle-right"></i><span>&nbsp; Movie</span></a>
-        <a href="#"><i class=" fas fa-user-circle"></i><span>&nbsp; User</span></a>
-       
+        <a href="#"><i class=" fas fa-user-circle"></i><span>&nbsp; User</span></a>       
       </div>       
     </aside>
   </th:block>
@@ -246,7 +242,7 @@ Header, Footer와 같이 반복적으로 사용되는 화면의 공통영역을 
             <td th:text="${numStat.size-numStat.index}"></td>
             <td th:text="${'영화제목 ' + (numStat.size-numStat.index)}"></td>
             <td th:text="${'종류 ' + (numStat.count)}"></td>
-            <td th:text="${'2020-04-0' + numStat.index + ' 11:0' + numStat.index}"></td>
+            <td th:text="${'2023-04-0' + numStat.index + ' 11:0' + numStat.index}"></td>
           </tr>
           </th:block>	      
         </table>    
@@ -272,4 +268,15 @@ public class HomeController {
 
 ## 8. 웹에서 확인
 ### @/movie/list
-![]({{ site.baseurl }}/assets/images/post/thymeleaf/springboot-tiles-01.png){: style="width:600px" .image_box}    
+![]({{ site.baseurl }}/assets/images/post/thymeleaf/springboot-tiles-01.png){: style="width:600px" .image_box}   
+
+---
+### Reference    
+
++ [https://gmlwjd9405.github.io/2018/12/21/template-engine.html](https://gmlwjd9405.github.io/2018/12/21/template-engine.html){: target="_blank" }
+  
+
+      
+
+
+
