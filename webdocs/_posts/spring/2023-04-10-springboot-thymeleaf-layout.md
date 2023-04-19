@@ -269,7 +269,7 @@ public class HomeController {
 ---
 ### Reference    
 
-+ [https://gmlwjd9405.github.io/2018/12/21/template-engine.html](https://gmlwjd9405.github.io/2018/12/21/template-engine.html){: target="_blank" }
++ [참고글:템플릿엔진이란?](https://gmlwjd9405.github.io/2018/12/21/template-engine.html){: target="_blank" }
   
 
       
