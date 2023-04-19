@@ -16,17 +16,13 @@ header:
 + Header, Footer와 같이 반복적으로 사용되는 화면의 공통영역을 레이아웃 설정파일로 관리하여 중복 코드를 줄일 수 있다.  
 + **Thymeleaf** 홈페이지  : [https://www.thymeleaf.org/](https://www.thymeleaf.org/index.html){: .btn.btn--primary.btn--narrow target="_blank" }
 
-> **Apache Tiles과 Thymeleaf의 공통점 및 차이점**    
-{: .notice}
-
+## Apache Tiles과 Thymeleaf의 공통점 및 차이점
 + 공통점      
 Header, Footer와 같이 반복적으로 사용되는 화면의 공통영역을 분리하고 레이아웃 설정파일로 관리하여 중복 코드를 줄일 수 있다.
 
 + 차이점    
 **Apache Tiles** : 레이아웃 템플릿 엔진으로 설정정보에 따라 화면을 구성해 준다.    
 **Thymeleaf** : 텍스트 템플릿 엔진으로 템플릿 양식에 데이타를 넣어 문서를 출력해주며, 레이아웃 템플릿의 구성도 가능하다.
-
-  
 
 
 > **타임리프**로 구성한 템플릿 예    
