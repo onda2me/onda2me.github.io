@@ -161,7 +161,6 @@ public class HttpSecurityConfig {
         springboot에서 기본 제공하는 페이지를 사용할 경우 설정하지 않아도 됨.
       */      
         .loginPage("/sign/login")
-        .loginProcessingUrl("/sign/loginProcess")  
         .usernameParameter("id")
         .passwordParameter("pwd")
         .successHandler(successHandler())
@@ -465,11 +464,7 @@ public class SignController {
       logger.debug("--------------------------------------------------\n\n");
               
       return "/html/sign/login"; 
-  }
-  @RequestMapping(value = "/sign/loginProcess")
-  public void loginProcess(Principal principal, HttpServletRequest request) { 
-
-  }      
+  }     
 }
 ```
 
@@ -477,7 +472,7 @@ public class SignController {
 
 @ /sign/login.html
 ```html
-<form action="/sign/loginProcess" method="post">
+<form action="/sign/login" method="post">
 <input type="hidden" th:name="_csrf" th:value="${_csrf.token}" />
 
 <div class="shadow p-4 m-4 bg-white">
