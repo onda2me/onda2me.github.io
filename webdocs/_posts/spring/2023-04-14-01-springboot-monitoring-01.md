@@ -1,17 +1,20 @@
 ---
-title: "SpringBoot Batch Monitoring System"
+title: "SpringBoot Batch Monitoring System (1/3)"
 categories: 
   - springboot
 tags:
   - springboot
-  - thymeleaf
   - monitoring
+  - batch
+  - thymeleaf
 header:
   teaser: /assets/images/post/spring/boot_batch_24.png  
 ---
-# 스프링부트 배치 모니터링 시스템 이란?
-스프링 배치를 실행하면 실행정보들이 메타 데이타 테이블에 저장되는데, 배치를 실행한 뒤 데이타를 조회할 수 있는 표준 관리도구가 없기에 매번 데이타를 조회를 하려니 불편하기도 하고, 
-스프링부트 환경에서 웹 UI 기능도 익힐 겸 모니터링 시스템을 만들어 보았다.   
+# 배치 모니터링 시스템 만들기 - 1단계
+
+## 스프링부트 배치 모니터링 시스템 이란?
+스프링 배치를 실행하면 실행정보들이 메타 데이타 테이블에 저장되는데, 배치를 실행한 뒤 데이타를 조회할 수 있는 표준 관리도구가 없기에 
+매번 데이타를 쿼리로 조회를 하려니 불편하기도 하고, 스프링부트 환경에서 웹 UI 기능도 익힐 겸 모니터링 시스템을 만들어 보았다.   
 <!-- **Quartz 관리자 페이지나 Jekins, Teamcity** 가 관리도구 역할을 제공 -->   
 
 이 스프링부트 모니터링 시스템은 Batch Job의 관리도구로써 목적보다는  
@@ -37,11 +40,11 @@ header:
 
 ![]({{ site.baseurl }}/assets/images/post/spring/boot_monitoring_01.png){: style="width:700px" .image_box}   
 
-> 배치 정보 메타테이블  
+> 배치 메타테이블 데이타 
   
 ![]({{ site.baseurl }}/assets/images/post/spring/boot_monitoring_00.png){: style="width:700px" .image_box}   
 
-> Batch Meta ERD  
+> 배치 메타테이블 ERD  
 
 ![]({{ site.baseurl }}/assets/images/post/spring/boot_monitoring_02.png){: style="width:700px" .image_box}  
 
@@ -394,9 +397,30 @@ public class HomeController {
 
 ![]({{ site.baseurl }}/assets/images/post/spring/boot_monitoring_11.png){: style="width:700px" .image_box}   
 
+---
+## 배치 모니터링 시스템 만들기 
 
-[전체 소스 Github에서 다운로드 받기](https://github.com/onda2me/onda-batch-monitoring){: target="_blank" }
-{: .notice}
+> #### 1단계 기본환경 설정  
++ 프로젝트 생성 [글보기](/springboot/01-springboot-monitoring-01/){: .btn.btn--info.btn--small target="_blank" }
++ Application properties 설정
++ Thymeleaf 설정
++ welcome 페이지 생성  
+{: .notice} 
+
+> #### 2단계 배치 생성  
++ 배치 메타 테이블 생성 [글보기](/springboot/01-springboot-monitoring-02/){: .btn.btn--info.btn--small target="_blank" }
++ 배치 클래스 생성
++ 배치 실행 스케줄러 생성
+{: .notice} 
+
+> #### 3단계 모니터링 UI 작성 
++ Mapper 클래스 생성 [글보기](/springboot/01-springboot-monitoring-03/){: .btn.btn--info.btn--small target="_blank" }
++ Service(DAO) 클래스 생성
++ mapper.xml (MySQL query) 생성
++ Controller 클래스 생성
++ Html 파일 생성
+{: .notice} 
+
 
 ---   
 ### Reference
