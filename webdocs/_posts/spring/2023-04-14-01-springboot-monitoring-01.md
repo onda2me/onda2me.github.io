@@ -22,7 +22,7 @@ header:
 + (덤으로) **Job 실행 결과 및 Job이 어떤 Parameter 를 가지고 어느 Step까지 실행**했는지 등을 쉽게 확인하고
 + **Thymeleaf를 이용하여 UI를 적용한 모니터링 시스템**을 만드는 것에 중점을 두었다.
 
-> 배치란 일괄처리란 뜻을 가지며 배치에 대한 내용은 아래 링크를 참고하고, 이 글에서는 모니터링 시스템에 대해서만 설명하려 한다.  
+> 배치에 대한 자세한 내용은 아래 링크를 참고하고, 이 글에서는 배치 모니터링 시스템에 대해서만 설명하려 한다.  
 
 + **스프링 부트 배치란?**  : [게시글 보기](/springboot/01-springboot-batch-01/){: .btn.btn--primary.btn--narrow target="_blank" }
 + **스프링 부트 배치 Job 만들기**  : [게시글 보기](/springboot/01-springboot-batch-02/){: .btn.btn--primary.btn--narrow target="_blank" }
@@ -393,14 +393,16 @@ public class HomeController {
 ```
 
 ### 7. 웹에서 확인
-+ [http://localhost:8007/index](http://localhost:8007/index){: target="_blank" }
+> Thymeleaf 적용한 메인 UI    
+
+@[http://localhost:8007/index](http://localhost:8007/index){: target="_blank" }
 
 ![]({{ site.baseurl }}/assets/images/post/spring/boot_monitoring_11.png){: style="width:700px" .image_box}   
 
 ---
 ## 배치 모니터링 시스템 만들기 
 
-> #### 1단계 기본환경 설정  
+> #### [▶](#){: .btn .btn--primary.btn--small} 1단계 기본환경 설정  
 + 프로젝트 생성 [글보기](/springboot/01-springboot-monitoring-01/){: .btn.btn--info.btn--small target="_blank" }
 + Application properties 설정
 + Thymeleaf 설정
@@ -414,10 +416,10 @@ public class HomeController {
 {: .notice} 
 
 > #### 3단계 모니터링 UI 작성 
-+ Mapper 클래스 생성 [글보기](/springboot/01-springboot-monitoring-03/){: .btn.btn--info.btn--small target="_blank" }
-+ Service(DAO) 클래스 생성
++ Controller 클래스 생성 [글보기](/springboot/01-springboot-monitoring-03/){: .btn.btn--info.btn--small target="_blank" }
++ Service 클래스 생성
++ Mapper 클래스 생성 
 + mapper.xml (MySQL query) 생성
-+ Controller 클래스 생성
 + Html 파일 생성
 {: .notice} 
 

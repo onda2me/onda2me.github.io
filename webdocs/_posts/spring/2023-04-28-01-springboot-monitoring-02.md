@@ -20,26 +20,43 @@ header:
 + welcome 페이지 생성  
 {: .notice} 
 
-> #### 2단계 배치 생성  
+> #### [▶](#){: .btn .btn--primary.btn--small}  2단계 배치 생성  
 + 배치 메타 테이블 생성 [글보기](/springboot/01-springboot-monitoring-02/){: .btn.btn--info.btn--small target="_blank" }
 + 배치 클래스 생성
 + 배치 실행 스케줄러 생성
 {: .notice} 
 
 > #### 3단계 모니터링 UI 작성  
-+ Mapper 클래스 생성 [글보기](/springboot/01-springboot-monitoring-03/){: .btn.btn--info.btn--small target="_blank" }
-+ Service(DAO) 클래스 생성
++ Controller 클래스 생성 [글보기](/springboot/01-springboot-monitoring-03/){: .btn.btn--info.btn--small target="_blank" }
++ Service 클래스 생성
++ Mapper 클래스 생성 
 + mapper.xml (MySQL query) 생성
-+ Controller 클래스 생성
 + Html 파일 생성
 {: .notice} 
 
 ---
+## 배치 메타데이타 테이블 이란?
+스프링부트에서 배치를 실행하기 위해서는 배치 프로그램외에 배치 메타데이타 테이블이 필요하다.    
+
+**메타데이타(Metadata)란 다른 데이타를 설명해 주는 정보들을 구조화 한 데이타**를 뜻하며 배치 메타데이타란 배치가 실행되는 정보를 저장하는 메타데이타를 의미한다.
+
+즉, 배치를 실행하면 Job의 실행 정보 및 실행 Parameter, Step 실행 정보, Job과 Step의 실행결과 등을 메타 테이블에 저장되는데,  
+이러한 메타 테이블은 MySQL DB를 사용하는 경우 직접 생성해 주어야 한다.    
+
+
+> 배치 메타 테이블 생성 스크립트 위치    
+
+메타 테이블 생성을 위한 스크립트는 스프링부트 프로젝트에 포함 된 spring-batch-core-version-x.x.x.jar의 /org/springframework/batch/core/ 폴더에 포함되어 있다.
+{: .notice}    
+
+![]({{ site.baseurl }}/assets/images/post/spring/boot_monitoring_12.png){: style="width:450px" .image_box}  
+
+
 
 ## 1. 배치 메타 테이블 생성
 
-> 배치 메타테이블 데이타 
-  
+> 배치 메타테이블 데이타  
+ 
 ![]({{ site.baseurl }}/assets/images/post/spring/boot_monitoring_00.png){: style="width:700px" .image_box}   
 
 > 배치 메타테이블 ERD  
@@ -191,6 +208,7 @@ public class SimpleJobScheduler {
 
 ### Reference
 + [spring.io](https://spring.io/guides/gs/batch-processing/){: target="_blank" }
++ [메타데이타](https://namu.wiki/w/%EB%A9%94%ED%83%80%EB%8D%B0%EC%9D%B4%ED%84%B0){: target="_blank" }
 
 
 
