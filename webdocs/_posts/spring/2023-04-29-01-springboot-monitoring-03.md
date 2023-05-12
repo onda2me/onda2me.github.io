@@ -198,7 +198,7 @@ public interface BatchMapper {
 
 ```xml
 <mapper namespace="com.onda2me.app.mapper.BatchMapper">
-  <!--BatchJobInstance -->
+  <!--BatchJobInstance : batch_job_instance table -->
   <resultMap id="instanceResultMap" type="BatchJobInstanceEntity">
     <id property="instanceId" column="job_instance_id" />
     <result property="version" column="version"/>          
@@ -209,7 +209,7 @@ public interface BatchMapper {
     <collection property="execParams" ofType="BatchJobExecutionParamsEntity" resultMap="paramsResultMap" />
   </resultMap>
   
-  <!--BatchJobExecution -->
+  <!--BatchJobExecution : batch_job_execution table -->
   <resultMap id="executionResultMap" type="BatchJobExecutionEntity">
     <id property="executionId" column="job_execution_id"/>
     <result property="version" column="version"/>
@@ -225,7 +225,7 @@ public interface BatchMapper {
     <collection property="steps" ofType="BatchStepExecutionEntity" resultMap="stepResultMap" />    
   </resultMap>
   
-  <!--BatchJobExecutionParams -->        
+  <!--BatchJobExecutionParams : batch_job_execution table -->        
   <resultMap id="paramsResultMap" type="BatchJobExecutionParamsEntity">
     <id property="primaryKey.executionId" column="job_execution_id" />
     <id property="primaryKey.keyName" column="key_name" />
@@ -240,7 +240,7 @@ public interface BatchMapper {
     <result property="identifying" column="identifying"/>         
   </resultMap>
   
-  <!--BatchStepExecution -->
+  <!--BatchStepExecution : batch_job_execution table -->
   <resultMap id="stepResultMap" type="BatchStepExecutionEntity">
     <id property="stepId" column="step_execution_id" />
               

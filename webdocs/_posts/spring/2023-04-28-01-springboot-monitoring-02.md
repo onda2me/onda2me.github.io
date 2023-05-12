@@ -46,7 +46,7 @@ header:
 
 > 배치 메타 테이블 생성 스크립트 위치    
 
-메타 테이블 생성을 위한 스크립트는 스프링부트 프로젝트에 포함 된 spring-batch-core-version-x.x.x.jar의 /org/springframework/batch/core/ 폴더에 포함되어 있다.
+메타 테이블 생성을 위한 스크립트는 스프링부트 spring-batch-core-version-x.x.x.jar 에 포함되어 있으며 /org/springframework/batch/core/ 폴더에 위치해 있다.
 {: .notice}    
 
 ![]({{ site.baseurl }}/assets/images/post/spring/boot_monitoring_12.png){: style="width:450px" .image_box}  
