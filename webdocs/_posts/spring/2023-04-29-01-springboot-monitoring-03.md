@@ -424,6 +424,8 @@ public interface BatchMapper {
 ### Reference
 + [spring.io](https://spring.io/guides/gs/batch-processing/){: target="_blank" }
 + [Mybatis Result Maps](https://mybatis.org/mybatis-3/ko/sqlmap-xml.html#Result_Maps){: target="_blank" }
++ [Thymeleaf Tutorial](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html){: target="_blank" }
+
 
 
 
