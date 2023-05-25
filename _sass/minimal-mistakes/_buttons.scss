@@ -51,7 +51,6 @@
       @if ($buttoncolor == light-outline) {
         border: 1px solid #fff;
       }
-
       &:visited {
         @include yiq-contrasted($color);
       }
@@ -93,14 +92,14 @@
 
   /* small button */
   &--small {
-    font-size: $type-size-8;
-    padding: 0em;
+    font-size: $type-size-7;
+    padding: 0.04em 0.4em;
     margin: 0em;
   }
 
   /* narrow button */
   &--narrow {
-    padding: 0.05em 0.5em;
+    padding: 0.04em 0.6em;
     margin: 0.1em;
   }  
 }
