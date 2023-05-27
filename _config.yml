@@ -157,13 +157,17 @@ footer:
       # url:
     - label: "Google Ad"
       icon: ""
-      url:   https://www.google.com/adsense/      
+      url:   https://www.google.com/adsense/     
+    - label: "Google Analytics"
+      icon: ""
+      url: https://analytics.google.com/analytics/ 
     - label: "Google Search"
       icon: "fab fa-google"
       url: https://search.google.com/search-console
     - label: "Naver Search"
       icon: ""
       url: https://searchadvisor.naver.com/console/board
+      
 
 # Reading Files
 include:
