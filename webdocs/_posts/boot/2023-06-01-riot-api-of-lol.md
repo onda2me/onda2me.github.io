@@ -90,6 +90,9 @@ header:
 ![]({{ site.baseurl }}/assets/images/post/riot/riot_service.png){: style="width:700px" .image_box} 
 
 
+## 4. 초기 화면
+![]({{ site.baseurl }}/assets/images/post/riot/lol_00.png){: style="width:700px" .image_box} 
+
 ### P.S.
 
 + 라이엇 게임즈의 오픈 API를 이용하기 위해서는 인증키 요청 및 승인 과정이 필요하다.
