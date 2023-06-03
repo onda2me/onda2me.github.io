@@ -1,5 +1,5 @@
 ---
-title: "Header와 Footer 영역을 전역 컴포넌트로 분리하기"
+title: "Vue에서 Header와 Footer 영역을 전역 컴포넌트로 분리하기"
 sidebar:
   nav: "docs_vue"
 categories: 
@@ -7,6 +7,8 @@ categories:
 tags:
   - vue
   - router
+header:
+  teaser: /assets/images/post/vue/vue3_router_11.png    
 ---
 
 Vue 어플리케이션에서 공통으로 사용되는 Header와 Footer를 전역 컴포넌트로 분리해보자.   

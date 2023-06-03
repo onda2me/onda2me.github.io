@@ -13,7 +13,7 @@ tags:
   - vue
   - springboot
 header:
-  teaser: /assets/images/post/vue/boot_setup5.png    
+  teaser: /assets/images/post/vue/boot_setup2.png    
 ---
 
 > 스프링부트 웹서버는 8007, Vue 웹서버는 8080 포트로 서비스 하도록 설정    

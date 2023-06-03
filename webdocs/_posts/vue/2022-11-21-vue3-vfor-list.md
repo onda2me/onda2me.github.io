@@ -1,5 +1,5 @@
 ---
-title: "router의 dynamic matching을 이용하여 동적 URL을 구성해 보자"
+title: "Vue router의 dynamic matching을 이용하여 동적 URL을 구성해 보자"
 sidebar:
   nav: "docs_vue"
 categories: 
