@@ -104,7 +104,7 @@ header:
 ---
 ### Reference    
 + [Liot Developer API](https://developer.riotgames.com/apis){: target="_blank" }
-+ [RIOT API를 이용해서 롤 전적 검색 사이트](https://velog.io/@junhok82/series/PROJECT){: target="_blank" }
++ [RIOT API를 이용해서 롤 전적 검색 사이트 만들기](https://velog.io/@junhok82/series/PROJECT){: target="_blank" }
 
   
 
