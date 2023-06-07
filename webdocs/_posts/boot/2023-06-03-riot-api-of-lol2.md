@@ -7,7 +7,7 @@ tags:
   - thymeleaf
   - bootstrap
 header:
-  teaser: /assets/images/post/riot/riot_lol.gif  
+  teaser: /assets/images/post/riot/riot_lol2.gif  
 ---
 
 ## UI 구성 및 구현 기능
@@ -15,8 +15,10 @@ header:
 + 조회 한 puuid로 매치 목록 및 랭크정보를 조회한다.
 {: .notice} 
 
-![]({{ site.baseurl }}/assets/images/post/riot/riot_lol.gif){: style="width:800px" .image_box}   
+![]({{ site.baseurl }}/assets/images/post/riot/riot_lol2.gif){: style="width:800px" .image_box}   
 
+## 서비스 구성도
+![]({{ site.baseurl }}/assets/images/post/riot/riot_api_23.png){: style="width:800px" .image_box}   
 
 ## 소환사 정보 Riot API 
 
