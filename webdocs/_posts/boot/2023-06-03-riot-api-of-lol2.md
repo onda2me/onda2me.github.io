@@ -7,7 +7,7 @@ tags:
   - thymeleaf
   - bootstrap
 header:
-  teaser: /assets/images/post/riot/riot_lol2.gif  
+  teaser: /assets/images/post/riot/lol_23.png  
 ---
 
 ## UI 구성 및 구현 기능
@@ -18,7 +18,7 @@ header:
 ![]({{ site.baseurl }}/assets/images/post/riot/riot_lol2.gif){: style="width:800px" .image_box}   
 
 ## 서비스 구성도
-![]({{ site.baseurl }}/assets/images/post/riot/riot_api_23.png){: style="width:800px" .image_box}   
+![]({{ site.baseurl }}/assets/images/post/riot/lol_23.png){: style="width:800px" .image_box}   
 
 ## 소환사 정보 Riot API 
 
