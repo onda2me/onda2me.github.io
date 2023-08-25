@@ -160,7 +160,6 @@ public static int b_nums[]   = {146,141,140,141,140,134,139,137,113,140,144,156,
 
 ## 참고
 
-
 + **로또번호 생성기** `<* 상용서버가 아니라 접속이 안 될 수 있습니다.>`
     <iframe width="800" height="420" src="http://218.155.162.138:8007/home/lotto" frameborder="0"  allowfullscreen></iframe>
 
