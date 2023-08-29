@@ -13,6 +13,3 @@ function showJsonFromGit(url, emId, height) {
   })
   .catch(err => { throw err });
 }
-
-
-
