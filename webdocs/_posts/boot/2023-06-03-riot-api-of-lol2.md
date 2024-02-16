@@ -216,19 +216,18 @@ public class RiotMainController {
       //-------------------------------------------
       // 소환사명으로 소환사정보 검색 
       //-------------------------------------------        
-      if("".equals(paramMap.get("name")) == false) {
+        if("".equals(paramMap.get("name")) == false) {
             
-        String name = URLEncoder.encode(paramMap.get("name"), "UTF-8");
-        responseDto = new RiotHttpClient().getSummonersByName(name);
+            String name = URLEncoder.encode(paramMap.get("name"), "UTF-8");
+            responseDto = new RiotHttpClient().getSummonersByName(name);
             
-        ObjectMapper mapper = new ObjectMapper();
-
-        status = responseDto.getStatus();
-            
-        if(responseDto.isOK()) {    
-          summoner = mapper.readValue(responseDto.getResponseBody(), SummonerDto.class);
+            status = responseDto.getStatus();
+            if(responseDto.isOK()) {  
+                
+                ObjectMapper mapper = new ObjectMapper();
+                summoner = mapper.readValue(responseDto.getResponseBody(), SummonerDto.class);
+            } 
         } 
-      } 
 
       model.addAttribute("status", status);
       model.addAttribute("summoner", summoner);

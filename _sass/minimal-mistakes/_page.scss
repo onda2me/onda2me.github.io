@@ -293,9 +293,10 @@ body {
 /*
 중복 제거
 .page__meta {
-  margin: 0 0 4px;
+  margin: 0 0 4px ;
   font-size: 0.6em;
 }
+
 
 .page__meta-sep {
   display: block;
@@ -361,7 +362,7 @@ body {
   display: inline-block;
   margin-right: 5px;
   margin-bottom: 8px;
-  padding: 5px 10px;
+  padding: 2px 7px;
   text-decoration: none;
   border: 1px solid mix(#000, $border-color, 25%);
   border-radius: $border-radius;
