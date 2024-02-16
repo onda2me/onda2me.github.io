@@ -72,7 +72,7 @@ R 배포판이 제공하는 기능으로도 기본적인 프로그래밍이나 �
 
 ![]({{ site.baseurl }}/assets/images/post/data/data-program-r82.png){: style="width:600px" .image_box} 
 
-> **@ R 주석 처리** : 명령문이 아닌 주석을 입력하고 싶으면 맨앞에 #을 사용한다.
+> **@ R 주석 처리** : 주석을 입력하고 싶으면 줄의 맨앞에 #을 사용
 {: .notice--info}
 
 ![]({{ site.baseurl }}/assets/images/post/data/data-program-r83.png){: style="width:600px" .image_box} 
