@@ -8,7 +8,7 @@ tags:
   - r
   - phython
 header:
-  teaser: /assets/images/post/data/data-program-vs.png  
+  teaser: /assets/images/post/data/data-program-dikw.png  
 ---
 
 ## 데이터란 ? 
