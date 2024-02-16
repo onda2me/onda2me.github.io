@@ -33,7 +33,7 @@ header:
 
 ![DIKW 피라미드]({{ site.baseurl }}/assets/images/post/data/data-program-dikw.png){: style="width:450px" .image_box}   
 
-### 데이터 분석을 위한 능력
+### 데이터 분석을 위한 필요 능력
 + 데이터 추출 능력 : SQL, JSON, NoSQL
 + 통계 및 분석 능력 : 통계 및 분석기법
 + 분석 프로그램 활용 : R, 파이썬
