@@ -49,10 +49,6 @@ R은 2024/02/17일 기준 약 20,000개의 패키지가 있고, 오픈 프로젝
 {: .notice}
 
 
-설치된 패키지는 패키지창에서 사용법 및 설명을 확인 할 수 있다.
-
-![패키지 사용법]({{ site.baseurl }}/assets/images/post/data/data-r02-30.png){: style="width:600px" .image_box} 
-
 ## 3. 패키지 설치와 로드
 
 R은 필요한 함수를 패키지 단위로 직접 설치하여 사용할 수 있도록 기능을 제공한다.
@@ -65,6 +61,10 @@ install.packages("ggplot2")
 # ggplots 로드
 library(ggplot2)
 ```
+
+설치된 패키지는 RStudio의 패키지창에서 사용법을 확인 할 수 있다.
+
+![패키지 사용법]({{ site.baseurl }}/assets/images/post/data/data-r02-31.png){: style="width:600px" .image_box} 
 
 ## 4. 기본 제공 패키지 사용법
 
@@ -83,8 +83,11 @@ R의 base, datasets, graphics 등 기본 패키지에서 제공하는 데이터 
 cars
 trees
 ```
-![cars]({{ site.baseurl }}/assets/images/post/data/data-r02-40.png){: style="width:400px" .image_box} 
-
+> cars 데이타와 데이타 설명
+<div class="gallery_group half">
+    <img src="{{ site.baseurl }}/assets/images/post/data/data-r02-40.png" alt="cars data" >
+    <img src="{{ site.baseurl }}/assets/images/post/data/data-r02-39.png" alt="cars description">
+</div>
 
 ### 4-2. 함수 사용하기
 
