@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/post/data/data-r02-44.png  
 ---
 
-R 프로그램을 설치하면 base, datasets, graphics 등 기본 패키지가 자동 설치되고, 메모리에 로딩되어 사용할 수 있다.  
+R 프로그램을 설치하면 base, datasets, graphics 등 기본 패키지가 자동 설치되고, 메모리에 로딩되어 별도의 작업 없이 바로 사용할 수 있다.  
 이외에 필요한 함수는 패키지 단위로 직접 설치하여 사용할 수 있도록 설치 및 삭제 기능을 제공한다.
 
 ## 1. R에 설치된 패키지 확인 
@@ -68,7 +68,7 @@ library(ggplot2)
 
 ## 4. 기본 제공 패키지 사용법
 
-R의 base, datasets, graphics 등 기본 패키지에서 제공하는 데이터 및 함수는 별도의 작업없이 바로 호출하여 사용할 수 있다.  
+R의 base, datasets, graphics 등 기본 패키지에서 제공하는 데이터 및 함수는 별도의 작업 없이 바로 호출하여 사용할 수 있다.  
 
 > **R 기본제공 데이터 및 함수**
 + cars, trees : R(datasets)에서 기본 제공하는 데이터
