@@ -8,8 +8,10 @@ function showJsonFromGit(url, emId, height) {
   .then((out) => {
     if(emId != 'undefined') {
       document.getElementById(emId).style.height = height;
-    }
-    document.getElementById(emId).innerText = out
+      document.getElementById(emId).innerText = out
+    }    
   })
   .catch(err => { throw err });
 }
+
+
