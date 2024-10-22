@@ -212,7 +212,7 @@ Header, Footer와 같이 반복적으로 사용되는 화면의 공통영역을 
 ```
 
 ## 6. list.html 파일 작성
-### @/static/templates/html/movie/sample-footer.html
+### @/static/templates/html/movie/listr.html
 ```html
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org"
