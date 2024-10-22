@@ -38,14 +38,14 @@ header:
 
 
 ### 파이어베이스와 구글 클라우드 간의 관계
-> Google Cloud 서비스 중에서 앱개발자가 주로 사용하는 서비스의 묶음으로 생각하면 된다.
+> 파이어베이스는 Google Cloud 서비스 중에서 앱개발자가 주로 사용하는 서비스의 묶음으로 생각하면 된다.
 {: .notice--primary}
 
 ![구글 클라우드 프로젝트]({{ site.baseurl }}/assets/images/post/cloud/firebase-01-01.png){: style="width:700px" .image_box}
 
 ## Firebase Project 만들기
 
-### 사전 준비작업
+### @ 사전 준비작업
 1. node.js 설치    
 
     node.js는 npm 명령어 사용을 위한 것으로 이미 설치되어 있으면 다음 단계로 진행한다 [node 관련글 바로가기](/vue/node-npm){: .btn.btn--primary.btn--narrow target="_blank" }
@@ -75,7 +75,7 @@ header:
     ![firebase init]({{ site.baseurl }}/assets/images/post/cloud/firebase-01-023.png){: style="width:500px" .image_box}
     
 
-### Firebase Project 생성
+### @ Firebase Project 생성
 
 1. 파이어베이스 콘솔에서 프로젝트 추가    
 
@@ -99,11 +99,8 @@ header:
 
 4. 파이어베이스 프로젝트 확인    
 
-    > 파이어베이스 프로젝트 생성 전이라면 목록이 없음
-    {: .notice--primary}
-
     ```
-    $firebase projects:list
+    $firebase projects:list         # 파이어베이스 프로젝트 목록
     ```
 
     ![firebase init]({{ site.baseurl }}/assets/images/post/cloud/firebase-01-031.png){: style="width:800px" .image_box}
@@ -112,7 +109,7 @@ header:
 
     ```
     $firebase emulators:start
-    $firebase serve # serve 명령어 서버 실행은 권장하지 않음
+    $firebase serve                 # serve 명령어로 서버 실행은 권장하지 않음
     ```
 
     ![firebase init]({{ site.baseurl }}/assets/images/post/cloud/firebase-01-04.png){: style="width:800px" .image_box}    
@@ -152,7 +149,7 @@ header:
     > 프로젝트의 루트 디렉토리에서 명령어 실행
 
     ```
-    $firebase deploy                        # 설정정보 등 관련파일 모두 배포    
+    $firebase deploy                        # 파이어베이트 프로젝트 파일 모두 배포    
     $firebase deploy --only hosting         # 호스팅 콘텐츠 및 구성만 배포
     ```
 
@@ -160,9 +157,11 @@ header:
     
 
 ## 참고
+
++ **https://firebase.google.com/docs/hosting/quickstart?hl=ko**  [파이어베이스 호스팅 참고글](https://firebase.google.com/docs/hosting/quickstart?hl=ko){: .btn.btn--primary.btn--narrow target="_blank" }
 + **https://api-project-209152001727.web.app**  [파이어베이스 데모 사이트](https://api-project-209152001727.web.app/){: .btn.btn--primary.btn--narrow target="_blank" }
 
     ![firebase init]({{ site.baseurl }}/assets/images/post/cloud/firebase-01-06.png){: style="width:700px" .image_box}
 
-+ **https://firebase.google.com/docs/hosting/quickstart?hl=ko**  [파이어베이스 호스팅 참고글](https://firebase.google.com/docs/hosting/quickstart?hl=ko){: .btn.btn--primary.btn--narrow target="_blank" }
+
 

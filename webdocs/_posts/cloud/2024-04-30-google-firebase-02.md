@@ -21,7 +21,8 @@ header:
 ### 1. bootstap 테마 다운로드
 
 
-+ **https://startbootstrap.com/**  [바로가기](https://startbootstrap.com/){: .btn.btn--primary.btn--narrow target="_blank" }
++ 테마 제공 사이트1 **https://startbootstrap.com**  [바로가기](https://startbootstrap.com){: .btn.btn--primary.btn--narrow target="_blank" }에 접속하여 원하는 테마를 다운로드 한다.
++ 테마 제공 사이트2 **https://getbootstrap.com**  [바로가기](https://getbootstrap.com){: .btn.btn--primary.btn--narrow target="_blank" }
 
     ![bootstrap]({{ site.baseurl }}/assets/images/post/cloud/firebase-20-10.png){: style="width:700px" .image_box}
 
@@ -34,7 +35,8 @@ header:
 
 ### 3. 파이어베이스 서버로 배포
 
-+ 프로젝트 리소스 및 구성 배포    
++ 프로젝트 리소스 및 구성 배포한다.    
++ 파이어베이스 프로젝트 설정은 이전글 [파이어베이스 프로젝트 만들기](/firebase/google-firebase-01/){: .btn.btn--primary.btn--narrow target="_blank" } 참고
 
     ```
     $firebase deploy                        # 설정정보 등 관련파일 모두 배포    
@@ -51,8 +53,8 @@ header:
 
 ### 5. 원하는 문구나 디자인으로 변경    
 
-+ index.html / css 파일을 수정한다.  
-+ [디자인적용 데모 바로가기](https://api-project-209152001727.web.app){: .btn.btn--primary.btn--narrow target="_blank" }  
++ 원하는 디자인으로 index.html 및 css 파일을 수정한다.
++ 디자인 적용 결과는 파이어베이스 사이트인 [https://api-project-209152001727.web.app/](https://api-project-209152001727.web.app){: .btn.btn--primary.btn--narrow target="_blank" }  참고
  
     ![bootstrap]({{ site.baseurl }}/assets/images/post/cloud/firebase-20-40.png){: style="width:700px" .image_box}
 
