@@ -18,17 +18,17 @@ header:
 
 ### Firebase Project
 
-+ 프로젝트나 제품구성 및 관리는 Firebase Console 이나 Firebase CLI 를 통해 할 수 있다.
-+ Firebase Console은 제품, 앱, 프로젝트 수준 설정할 수 있는 관리기능을 웹기반으로 제공한다.
++ 프로젝트 및 제품구성과 관리는 Firebase Console 이나 Firebase CLI 를 통해 할 수 있다.
++ Firebase Console은 제품, 앱, 프로젝트 수준을 설정할 수 있는 관리기능을 웹기반으로 제공한다.
 + Firebase CLI를 설치하면 로컬 앱 디렉토리에서 명령어 입력으로 파이어베이스 호스팅서버에 바로 배포할 수 있다.
-+ 구글 계정당 파이어베이스 프로젝트는 Spark 요금제의 경우 계정당 5~10개 제한된다.
++ 구글 계정당 파이어베이스 프로젝트는 Spark 요금제의 경우 계정당 5~10개로 제한된다.
 
 
 ### Firebase Hosting
 + HTML, CSS, 자바스크립트, 미디어 파일 등 정적 애셋과 파이썬 등 동적 컨텐츠도 호스팅 할 수 있다.
 
-## 구글 클라우드란?
-> 구글 인프라(컴퓨팅, 스토리지, 네트워킹, 데이터분석, 머신러닝)를 서비스 형태로 제공하여 웹사이트나 앱을 개발할 때 이러한 서비스를 조합하여 인프라를 구성하고, 코드의 빌드과정을 거쳐 고객에게 서비스를 제공할 수 있도록 제공하는 클라우드 컴퓨팅 서비스 제품
+## Google Cloud?
+> 구글 인프라(컴퓨팅, 스토리지, 네트워킹, 데이터분석, 머신러닝)를 서비스 형태로 제공하여 웹사이트나 앱을 개발할 때 이러한 서비스를 조합하여 인프라를 구성하고, 코드의 빌드과정을 거쳐 고객에게 서비스를 제공할 수 있도록 구글에서 제공하는 클라우드 컴퓨팅 서비스 제품
 {: .notice--primary}
 
 ### Google Cloud 활용
@@ -37,8 +37,8 @@ header:
 + 프로젝트 및 리소스는 Google Cloud Console 이나  Google Cloud CLI를 통해 관리 서비스에 따라 무료/조건형무료/유료형으로 구분
 
 
-### 파이어베이스와 구글 클라우드 간의 관계
-> 파이어베이스는 Google Cloud 서비스 중에서 앱개발자가 주로 사용하는 서비스의 묶음으로 생각하면 된다.
+## 파이어베이스와 구글 클라우드 간의 관계
+> 파이어베이스는 구글 클라우드 서비스 중에서 앱개발자가 주로 사용하는 서비스의 묶음으로 생각하면 된다.
 {: .notice--primary}
 
 ![구글 클라우드 프로젝트]({{ site.baseurl }}/assets/images/post/cloud/firebase-01-01.png){: style="width:700px" .image_box}
@@ -89,7 +89,8 @@ header:
     $mkdir firebase-agency
     ```
 
-3. 생성한 폴더에서 프로젝트 초기설정    
+3. 생성한 폴더를 파이어베이스 프로젝트로 초기화 설정   
+    + 호스팅 사용여부 등을 설정한다.
 
     ```
     $firebase init
@@ -97,7 +98,8 @@ header:
 
     ![firebase init]({{ site.baseurl }}/assets/images/post/cloud/firebase-01-03.png){: style="width:800px" .image_box}
 
-4. 파이어베이스 프로젝트 확인    
+4. 파이어베이스 프로젝트 목록을 확인
+    + 파이어베이스 프로젝트를 정상적으로 생성했는지 확인한다.    
 
     ```
     $firebase projects:list         # 파이어베이스 프로젝트 목록
@@ -159,7 +161,7 @@ header:
 ## 참고
 
 + **https://firebase.google.com/docs/hosting/quickstart?hl=ko**  [파이어베이스 호스팅 참고글](https://firebase.google.com/docs/hosting/quickstart?hl=ko){: .btn.btn--primary.btn--narrow target="_blank" }
-+ **https://api-project-209152001727.web.app**  [파이어베이스 데모 사이트](https://api-project-209152001727.web.app/){: .btn.btn--primary.btn--narrow target="_blank" }
++ **https://api-project-209152001727.web.app**  [Onda2Me 파이어베이스 데모 사이트](https://api-project-209152001727.web.app/){: .btn.btn--primary.btn--narrow target="_blank" }
 
     ![firebase init]({{ site.baseurl }}/assets/images/post/cloud/firebase-01-06.png){: style="width:700px" .image_box}
 

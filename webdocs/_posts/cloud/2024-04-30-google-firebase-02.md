@@ -29,14 +29,14 @@ header:
 
 ### 2. 프로젝트 폴더에 압축 풀기
 
-+ 로컬PC 파이어베이스 프로젝트 폴더에 압축을 푼다
++ 로컬PC 파이어베이스 프로젝트의 웹서비스 폴더에 압축을 푼다
 
     ![bootstrap]({{ site.baseurl }}/assets/images/post/cloud/firebase-20-20.png){: style="width:700px" .image_box}
 
 ### 3. 파이어베이스 서버로 배포
 
-+ 프로젝트 리소스 및 구성 배포한다.    
-+ 파이어베이스 프로젝트 설정은 이전글 [파이어베이스 프로젝트 만들기](/firebase/google-firebase-01/){: .btn.btn--primary.btn--narrow target="_blank" } 참고
++ 파이어베이스 서버로 프로젝트 리소스 및 구성을 배포한다.    
++ 파이어베이스 프로젝트 설정은 이전글을 [파이어베이스 프로젝트 만들기](/firebase/google-firebase-01/){: .btn.btn--primary.btn--narrow target="_blank" } 참고한다.
 
     ```
     $firebase deploy                        # 설정정보 등 관련파일 모두 배포    
@@ -53,8 +53,8 @@ header:
 
 ### 5. 원하는 문구나 디자인으로 변경    
 
-+ 원하는 디자인으로 index.html 및 css 파일을 수정한다.
-+ 디자인 적용 결과는 파이어베이스 사이트인 [https://api-project-209152001727.web.app/](https://api-project-209152001727.web.app){: .btn.btn--primary.btn--narrow target="_blank" }  참고
++ index.html 및 css 파일을 수정하여 원하는 디자인 변경한다.
++ 디자인 변경은 [Onda2Me 파이어베이스 데모 사이트: https://api-project-209152001727.web.app/](https://api-project-209152001727.web.app){: .btn.btn--primary.btn--narrow target="_blank" } 를 참고한다.
  
     ![bootstrap]({{ site.baseurl }}/assets/images/post/cloud/firebase-20-40.png){: style="width:700px" .image_box}
 
