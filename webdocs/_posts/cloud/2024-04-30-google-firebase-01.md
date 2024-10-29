@@ -34,11 +34,13 @@ header:
 ### Google Cloud 활용
 + 구글 클라우드는 인프라 구성, 데이터 분석, 머신러닝을 활용한 소프트웨어 빌드에 활용
 + 백앤드 및 서버 개발자가 사용
-+ 프로젝트 및 리소스는 Google Cloud Console 이나  Google Cloud CLI를 통해 관리 서비스에 따라 무료/조건형무료/유료형으로 구분
++ 프로젝트 및 리소스는 Google Cloud Console 이나  Google Cloud CLI를 통해 관리 
++ 서비스에 따라 무료/조건형무료/유료형으로 구분
 
 
 ## 파이어베이스와 구글 클라우드 간의 관계
 > 파이어베이스는 구글 클라우드 서비스 중에서 앱개발자가 주로 사용하는 서비스의 묶음으로 생각하면 된다.
+> 즉, 파이어베이스 프로젝트는 구글 클라우드 프로젝트이다.
 {: .notice--primary}
 
 ![구글 클라우드 프로젝트]({{ site.baseurl }}/assets/images/post/cloud/firebase-01-01.png){: style="width:700px" .image_box}
@@ -160,8 +162,8 @@ header:
 
 ## 참고
 
-+ **https://firebase.google.com/docs/hosting/quickstart?hl=ko**  [파이어베이스 호스팅 참고글](https://firebase.google.com/docs/hosting/quickstart?hl=ko){: .btn.btn--primary.btn--narrow target="_blank" }
-+ **https://api-project-209152001727.web.app**  [Onda2Me 파이어베이스 데모 사이트](https://api-project-209152001727.web.app/){: .btn.btn--primary.btn--narrow target="_blank" }
++ **https://firebase.google.com/**  [파이어베이스 호스팅 문서](https://firebase.google.com/docs/hosting/quickstart?hl=ko){: .btn.btn--primary.btn--narrow target="_blank" }
++ [Onda2Me 파이어베이스 데모 사이트](https://api-project-209152001727.web.app/){: .btn.btn--primary.btn--narrow target="_blank" }
 
     ![firebase init]({{ site.baseurl }}/assets/images/post/cloud/firebase-01-06.png){: style="width:700px" .image_box}
 

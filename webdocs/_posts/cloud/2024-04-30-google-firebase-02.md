@@ -60,5 +60,5 @@ header:
 
 
 ## 참고
-+ **https://learn-and-give.tistory.com/18**  [바로가기](https://learn-and-give.tistory.com/18){: .btn.btn--primary.btn--narrow target="_blank" }
-+ **https://firebase.google.com/docs/hosting/quickstart?hl=ko**  [바로가기](https://firebase.google.com/docs/hosting/quickstart?hl=ko){: .btn.btn--primary.btn--narrow target="_blank" }    
++ **티스토리 참고글**  [바로가기](https://learn-and-give.tistory.com/18){: .btn.btn--primary.btn--narrow target="_blank" }
++ **https://firebase.google.com/**  [바로가기](https://firebase.google.com/docs/hosting/quickstart?hl=ko){: .btn.btn--primary.btn--narrow target="_blank" }    
