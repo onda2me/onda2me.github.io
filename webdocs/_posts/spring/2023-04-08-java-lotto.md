@@ -21,7 +21,7 @@ header:
 
 ## 알고리즘
 
-예를들어 각 번호의 당첨횟수가 아래와 같을 때 당첨횟수에 따라 당첨구간을 설정한다.
+예를들어 각 번호의 당첨횟수가 아래와 같을 때 당첨횟수에 따라 당첨구간을 설정한다.    
 ![로또번호별 당첨횟수]({{ site.baseurl }}/assets/images/post/thymeleaf/lotto-api-01.png){: style="width:400px" .image_box}
 
 + **각 번호의 당첨 누적위치 : sum**    
@@ -159,7 +159,8 @@ public static int b_nums[]   = {146,141,140,141,140,134,139,137,113,140,144,156,
 ![Web API]({{ site.baseurl }}/assets/images/post/thymeleaf/lotto-api-04.png){: style="width:400px" .image_box}
 
 ## 참고
-+ **로또번호 생성기**  [로또번호 생성기 바로가기](https://api-project-209152001727.web.app/pages/lotto.html){: .btn.btn--primary.btn--narrow target="_blank" }  
++ **로또번호 생성기**  [로또번호 생성기 바로가기](https://api-project-209152001727.web.app/pages/lotto.html){: .btn.btn--primary.btn--narrow target="_blank" } 
++ 로또번호 생성기는 Google Cloud run 서버에서 서비스중이며 요청중일때만 CPU가 할당되어, 첫 호출은 CPU 활성화 시간이 소요되어 10초 가량 응답지연이 발생함 
 
     <iframe width="800" height="420" src="https://api-project-209152001727.web.app/pages/lotto-ifr.html" frameborder="0"  style="width:100%; height:600px;" allowfullscreen></iframe>
 <!--     
