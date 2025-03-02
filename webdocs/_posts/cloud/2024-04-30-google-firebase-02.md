@@ -55,6 +55,7 @@ header:
 
 + index.html 및 css 파일을 수정하여 원하는 디자인 변경한다.
 + 디자인 변경은 [Onda2Me 파이어베이스 데모 사이트: https://api-project-209152001727.web.app/](https://api-project-209152001727.web.app){: .btn.btn--primary.btn--narrow target="_blank" } 를 참고한다.
++ 파이어베이스 + Google Cloud Run 통합 적용 사이트 [바로가기: https://onda2me.web.app](https://onda2me.web.app){: .btn.btn--primary.btn--narrow target="_blank" } 를 참고한다.
  
     ![bootstrap]({{ site.baseurl }}/assets/images/post/cloud/firebase-20-40.png){: style="width:700px" .image_box}
 
@@ -62,3 +63,4 @@ header:
 ## 참고
 + **티스토리 참고글**  [바로가기](https://learn-and-give.tistory.com/18){: .btn.btn--primary.btn--narrow target="_blank" }
 + **https://firebase.google.com/**  [바로가기](https://firebase.google.com/docs/hosting/quickstart?hl=ko){: .btn.btn--primary.btn--narrow target="_blank" }    
+
