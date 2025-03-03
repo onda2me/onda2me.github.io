@@ -50,10 +50,9 @@ toc_icon: "list"
  
   + BackEnd 	: Google Cloud Run + Firestore
   + FrontEnd 	: Google Firebase
-  + Web API	: 기상청 API 허브, 공공 데이터, Riot Games API 등 활용  
-    
-  
-  
+  + Web API	: 기상청 API 허브, 공공 데이터, Riot Games API 등 활용    
+&nbsp;    
+
 + Onda2Me 프로젝트 구성도    
   ![Front(Firebase) + Back(Cloud Run Springboot) 솔루션 구성도 ]({{ site.baseurl }}/assets/images/post/cloud/complex-05.png){: style="width:600px" .image_box}
 
@@ -88,11 +87,13 @@ toc_icon: "list"
 
 ### 3. Cloud Run 빌드 및 배포 배치파일
  
-> @ gbuild.bat    
+> + gbuild.bat 실행방법    
+{: .notice--primary}
 
 ```bat
 rem ----------------------------
-rem google cloud build bat 파일
+rem @gbuild.bat
+rem google cloud build window batch 파일
 rem gcloud builds submit --tag gcr.io/project-name/service-name:tag-name
 rem ----------------------------
 
@@ -104,15 +105,15 @@ IF ["%1"]==[""] (
 )
 GOTO:EOF
 ```
-> @ gbuild.bat 실행방법    
-
   ![google builds]({{ site.baseurl }}/assets/images/post/cloud/complex-09.png){: style="width:800px" .image_box}
 
-> @ gdeploy.bat    
+> + gdeploy.bat 실행방법        
+{: .notice--primary}    
 
 ```bat
 rem ----------------------------
-rem google cloud deploy bat 파일
+rem @gdeploy.bat
+rem google cloud deploy window batch 파일
 rem gcloud run deploy onda2me --tag gcr.io/project-name/service-name:tag-name
 rem ----------------------------
 
@@ -124,9 +125,6 @@ IF ["%1"]==[""] (
 )
 GOTO:EOF
 ```
-
-> @ gdeploy.bat 실행방법    
-
 
 ```bat
 gdeploy.bat 15.map
