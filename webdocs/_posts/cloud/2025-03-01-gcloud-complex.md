@@ -57,6 +57,8 @@ toc_icon: "list"
 + Onda2Me 프로젝트 구성도    
   ![Front(Firebase) + Back(Cloud Run Springboot) 솔루션 구성도 ]({{ site.baseurl }}/assets/images/post/cloud/complex-05.png){: style="width:600px" .image_box}
 
++ Onda2Me 메인페이지 구성도    
+  ![Front(Firebase) + Back(Cloud Run Springboot) 솔루션 구성도 ]({{ site.baseurl }}/assets/images/post/cloud/complex-051.png){: style="width:600px" .image_box}
 
 ### 2. Onda2Me 구글지도 연동 서비스
 + 구글지도 연동 구성도    
