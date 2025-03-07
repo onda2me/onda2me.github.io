@@ -36,17 +36,27 @@ gallery1:
 
 gallery2:    
   - image_path: /assets/images/main/about-2503.jpg
+    alt: "AI를 활용한 동영상 제작"
   - image_path: /assets/images/main/about-2404.jpg
+    alt: "파이썬 데이터 분석"
   - image_path: /assets/images/main/about-2311.jpg
+    alt: "업무공백을 메꾸어 주는 Chat GPT"
 
 gallery3:    
   - image_path: /assets/images/main/about-2307.jpg
-  - image_path: /assets/images/main/about-2310.jpg    
+    alt: "데이터 분석 R(입문)"
+    desc: "데이터 분석 R(입문)"
+  - image_path: /assets/images/main/about-2310.jpg
+    alt: "데이터 분석 R(실전)"
+    desc: "데이터 분석 R(실전)"
   - image_path: /assets/images/main/about-2308.jpg
-        
+    alt: "웹 개발 품질관리 (QA)"   
+    desc: "웹 개발 품질관리 (QA)" 
 ---
 
 {% include gallery id="gallery1" layout="third" caption="**&nbsp;**" %} 
+
+---
 
 {% include gallery id="gallery2" caption="**&nbsp;**" %}
 

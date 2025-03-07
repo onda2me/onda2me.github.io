@@ -434,11 +434,12 @@ input[type="submit"],
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
-  .gallery_desc {
+  .gallery_desc {  
     position: absolute;
-    color: #efefef;
-    bottom: 65px;
-    left: 16px;
+    color: #f5f5f5;
+    top: 75%;
+    width: 100%;
+    text-align: center;
   }   
 
   .gallery_title {
