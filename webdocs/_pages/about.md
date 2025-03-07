@@ -22,7 +22,7 @@ tags:
   - gallery
   - Post Formats
   - tiled
-gallery:
+gallery1:
   - url: /assets/images/main/about-04.jpg
     image_path: /assets/images/main/about-04.jpg
     alt: "Java"
@@ -33,9 +33,24 @@ gallery:
   - url: /assets/images/main/about-02.jpg
     image_path: /assets/images/main/about-02.jpg
     title: "Arduino"
+
+gallery2:    
+  - image_path: /assets/images/main/about-2503.jpg
+  - image_path: /assets/images/main/about-2404.jpg
+  - image_path: /assets/images/main/about-2311.jpg
+
+gallery3:    
+  - image_path: /assets/images/main/about-2307.jpg
+  - image_path: /assets/images/main/about-2310.jpg    
+  - image_path: /assets/images/main/about-2308.jpg
+        
 ---
 
-{% include gallery layout="third" caption="**&nbsp;**" %}
+{% include gallery id="gallery1" layout="third" caption="**&nbsp;**" %} 
+
+{% include gallery id="gallery2" caption="**&nbsp;**" %}
+
+{% include gallery id="gallery3" caption="**&nbsp;**" %}
 
 
 
