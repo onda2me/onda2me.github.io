@@ -39,7 +39,8 @@ toc_icon: "list"
 > Google Cloud Run은 아래 그림과 같이 Springboot 동적 웹서비스도 가능하지만, Cloud Run은 빌드 -> 배포의 과정이 번거롭고, 페이지 호출 시 CPU 사용량에 따라 요금이 부과되는 유료 서비스이기에 요금 절약을 위해 Onda2Me 서비스를 Front (= Firebase)와 Back (= Cloud Run) 기능을 분리하여 재구성하였다.
 {: .notice--info}
 
-+ Cloud Run Springboot 웹서비스 (Front + Back)
++ Cloud Run Springboot 웹서비스 (Front + Back)    
+
   ![python + javascript 솔루션 구성도 ]({{ site.baseurl }}/assets/images/post/cloud/complex-04.png){: style="width:600px" .image_box}
 
 ## 3. Firebase + Cloud Run 통합 웹서비스
