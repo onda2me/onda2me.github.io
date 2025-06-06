@@ -78,7 +78,7 @@ Google Cloud Text-to-Speech API는 다음과 같은 과정을 통해 기능을 �
 + 시각장애인 접근성 서비스    
 + 자동 전화 응답 시스템 (IVR)
 
-## 5. Java 프로젝트에서 API 적용
+## 5. Java 프로젝트 TTS API 적용
 
 ### 1) 서비스 개요
   + 서비스 구성    
@@ -227,7 +227,7 @@ Google Cloud Text-to-Speech API는 다음과 같은 과정을 통해 기능을 �
 {: .notice--info}
 -->
 
-## 6. Text To Speech 서비스 보완
+## 6. Java 프로젝트 TTS API 보완
 
 ### 1) 서비스 보완의 이유
   > Google Cloud TTS API를 이용해서 생성한 audio 파일은 일반적인 서버에서는 파일로 바로 저장이 가능하지만, Google Cloud Run 서버에는 바로 저장이 불가능하다. 
