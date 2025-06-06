@@ -50,7 +50,7 @@ Google Cloud Text-to-Speech API는 다음과 같은 과정을 통해 기능을 �
 
 ### 1) 명령줄을 사용한 오디오 변환     
 
-[ 명령줄을 사용한 오디오 변환 구글문서 바로가기](https://cloud.google.com/text-to-speech/docs/create-audio-text-command-line?hl=ko){: .btn.btn--primary.btn--narrow target="_blank" }
+ + [명령줄을 사용한 오디오 변환 구글문서 바로가기](https://cloud.google.com/text-to-speech/docs/create-audio-text-command-line?hl=ko){: target="_blank" }
 
 + Json 예제
 ```json
@@ -85,16 +85,14 @@ Google Cloud Text-to-Speech API는 다음과 같은 과정을 통해 기능을 �
   ![Text To Speech 서비스 구성 ]({{ site.baseurl }}/assets/images/post/cloud/speech-01.png){: style="width:600px" .image_box}
 
   + UI 화면    
+  [TTS 데모사이트 바로가기](https://ondago365.web.app/play/text-to-speech.html){: .btn.btn--primary.btn--narrow target="_blank" }    
   ![Text To Speech UI ]({{ site.baseurl }}/assets/images/post/cloud/speech-02.png){: style="width:600px" .image_box}  
+
 
 ### 2) Google Cloud CLI 다운로드 및 설치
 
-  +  Google Cloud CLI 다운로드 
-
-      [다운로드 바로가기: https://cloud.google.com/sdk/docs/install-sdk](https://cloud.google.com/sdk/docs/install-sdk){: .btn.btn--primary.btn--narrow target="_blank" }  
-  
-  +  Google Cloud CLI 설치    
-  ![Google Cloud CLI]({{ site.baseurl }}/assets/images/post/cloud/speech-11.png){: style="width:600px" .image_box}
+[다운로드 바로가기: https://cloud.google.com/sdk/docs/install-sdk](https://cloud.google.com/sdk/docs/install-sdk){: .btn.btn--primary.btn--narrow target="_blank" }    
+![Google Cloud CLI]({{ site.baseurl }}/assets/images/post/cloud/speech-11.png){: style="width:600px" .image_box}
 
 
 ### 3) Google Project 생성 및 선택 
@@ -236,10 +234,11 @@ Google Cloud Text-to-Speech API는 다음과 같은 과정을 통해 기능을 �
 {: .notice--info}
 
 
-+ Google Cloud TTS 서비스 요약
-  1. cloud run 서비스가 Storage에 파일을 저장할 수 있는 권한 설정
-  2. storage에 upload 할 bucket 생성
++ Google Cloud TTS 보완 설정과정 요약
+  1. Cloud run 서비스가 Storage에 파일을 저장할 수 있는 권한 설정
+  2. Storage에 upload 할 bucket 생성
   3. upload용 bucket을 웹에서 접근가능하도록 public 권한 설정
+  4. 파일저장 장소를 Google Storage의 bucket으로 지정
 
 ### 2) 서비스 개요
   + 서비스 구성    
@@ -278,14 +277,8 @@ Google Cloud Text-to-Speech API는 다음과 같은 과정을 통해 기능을 �
 
 ## + 참고
 
-### 1. 참고 사이트
-
-+ 구글 클라우드 TTS 가이드 [바로가기](https://cloud.google.com/text-to-speech/docs/basics){: .btn.btn--primary.btn--narrow target="_blank" }
-
-
-### 2. 데모 사이트
-
-+ 구글 클라우드 TTS 적용 데모사이트 [바로가기](https://ondago365.web.app/play/text-to-speech.html){: .btn.btn--primary.btn--narrow target="_blank" }
++ [구글 클라우드 TTS 공식문서 바로가기](https://cloud.google.com/text-to-speech/docs/basics){: target="_blank" }
++ [구글 클라우드 TTS 적용 데모사이트 바로가기](https://ondago365.web.app/play/text-to-speech.html){: target="_blank" }
 
 
 
