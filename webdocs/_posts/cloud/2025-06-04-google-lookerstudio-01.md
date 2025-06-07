@@ -110,6 +110,7 @@ header:
 ## + 참고
 
 + [구글 Looker Studio 바로가기](https://lookerstudio.google.com/){: target="_blank" }
++ [Looker Studio를 활용한 예제 바로가기](https://ondago365.web.app/entrance/ratingHighsc.html){: target="_blank" }
 
 
 
