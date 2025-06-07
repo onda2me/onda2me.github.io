@@ -91,8 +91,9 @@ Google Cloud Text-to-Speech API는 다음과 같은 과정을 통해 기능을 �
 
 ### 2) Google Cloud CLI 다운로드 및 설치
 
-[다운로드 바로가기: https://cloud.google.com/sdk/docs/install-sdk](https://cloud.google.com/sdk/docs/install-sdk){: .btn.btn--primary.btn--narrow target="_blank" }    
-![Google Cloud CLI]({{ site.baseurl }}/assets/images/post/cloud/speech-11.png){: style="width:600px" .image_box}
+ + Google Cloud CLI 사이트 접속
+ [바로가기: https://cloud.google.com/sdk/docs/install-sdk](https://cloud.google.com/sdk/docs/install-sdk){: .btn.btn--primary.btn--narrow target="_blank" }      
+ ![Google Cloud CLI]({{ site.baseurl }}/assets/images/post/cloud/speech-11.png){: style="width:600px" .image_box}
 
 
 ### 3) Google Project 생성 및 선택 

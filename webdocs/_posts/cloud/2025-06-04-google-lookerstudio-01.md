@@ -91,11 +91,12 @@ header:
 
   + File > Share    
 
-    > File > Share는 링크 공유, File > Embed report는 Iframe 공유    
+    > - File > Share는 링크 공유로 웹페이지 형식    
+    > - File > Embed report는 Iframe 방식으로 웹페이지내에 포함 가능
 
     ![차트]({{ site.baseurl }}/assets/images/post/cloud/looker01-10.png){: style="width:600px" .image_box}    
 
-  + 리포트를 보여주고자 하는 페이지에 Iframe 소스를 추가    
+  + Embed report : 리포트를 보여주고자 하는 페이지에 Iframe 소스를 추가    
 
   ``` html
   <iframe width="600" height="443" src="https://lookerstudio.google.com/embed/reporting/d0756b1b-0000-0000"></iframe>
