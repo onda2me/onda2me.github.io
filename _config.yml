@@ -20,7 +20,7 @@ title                    : "Onda2Me"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "onda2me"
-description              : "Java, Arduino, Algorithm, Scrath . . ."
+description              : "Java, Springboot, Vue, Arduino, Algorithm, Scrath . . ."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : onda2me/onda2me.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "onda2me"
   avatar           : "/assets/images/main/about-01.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Java, Spring, Vue, 알고리즘, 블록코딩"
+  bio              : "Java, Springboot, Vue, 알고리즘, 블록코딩"
   location         : 
   email            :
   links:
@@ -115,7 +115,7 @@ author:
       url: "mailto:onda2me@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://onda2me.github.io"
+      url: "https://ondago365.web.app/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"

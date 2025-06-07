@@ -7,6 +7,7 @@ tags:
   - google
   - looker studio
   - chart
+  - 무료차트
 header:
   teaser: /assets/images/post/cloud/looker01-00.png
 

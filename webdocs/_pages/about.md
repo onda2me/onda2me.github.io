@@ -9,7 +9,7 @@ header:
   #  - label: "<i class='fas fa-download'></i> Install now"
   #    url: "/docs/quick-start-guide/"
 excerpt: 
-    Java, Spring, Vue, 알고리즘, 블록코딩<br />
+    Java, Springboot, Vue, 알고리즘, 블록코딩<br />
     <small><a href="https://github.com/onda2me">Onda2Me GitHub</a></small>
 
 #header:
