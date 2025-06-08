@@ -1,6 +1,6 @@
 ---
-title: "무료 데이타 시각화 차트인 Looker Studio를 이용한 리포트 작성"
-excerpt: "무료 데이타 시각화 차트인 Looker Studio를 이용한 리포트 작성"
+title: "무료 데이타 시각화 차트인 Looker Studio를 이용한 리포트 만들기"
+excerpt: "무료 데이타 시각화 차트인 Looker Studio를 이용한 리포트 만들기"
 categories: 
   - google
 tags:
