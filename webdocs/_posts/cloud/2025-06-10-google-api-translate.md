@@ -1,5 +1,5 @@
 ---
-title: "구글 Cloud Translation을 이용한 언어번역 서비스 구축"
+title: "구글 Cloud Translation을 이용한 언어번역 서비스 개발"
 categories: 
   - google
 tags:
@@ -102,10 +102,10 @@ public class TranslatorExample {
 ```java    
 public class GoogleTranslateDto {
 
-  private String text;     // 원본 텍스트
   private String fromLang; // 원본 언어 코드 (예: "ko")    
+  private String fromText; // 원본 텍스트  
   private String toLang;   // 번역 언어 코드 (예: "en")
-  private String content;  // 번역 텍스트
+  private String toText;   // 번역 텍스트
 }
 ```
   + Controller 추가    
@@ -113,10 +113,12 @@ public class GoogleTranslateDto {
 ```java  
 public class TranslateAPIController {
 
+  private static String PROJECT_ID = "your_projectId";
+
   @RequestMapping(value="/translate")
   public String translate(GoogleTranslateDto dto) throws Exception {
       
-      if(dto.getText() == null || dto.getToLang() == null) {
+      if(dto.getFromText() == null || dto.getToLang() == null) {
           throw new IllegalArgumentException("No Parameter");             
       }        
       
@@ -137,7 +139,7 @@ public class TranslateAPIController {
                 .setParent(parent.toString())
                 .setMimeType("text/plain")
                 .setTargetLanguageCode(dto.getToLang())
-                .addContents(dto.getText())
+                .addContents(dto.getFromText())
                 .build();
 
         TranslateTextResponse response = client.translateText(request);
