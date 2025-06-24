@@ -184,14 +184,16 @@ public class GoogleVisionMain {
   }
 }      
 ```
-+ Vision 적용 UI    [Vision 데모 바로가기](https://ondago365.web.app/play/vision-api.html){: .btn.btn--primary.btn--narrow target="_blank" }    
+#### 5) Vision 적용 UI        
+
+[Java + Vision 적용 데모 바로가기](https://ondago365.web.app/play/vision-api.html){: .btn.btn--primary.btn--narrow target="_blank" }    
 
 > 분석전 화면     
      
 ![google vision ]({{ site.baseurl }}/assets/images/post/cloud/vision-api-21.png){: style="width:600px" .image_box}  
 
 > 분석결과 화면    
-    
+
 ![google vision ]({{ site.baseurl }}/assets/images/post/cloud/vision-api-22.png){: style="width:600px" .image_box}  
 
 
