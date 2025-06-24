@@ -113,7 +113,8 @@ const user = firebase.auth();
 
   + 사용자 로그인/로그아웃    
 
-``` js            
+``` js  
+// @로그인/로그아웃 페이지에 추가
 function goLogin() {
     var email = frm.userEmail.value;
     var password = frm.userPwd.value;
@@ -157,7 +158,8 @@ function goLogout() {
 
   + 인증상태 관찰    
 
-``` js
+``` js    
+// @사용자 인증이 필요한 페이지에 추가
 var loginbox = document.getElementById('loginbox');
 checkUserSession();
 
