@@ -34,37 +34,12 @@ header:
 
 |  서비스 |  설명 |    
 | :---- | :---- |    
-|  Cloud Vision API  |  이미지 라벨 지정,  얼굴 및 랜드마크 감지, OCR, 세이프서치, 월 1000개 무료  |    
+|  Cloud Vision API  |  이미지 라벨 지정,  얼굴 및 랜드마크 감지, OCR, 세이프서치, 월 1000회 무료  |    
 |  Document AI  |  스캔한 문서 및 이미지에서 유용한 정보를 추출하고 문서 워크플로를 자동화  |    
 |  Vertex AI Vision  |  데이터 준비 도구, 모델 학습 및 배포, 솔루션 제어  |    
 |  Gemini Pro Vision  |  정보 탐색, 객체 인식, 디지털 콘텐츠 이해, 구조화된 콘텐츠 생성, 자막 생성/설명 |    
 
 ## 3. 구글 클라우드 비전 API 주요기능
-
-  + 라벨 감지 (Label Detection):     
-    이미지의 전반적인 내용과 관련된 객체, 활동, 장소 등을 식별하여 라벨을 제공 (예: "강아지", "야외", "놀이")
-  + 텍스트 감지 (Text Detection / OCR):     
-    이미지에서 텍스트를 추출 (예: 간판의 글씨, 문서 스캔본) 
-  + TEXT_DETECTION:     
-    이미지 내에 있는 텍스트를 감지
-  + DOCUMENT_TEXT_DETECTION:     
-    문서와 같이 텍스트가 조밀하게 있는 이미지에서 텍스트를 최적화하여 감지
-  + 얼굴 감지 (Face Detection):     
-    이미지에서 얼굴을 감지하고, 얼굴 표정(행복, 슬픔 등), 머리 방향, 눈 위치 등 다양한 얼굴 속성을 파악
-  + 랜드마크 감지 (Landmark Detection):     
-    이미지에서 유명한 랜드마크(건물, 자연경관 등)를 식별
-  + 로고 감지 (Logo Detection):     
-    이미지에서 브랜드 로고를 식별
-  + 안전 검색 감지 (SafeSearch Detection):     
-    이미지에 성인, 폭력, 의료, 조잡한 콘텐츠 등 민감하거나 부적절한 콘텐츠가 포함되어 있는지 여부를 판단
-  + 이미지 속성 감지 (Image Properties Detection):     
-    이미지의 지배적인 색상, 밝기 등 시각적 특성을 분석
-  + 객체 감지 (Object Localization):    
-    이미지 내의 여러 객체를 식별하고, 각 객체의 위치를 바운딩 박스로 표시
-  + 웹 감지 (Web Detection):     
-    이미지와 관련된 웹 페이지, 일치하는 이미지, 유사한 이미지 등을 검색
-  + 크롭 힌트 (Crop Hints):     
-    이미지의 주요 콘텐츠를 포함하는 최적의 자르기 영역을 제안
 
 #### 1) 텍스트 감지    
 
@@ -72,23 +47,55 @@ header:
 
 ![google vision ]({{ site.baseurl }}/assets/images/post/cloud/vision-api-11.png){: style="width:400px" .image_box}  
 
-#### 2) 랜드마크 인식
+#### 2) 랜드마크 인식 (Landmark Detection)
 
-+ 랜드마크 이미지 속 랜드마크 이름, 신뢰도 점수, 경계 상자를 제공
-+ 인식된 항목의 좌표를 제공합니다.    
++ 이미지에서 유명한 랜드마크 (건물, 자연경관 등) 이름, 신뢰도 점수, 경계 상자, 좌표 제공
 
 ![google vision ]({{ site.baseurl }}/assets/images/post/cloud/vision-api-12.png){: style="width:400px" .image_box}  
 
 #### 3) 라벨 인식    
-+ 이미지에 대한 일반화된 라벨을 제공
++ 이미지의 전반적인 내용과 관련된 객체, 활동, 장소 등을 식별하여 라벨을 제공 (예: "강아지", "야외", "놀이")
 + 각 라벨에 대해 텍스트 설명, 신뢰도 점수, 적합성 평점을 반환    
 
 ![google vision ]({{ site.baseurl }}/assets/images/post/cloud/vision-api-13.png){: style="width:400px" .image_box}  
 
+#### 4) 얼굴 감지 (Face Detection)     
+
+  + 이미지에서 얼굴을 감지하고, 얼굴 표정(행복, 슬픔 등), 머리 방향, 눈 위치 등 다양한 얼굴 속성을 파악
+
+#### 5) 로고 감지 (Logo Detection)     
+  + 이미지에서 브랜드 로고를 식별
+
+#### 6) 안전 검색 감지 (SafeSearch Detection)         
+  + 이미지에 성인, 폭력, 의료, 조잡한 콘텐츠 등 민감하거나 부적절한 콘텐츠가 포함되어 있는지 여부를 판단
+
+#### 7) 이미지 속성 감지 (Image Properties Detection)           
+  + 이미지의 지배적인 색상, 밝기 등 시각적 특성을 분석     
+
+#### 8) 객체 감지 (Object Localization)        
+  + 이미지의 여러 객체를 식별하고, 각 객체의 위치를 바운딩 박스로 표시    
+
+#### 9) 웹 감지 (Web Detection)         
+  + 이미지와 관련된 웹 페이지, 일치하는 이미지, 유사한 이미지 등을 검색    
+
+#### 10) 크롭 힌트 (Crop Hints)         
+  + 이미지의 주요 콘텐츠를 포함하는 최적의 자르기 영역을 제안
 
 ## 4. Java를 이용한 이미지 분석 프로젝트
-#### 1) Google Cloud 프로젝트 설정 및 API 활성화
-#### 2) 서비스계정 생성 등 인증 설정
+#### 1) Google Cloud 프로젝트 설정 및 API 활성화    
+
+  + [구글 클라우드 콘솔 접속](https://console.cloud.google.com/){: .btn.btn--primary.btn--narrow target="_blank" } 해서 Vision API 검색    
+
+  + Cloud Vision API 활성화    
+  ![google vision ]({{ site.baseurl }}/assets/images/post/cloud/vision-api-141.png){: style="width:600px" .image_box}  
+
+  + Cloud Vision API 활성화 결과 (월 1000회까지 무료)    
+  ![google vision ]({{ site.baseurl }}/assets/images/post/cloud/vision-api-15.png){: style="width:600px" .image_box}    
+
+#### 2) 서비스계정 생성 등 인증 설정 
+
+  + Vision API 사용자 역할 부여
+
 #### 3) Maven 종속성 추가
 ```xml
 <!-- @pom.xml -->
@@ -117,7 +124,6 @@ header:
 ```java
 // @GoogleVisionMain.java
 public class GoogleVisionMain {
-
   /**
    * 개요:  https://cloud.google.com/vision?hl=ko
    * 가이드 문서: https://cloud.google.com/vision/docs/features-list?hl=ko
@@ -186,10 +192,10 @@ public class GoogleVisionMain {
 ```
 #### 5) Vision 적용 UI        
 
+> 분석전 화면     
+
 [Java + Vision 적용 데모 바로가기](https://ondago365.web.app/play/vision-api.html){: .btn.btn--primary.btn--narrow target="_blank" }    
 
-> 분석전 화면     
-     
 ![google vision ]({{ site.baseurl }}/assets/images/post/cloud/vision-api-21.png){: style="width:600px" .image_box}  
 
 > 분석결과 화면    
